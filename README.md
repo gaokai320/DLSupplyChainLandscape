@@ -24,4 +24,7 @@ The Landscape of Deep Learning Supply Chain
     python extract_dependencies.py
     ```
 
-4. 
+4. Parse dependencies versions
+    ```shell
+    python versioned_packages.py
+    ```

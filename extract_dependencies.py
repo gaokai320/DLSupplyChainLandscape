@@ -8,6 +8,7 @@ db = MongoClient(host="127.0.0.1", port=27017)['pypi']
 distribution_metadata = db['distribution_metadata']
 print(distribution_metadata.count_documents({}))
 
+
 def transform():
     dependencies = db['dependencies']
     dependencies.drop()
@@ -16,7 +17,7 @@ def transform():
     deps = defaultdict(list)
     for doc in tqdm(distribution_metadata.find({}, {"name": 1, "version": 1, "_id": 0, "requires_dist": 1})):
         name = doc.get("name", "")
-        version= doc.get('version', '')
+        version = doc.get('version', '')
         requires_dist = doc.get('requires_dist', [])
         key_name = name + ' ' + version
         for req in requires_dist:
@@ -38,11 +39,12 @@ def transform():
             tuple_v.append((d, tdv))
         name, version = k.split(' ', 1)
         for dependency, dependency_version in set(tuple_v):
-            transformed_docs.append({"name": name, "version": version, "dependency": dependency, "dependency_version": dependency_version})
+            transformed_docs.append({"name": name, "version": version,
+                                     "dependency": dependency, "dependency_version": dependency_version})
     print(len(transformed_docs))
     dependencies.insert_many(transformed_docs)
     print('Finished')
 
+
 if __name__ == "__main__":
     transform()
-

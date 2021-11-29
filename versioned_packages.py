@@ -17,6 +17,7 @@ handler = logging.FileHandler('versioned_dependency.log', 'w', 'utf-8')
 handler.setFormatter(logging.Formatter('%(levelname)s:%(message)s'))
 logger.addHandler(handler)
 
+
 def contain_version(dependency_version: list, package_version: str):
     satisfy = 1
     specs = SpecifierSet(prereleases=True)
@@ -24,6 +25,7 @@ def contain_version(dependency_version: list, package_version: str):
         specs &= (operator + tmp_version)
     v = Version(package_version)
     return v in specs
+
 
 def get_package_versions(package: str):
     pipeline = [
@@ -44,6 +46,7 @@ def get_package_versions(package: str):
         tmp.sort(key=Version)
     return tmp
 
+
 def build_versioned_graph_per_package(package: str):
     versions = get_package_versions(package)
     if not versions:
@@ -61,10 +64,13 @@ def build_versioned_graph_per_package(package: str):
             for v in versions:
                 try:
                     if contain_version(dependency_version, v):
-                        tmp.append({"name": name, "version": ver, "dependency": package, "dependency_version": v})
+                        tmp.append(
+                            {"name": name, "version": ver, "dependency": package, "dependency_version": v})
                 except:
-                    logging.debug('Package: {}, Version: {}, Record: {}'.format(package, v, doc))
+                    logging.debug(
+                        'Package: {}, Version: {}, Record: {}'.format(package, v, doc))
     return tmp
+
 
 def insert_to_db(package: str):
     dependent = db['{}_dependent'.format(package)]
@@ -73,6 +79,7 @@ def insert_to_db(package: str):
     tmp = build_versioned_graph_per_package(package)
     if tmp:
         dependent.insert_many(tmp)
+
 
 def build_complete_versioned_graph():
     coll = db['versioned_dependencies']
@@ -86,9 +93,11 @@ def build_complete_versioned_graph():
             tmp = build_versioned_graph_per_package(dep)
             if tmp:
                 coll.insert_many(tmp)
-            logging.info('Finish building versioned graph of {}, {} records in total'.format(dep, len(tmp)))
+            logging.info(
+                'Finish building versioned graph of {}, {} records in total'.format(dep, len(tmp)))
         except:
             logging.debug('Building error for {}'.format(dep))
+
 
 if __name__ == '__main__':
     # print(build_versioned_graph_per_package('PySideX'))

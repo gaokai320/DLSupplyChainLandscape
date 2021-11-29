@@ -1,0 +1,6 @@
+# python 3.8.3
+tqdm==4.47.0
+requirements==0.2.0
+pymongo==3.11.0
+pandas==1.0.5
+packaging==20.4

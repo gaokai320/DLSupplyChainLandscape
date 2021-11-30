@@ -61,11 +61,13 @@ def build_versioned_graph_per_package(package: str):
             name = doc['name']
             ver = doc['version']
             dependency_version = doc['dependency_version']
+            extra = doc['extra']
             for v in versions:
                 try:
                     if contain_version(dependency_version, v):
                         tmp.append(
-                            {"name": name, "version": ver, "dependency": package, "dependency_version": v})
+                            {"name": name, "version": ver, "dependency": package, "dependency_version": v,
+                             "extra": extra})
                 except:
                     logging.debug(
                         'Package: {}, Version: {}, Record: {}'.format(package, v, doc))
@@ -79,6 +81,17 @@ def insert_to_db(package: str):
     tmp = build_versioned_graph_per_package(package)
     if tmp:
         dependent.insert_many(tmp)
+
+
+def update_versioned_dependencies():
+    coll = db['versioned_dependencies']
+    for doc in dependencies.find({}):
+        name = doc['name']
+        ver = doc['version']
+        dependency = doc['dependency']
+        extra = doc['extra']
+        coll.update_many({"name": name, "version": ver, "dependency": dependency}, {
+                         "$set": {"extra": extra}})
 
 
 def build_complete_versioned_graph():
@@ -101,4 +114,4 @@ def build_complete_versioned_graph():
 
 if __name__ == '__main__':
     # print(build_versioned_graph_per_package('PySideX'))
-    build_complete_versioned_graph()
+    update_versioned_dependencies()

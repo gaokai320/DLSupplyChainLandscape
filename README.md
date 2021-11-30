@@ -13,13 +13,12 @@ The Landscape of Deep Learning Supply Chain
       `bigquery-public-data.pypi.distribution_metadata`
     ```
 
-2. Download query results to local file `/fast/distribution_metadata.json` and import to MongoDB database.
+2. Download query results to local file `/fast/pypi/distribution_metadata.json` and import to MongoDB database.
     ```shell
-    mongoimport --db=pypi --collection=distribution_metadata --quiet --drop --numInsertionWorkers=8 --file=/fast/distribution_metadata.json
+    mongoimport --db=pypi --collection=distribution_metadata --quiet --drop --numInsertionWorkers=8 --file=/fast/pypi/distribution_metadata.json
     ```
 
 3. Parse each package's dependencies from `requires_dist` field.
-
     ```shell
     python extract_dependencies.py
     ```

@@ -86,12 +86,15 @@ def insert_to_db(package: str):
 def update_versioned_dependencies():
     coll = db['versioned_dependencies']
     for doc in dependencies.find({}):
-        name = doc['name']
-        ver = doc['version']
-        dependency = doc['dependency']
-        extra = doc['extra']
-        coll.update_many({"name": name, "version": ver, "dependency": dependency}, {
-                         "$set": {"extra": extra}})
+        try:
+            name = doc['name']
+            ver = doc['version']
+            dependency = doc['dependency']
+            extra = doc['extra']
+            coll.update_many({"name": name, "version": ver, "dependency": dependency}, {
+                            "$set": {"extra": extra}})
+        except:
+            print(name, ver, dependency, extra)
 
 
 def build_complete_versioned_graph():

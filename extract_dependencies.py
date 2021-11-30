@@ -46,7 +46,7 @@ def transform():
             except:
                 print(name, version, req)
     print('Dumping to json file')
-    with open('/fast/dependency_dump.json', 'w') as outf:
+    with open('/fast/pypi/dependency_dump.json', 'w') as outf:
         json.dump(deps, outf)
     transformed_docs = []
     print('Inserting')

@@ -19,7 +19,6 @@ logger.addHandler(handler)
 
 
 def contain_version(dependency_version: list, package_version: str):
-    satisfy = 1
     specs = SpecifierSet(prereleases=True)
     for operator, tmp_version in dependency_version:
         specs &= (operator + tmp_version)
@@ -116,5 +115,5 @@ def build_complete_versioned_graph():
 
 
 if __name__ == '__main__':
-    # print(build_versioned_graph_per_package('PySideX'))
-    update_versioned_dependencies()
+    build_complete_versioned_graph()
+    # update_versioned_dependencies()

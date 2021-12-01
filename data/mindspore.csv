@@ -1,0 +1,14 @@
+name,summary,home_page,layer,dependent_number,dependency
+mindarmour,"A smart AI security and trustworthy tool box. Git version: [sha1]:1582b60, [branch]: (HEAD, origin/master, origin/HEAD, master)",https://www.mindspore.cn/,1,,
+mindinsight,"mindinsight platform: linux, cpu: x86_64, git version: [sha1]:9e310b1, [branch]: (HEAD, origin/r1.5, r1.5)",https://www.mindspore.cn,1,,
+mindquantum,A hybrid quantum-classic framework for quantum machine learning,https://www.mindspore.cn/,1,,
+mindscience-mindelec-ascend,A mindelec framework for electromagnetic simulation,https://www.mindspore.cn/,1,,
+mindscience-mindsponge-gpu,simulation package of next generation molecular modeling in mindspore,https://www.mindspore.cn/,1,,
+mindspore,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,1,3.0,
+mindspore-ascend,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,1,,
+mindspore-gpu,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,1,,
+mindspore-rl,A MindSpore reinforcement learning framework.,https://gitee.com/mindspore/reinforcement,1,,
+mindspore-xai,"mindspore_xai platform: linux, cpu: x86_64, git version: [sha1]:01c09f1, [branch]: (HEAD, origin/r1.5, r1.5)",https://www.mindspore.cn/xai,1,,
+HEBO-mindspore,Heteroscedastic evolutionary bayesian optimisation,https://github.com/huawei-noah/noah-research/tree/mindspore/HEBO_mindspore,2,,mindspore
+READ-mindspore,Unsupervised Anomaly Localization Toolbox and Benchmark,https://git.openi.org.cn/OpenI/READ_mindspore,2,,mindspore
+tinyms,TinyMS is an Easy-to-Use deep learning development toolkit.,https://tinyms.readthedocs.io/en/latest/,2,,mindspore

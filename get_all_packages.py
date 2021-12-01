@@ -117,3 +117,5 @@ if __name__ == '__main__':
     print('pytorch done')
     get_all_packages('tensorflow', 'https://github.com/tensorflow')
     print('tensorflow done')
+    get_all_packages('mxnet', 'https://github.com/apache/incubator-mxnet')
+    print('mxnet done')

@@ -1,73 +1,59 @@
 name,summary,home_page,layer,dependent_number,dependency
-EISeg,交互式标注软件,https://github.com/PaddlePaddle/PaddleSeg,1,,
-PaddleDetection-test,test ppdet,https://github.com/PaddlePaddle/PaddleDetection,1,,
-Senta,A sentiment classification tools made by Baidu NLP.,https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/sentiment_classification,1,,
-bert-service,client package for bert serving,https://github.com/PaddlePaddle/Serving,1,,
-bert-serving,package for paddle serving with bert,https://github.com/PaddlePaddle/Serving,1,1.0,
-fleet-lightning,,https://github.com/PaddlePaddle/Fleet,1,,
-fleet-x,,https://github.com/PaddlePaddle/Fleet,1,,
-jtyoui-ernie,A pretrained NLP model for every NLP tasks,https://github.com/PaddlePaddle/ERNIE/,1,,
-metagym,MetaGym: Environments for benchmarking reinforcement learning and meta reinforcement learning,https://github.com/PaddlePaddle/RLSchool,1,,
-paddle-edl,Paddle EDL Package,https://github.com/PaddlePaddle/edl,1,,
-paddle-ernie,A pretrained NLP model for every NLP tasks,https://github.com/PaddlePaddle/ERNIE/,1,,
-paddle-fl,Privacy-Preserving Deep Learning Package Based on PaddlePaddle.,https://github.com/PaddlePaddle/PaddleFL,1,,
-paddle-gpu-serving,package for paddle serving with bert,https://github.com/PaddlePaddle/Serving,1,,
-paddle-parakeet,Speech synthesis tools and models based on Paddlepaddle,https://github.com/PaddlePaddle,1,,
-paddle-propeller,high level paddle-paddle API,https://github.com/PaddlePaddle/ERNIE,1,,
-paddle-quantum,Paddle Quantum is a quantum machine learning (QML) toolkit developed based on Baidu PaddlePaddle.,http://qml.baidu.com,1,,
-paddle-rec,paddle-rec,https://github.com/PaddlePaddle/PaddleRec,1,,
-paddle-serving-app,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,1,2.0,
-paddle-serving-client,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,1,2.0,
-paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,1,,
-paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,1,,
-paddle-upgrade-tool,Upgrade python project from paddle-1.x to paddle-2.0,https://github.com/PaddlePaddle/paddle_upgrade_tool,1,,
-paddle1to2,Upgrade python project from paddle-1.x to paddle-2.0,https://github.com/PaddlePaddle/paddle1to2,1,,
-paddle2onnx,a toolkit for converting trained model of PaddlePaddle to ONNX.,https://github.com/PaddlePaddle/paddle2onnx,1,1.0,
-paddle_fl,Privacy-Preserving Deep Learning Package Based on PaddlePaddle.,https://github.com/PaddlePaddle/PaddleFL,1,,
-paddleclas,Awesome Image Classification toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleClas,1,,
-paddledet,Object detection and instance segmentation toolkit based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleDetection,1,,
-paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,1,3.0,
-paddlenlp,PaddlePaddle NLP Model Core Library,https://github.com/PaddlePaddle/PaddleNLP,1,2.0,
-paddleocr,"Awesome OCR toolkits based on PaddlePaddle （8.6M ultra-lightweight pre-trained model, support training and deployment among server, mobile, embeded and IoT devices",https://github.com/PaddlePaddle/PaddleOCR,1,2.0,
-paddleocr-sabhi,Package to test the Awesome PaddleOCR,,1,1.0,
+EISeg,交互式标注软件,https://github.com/PaddlePaddle/PaddleSeg,2,,
+PaddleDetection-test,test ppdet,https://github.com/PaddlePaddle/PaddleDetection,2,,
+Senta,A sentiment classification tools made by Baidu NLP.,https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/sentiment_classification,2,,
+bert-service,client package for bert serving,https://github.com/PaddlePaddle/Serving,2,,
+bert-serving,package for paddle serving with bert,https://github.com/PaddlePaddle/Serving,2,1.0,
+fleet-lightning,,https://github.com/PaddlePaddle/Fleet,2,,
+fleet-x,,https://github.com/PaddlePaddle/Fleet,2,,
+jtyoui-ernie,A pretrained NLP model for every NLP tasks,https://github.com/PaddlePaddle/ERNIE/,2,,
+metagym,MetaGym: Environments for benchmarking reinforcement learning and meta reinforcement learning,https://github.com/PaddlePaddle/RLSchool,2,,
+paddle-edl,Paddle EDL Package,https://github.com/PaddlePaddle/edl,2,,
+paddle-ernie,A pretrained NLP model for every NLP tasks,https://github.com/PaddlePaddle/ERNIE/,2,,
+paddle-fl,Privacy-Preserving Deep Learning Package Based on PaddlePaddle.,https://github.com/PaddlePaddle/PaddleFL,2,,
+paddle-gpu-serving,package for paddle serving with bert,https://github.com/PaddlePaddle/Serving,2,,
+paddle-parakeet,Speech synthesis tools and models based on Paddlepaddle,https://github.com/PaddlePaddle,2,,
+paddle-propeller,high level paddle-paddle API,https://github.com/PaddlePaddle/ERNIE,2,,
+paddle-quantum,Paddle Quantum is a quantum machine learning (QML) toolkit developed based on Baidu PaddlePaddle.,http://qml.baidu.com,2,,
+paddle-rec,paddle-rec,https://github.com/PaddlePaddle/PaddleRec,2,,
+paddle-serving-app,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,2.0,
+paddle-serving-client,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,2.0,
+paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,
+paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,
+paddle-upgrade-tool,Upgrade python project from paddle-1.x to paddle-2.0,https://github.com/PaddlePaddle/paddle_upgrade_tool,2,,
+paddle1to2,Upgrade python project from paddle-1.x to paddle-2.0,https://github.com/PaddlePaddle/paddle1to2,2,,
+paddle2onnx,a toolkit for converting trained model of PaddlePaddle to ONNX.,https://github.com/PaddlePaddle/paddle2onnx,2,1.0,
+paddle_fl,Privacy-Preserving Deep Learning Package Based on PaddlePaddle.,https://github.com/PaddlePaddle/PaddleFL,2,,
+paddleclas,Awesome Image Classification toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleClas,2,,
+paddledet,Object detection and instance segmentation toolkit based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleDetection,2,,
+paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,2,3.0,
+paddlenlp,PaddlePaddle NLP Model Core Library,https://github.com/PaddlePaddle/PaddleNLP,2,2.0,
+paddleocr,"Awesome OCR toolkits based on PaddlePaddle （8.6M ultra-lightweight pre-trained model, support training and deployment among server, mobile, embeded and IoT devices",https://github.com/PaddlePaddle/PaddleOCR,2,2.0,
+paddleocr-sabhi,Package to test the Awesome PaddleOCR,,2,1.0,
 paddlepaddle,Parallel Distributed Deep Learning,,1,28.0,
 paddlepaddle-gpu,Parallel Distributed Deep Learning,,1,10.0,
-paddlepalm,"a flexible, general and easy-to-use NLP large-scale pretraining and multi-task learning framework.",https://github.com/PaddlePaddle/PALM,1,,
-paddleseg,End-to-end image segmentation kit based on PaddlePaddle.,https://github.com/PaddlePaddle/PaddleSeg,1,2.0,
-paddlevideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,1,,
-paddlex,PaddlePaddle Entire Process Development Toolkit,https://github.com/PaddlePaddle/PaddleX,1,1.0,
-parl,Reinforcement Learning Framework,https://github.com/PaddlePaddle/PARL,1,,
-passl,PaddlePaddle Self-Supervised Development Toolkit,https://github.com/PaddlePaddle/PASSL,1,,
-pgl,Paddle Graph Learning,https://github.com/PaddlePaddle/PGL,1,1.0,
-plsc,PaddlePaddle Large Scale Classfication Package.,https://github.com/PaddlePaddle/PLSC,1,,
-ppcls-notebook,PaddleClas for notebook,https://github.com/PaddlePaddle/PaddleClas,1,,
-ppdet,Object detection and instance segmentation toolkit based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleDetection,1,,
-ppdet-notebook,PaddleDetection for notebook,https://github.com/PaddlePaddle/PaddleDetection,1,,
-ppdet-test,testppdet,https://github.com/PaddlePaddle/PaddleDetection,1,,
-ppgan,Awesome GAN toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleGAN,1,,
-ppocr-test,test paddleocr,https://github.com/PaddlePaddle/PaddleOCR,1,,
-ppvideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,1,,
-recordio,An implementation of the RecordIO file format.,https://github.com/PaddlePaddle/recordio,1,2.0,
-rlschool,RLSchool: Excellent environments for reinforcement Learning benchmarking,https://github.com/PaddlePaddle/RLSchool,1,,
-sabhiocr-server,Awesome self rolled OCR toolkits based on PaddlePaddle,,1,,
-tianshuo-test-pow,Parallel Distributed Deep Learning,,1,,
-tianshuo-test-pp,Parallel Distributed Deep Learning,,1,,
-visreader,a python tool used in data processing for vision model training,https://github.com/PaddlePaddle/VisionTools/tree/master/visreader,1,,
-x2paddle,a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks.,https://github.com/PaddlePaddle/x2paddle,1,,
-ivystar,python tools package of ivystar,,2,1.0,bert-serving
-paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddle-serving-app
-paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddle-serving-app
-paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddle-serving-client
-paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddle-serving-client
-paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,2,3.0,paddle2onnx
-paddlex,PaddlePaddle Entire Process Development Toolkit,https://github.com/PaddlePaddle/PaddleX,2,1.0,paddlehub
-sabhiocr-module,Awesome self rolled OCR toolkits based on PaddlePaddle,,2,,paddlehub
-sabhiocr-server,Awesome self rolled OCR toolkits based on PaddlePaddle,,2,,paddlehub
-paddlefsl,"Few-shot learning(FSL) software tools and examples, building on top of PaddlePaddle2.0.",https://github.com/tata1661/FSL-Mate,2,1.0,paddlenlp
-paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,2,,paddlenlp
-appzoo,description,https://github.com/Jie-Yuan/StreamlitApp,2,,paddleocr
-nesc,ai for nesc,https://github.com/Jie-Yuan/nesc,2,,paddleocr
-paddleocr-sabhi,Package to test the Awesome PaddleOCR,https://github.com/Sabhi-org/PaddleOCRSabhi,2,,paddleocr-sabhi
+paddlepalm,"a flexible, general and easy-to-use NLP large-scale pretraining and multi-task learning framework.",https://github.com/PaddlePaddle/PALM,2,,
+paddleseg,End-to-end image segmentation kit based on PaddlePaddle.,https://github.com/PaddlePaddle/PaddleSeg,2,2.0,
+paddlevideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,2,,
+paddlex,PaddlePaddle Entire Process Development Toolkit,https://github.com/PaddlePaddle/PaddleX,2,1.0,
+parl,Reinforcement Learning Framework,https://github.com/PaddlePaddle/PARL,2,,
+passl,PaddlePaddle Self-Supervised Development Toolkit,https://github.com/PaddlePaddle/PASSL,2,,
+pgl,Paddle Graph Learning,https://github.com/PaddlePaddle/PGL,2,1.0,
+plsc,PaddlePaddle Large Scale Classfication Package.,https://github.com/PaddlePaddle/PLSC,2,,
+ppcls-notebook,PaddleClas for notebook,https://github.com/PaddlePaddle/PaddleClas,2,,
+ppdet,Object detection and instance segmentation toolkit based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleDetection,2,,
+ppdet-notebook,PaddleDetection for notebook,https://github.com/PaddlePaddle/PaddleDetection,2,,
+ppdet-test,testppdet,https://github.com/PaddlePaddle/PaddleDetection,2,,
+ppgan,Awesome GAN toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleGAN,2,,
+ppocr-test,test paddleocr,https://github.com/PaddlePaddle/PaddleOCR,2,,
+ppvideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,2,,
+recordio,An implementation of the RecordIO file format.,https://github.com/PaddlePaddle/recordio,2,2.0,
+rlschool,RLSchool: Excellent environments for reinforcement Learning benchmarking,https://github.com/PaddlePaddle/RLSchool,2,,
+sabhiocr-server,Awesome self rolled OCR toolkits based on PaddlePaddle,,2,,
+tianshuo-test-pow,Parallel Distributed Deep Learning,,2,,
+tianshuo-test-pp,Parallel Distributed Deep Learning,,2,,
+visreader,a python tool used in data processing for vision model training,https://github.com/PaddlePaddle/VisionTools/tree/master/visreader,2,,
+x2paddle,a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks.,https://github.com/PaddlePaddle/x2paddle,2,,
 ddparser,A chinese dependency parser tool by Baidu NLP.,https://github.com/baidu/ddparser,2,,paddlepaddle
 fleet-lightning,,https://github.com/PaddlePaddle/Fleet,2,,paddlepaddle
 fleet-rec,fleet-rec,https://github.com/seiriosPlus/FleetRec,2,,paddlepaddle
@@ -79,12 +65,12 @@ paddle-fl,Privacy-Preserving Deep Learning Package Based on PaddlePaddle.,https:
 paddle-propeller,high level paddle-paddle API,https://github.com/PaddlePaddle/ERNIE,2,,paddlepaddle
 paddle-quantum,Paddle Quantum is a quantum machine learning (QML) toolkit developed based on Baidu PaddlePaddle.,http://qml.baidu.com,2,,paddlepaddle
 paddle-rec,paddle-rec,https://github.com/PaddlePaddle/PaddleRec,2,,paddlepaddle
-paddle-serving-client,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddlepaddle
+paddle-serving-client,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,2.0,paddlepaddle
 paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddlepaddle
 paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,2,,paddlepaddle
 paddle-tokenizer,A tokenizer write in PaddlePaddle,https://github.com/howlandersonn/PaddleTokenizer,2,,paddlepaddle
 paddlehelix,,,2,,paddlepaddle
-paddleocr-sabhi,Package to test the Awesome PaddleOCR,,2,,paddlepaddle
+paddleocr-sabhi,Package to test the Awesome PaddleOCR,,2,1.0,paddlepaddle
 ppcd,SDK about pdrscd,https://github.com/geoyee/PdRSCD,2,,paddlepaddle
 pydp,Data Processing Lib,http://www.yanjingang.com/docs/pydp/dp.html,2,,paddlepaddle
 pyunit-ner,百度实体抽取模型,https://github.com/PyUnit/pyunit-ner,2,,paddlepaddle
@@ -106,17 +92,31 @@ paddlepalm,"a flexible, general and easy-to-use NLP large-scale pretraining and 
 paddletools,,https://github.com/LKKlein/PaddleTools,2,,paddlepaddle-gpu
 paddlevideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,2,,paddlepaddle-gpu
 ppvideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,2,,paddlepaddle-gpu
-EISeg,交互式标注软件,https://github.com/PaddleCV-SIG/EISeg,2,,paddleseg
-iann,交互式标注软件,https://github.com/PaddleCV-SIG/iann,2,,paddleseg
-paddlexrest,a toolkit for providing restful api of PaddleX,,2,,paddlex
-paddlehelix,,,2,,pgl
-paddlepaddle,Parallel Distributed Deep Learning,,2,,recordio
-paddlepaddle-gpu,Parallel Distributed Deep Learning,,2,,recordio
-ivystar,python tools package of ivystar,,3,,ivystar
+appzoo,description,https://github.com/Jie-Yuan/StreamlitApp,3,,paddleocr
+nesc,ai for nesc,https://github.com/Jie-Yuan/nesc,3,,paddleocr
 id-segmenter,Self Rolled ID Document Segmenter works for IDs in the wild,,3,,sabhi-utils
 idsegmenter,Self Rolled ID Document Segmenter works for IDs in the wild,,3,,sabhi-utils
 matatron,Document Verifier,,3,,sabhi-utils
 qashi,Self Rolled ID Document Segmenter works for IDs in the wild,,3,,sabhi-utils
 sabhidoctools,Document Verifier,,3,,sabhi-utils
 sabhixreader,"Self rolled utils to QRCodes, Barcodes and MRZs",,3,,sabhi-utils
-paddlenlp,PaddlePaddle NLP Model Core Library,https://github.com/PaddlePaddle/PaddleNLP,3,,paddlefsl
+paddlex,PaddlePaddle Entire Process Development Toolkit,https://github.com/PaddlePaddle/PaddleX,3,1.0,paddlehub
+sabhiocr-module,Awesome self rolled OCR toolkits based on PaddlePaddle,,3,,paddlehub
+sabhiocr-server,Awesome self rolled OCR toolkits based on PaddlePaddle,,3,,paddlehub
+paddlefsl,"Few-shot learning(FSL) software tools and examples, building on top of PaddlePaddle2.0.",https://github.com/tata1661/FSL-Mate,3,1.0,paddlenlp
+paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,3,,paddlenlp
+EISeg,交互式标注软件,https://github.com/PaddleCV-SIG/EISeg,3,,paddleseg
+iann,交互式标注软件,https://github.com/PaddleCV-SIG/iann,3,,paddleseg
+paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-client
+paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-client
+paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,3,,paddle2onnx
+paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-app
+paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-app
+paddlexrest,a toolkit for providing restful api of PaddleX,,3,,paddlex
+ivystar,python tools package of ivystar,,3,1.0,bert-serving
+paddlehelix,,,3,,pgl
+paddleocr-sabhi,Package to test the Awesome PaddleOCR,https://github.com/Sabhi-org/PaddleOCRSabhi,3,,paddleocr-sabhi
+paddlepaddle,Parallel Distributed Deep Learning,,3,,recordio
+paddlepaddle-gpu,Parallel Distributed Deep Learning,,3,,recordio
+paddlenlp,PaddlePaddle NLP Model Core Library,https://github.com/PaddlePaddle/PaddleNLP,4,,paddlefsl
+ivystar,python tools package of ivystar,,4,,ivystar

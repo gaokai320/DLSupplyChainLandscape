@@ -35,7 +35,7 @@ def get_official_packages(url: str):
         res['name'] = gpr.get('name')
         res['summary'] = gpr.get('summary')
         res['home_page'] = gpr.get('home_page')
-        res['layer'] = 1
+        res['layer'] = 2
         unique_names = list(res['name'].unique())
         return unique_names, res
     else:
@@ -81,21 +81,23 @@ def get_downstream_packages(packages: list, prior_packages: list, layer: int, df
     return list(set(list(df['name'])) - set(prior_packages)), df
 
 
-def get_all_packages(package: str, url: str):
+def get_all_packages(package: list, url: str):
     # get all official packages share the same url
     layer = 1
+    print("Find {} packages in layer {}".format(len(package), layer))
     all_packages = []
     official_packages, df = get_official_packages(url)
-    print("Find {} packages in layer {}".format(len(official_packages), layer))
-    print(official_packages)
+    df.loc[df['name'].isin(package), 'layer'] = 1
+    print("{} official packages in layer 2".format(len(official_packages) - len(package)))
     all_packages.extend(official_packages)
-    # get all downstream packages
     layer += 1
     downstream_packages, df = get_downstream_packages(
-        official_packages, all_packages, layer, df)
+        package, all_packages, layer, df)
+    print("Find another {} packages in layer 2".format(len(downstream_packages), layer))
+    # get all downstream packages
     all_packages.extend(downstream_packages)
-    print("Find {} packages in layer {}".format(
-        len(downstream_packages), layer))
+    downstream_packages = list(set(all_packages) - set(package))
+
     while(downstream_packages):
         layer += 1
         downstream_packages, df = get_downstream_packages(
@@ -105,17 +107,20 @@ def get_all_packages(package: str, url: str):
         print("Find {} packages in layer {}".format(
             len(downstream_packages), layer))
     print(len(df), len(all_packages))
-    df.to_csv('data/' + package + '.csv', index=False)
+    df.to_csv('data/' + package[0] + '.csv', index=False)
 
 
 if __name__ == '__main__':
-    get_all_packages('mindspore', 'https://gitee.com/mindspore')
+    get_all_packages(['mindspore', 'mindspore-ascend',
+                      'mindspore-gpu'], 'https://gitee.com/mindspore')
     print('mindspore done')
-    get_all_packages('paddlepaddle', 'https://github.com/paddlepaddle')
+    get_all_packages(['paddlepaddle', 'paddlepaddle-gpu'],
+                     'https://github.com/paddlepaddle')
     print('paddlepaddle done')
-    get_all_packages('torch', 'https://github.com/pytorch')
+    get_all_packages(['torch'], 'https://github.com/pytorch')
     print('pytorch done')
-    get_all_packages('tensorflow', 'https://github.com/tensorflow')
+    get_all_packages(['tensorflow', 'intel-tensorflow', 'intel-tensorflow-avx512', 'tensorflow-aarch64', 'tensorflow-ascend',
+                      'tensorflow-cpu', 'tensorflow-fedora28', 'tensorflow-gpu', 'tensorflow-macos', 'tf-nightly', 'tf-nightly-cpu',
+                      'tf-nightly-gpu', 'tf-nightly-xla-gpu'],
+                     'https://github.com/tensorflow')
     print('tensorflow done')
-    get_all_packages('mxnet', 'https://github.com/apache/incubator-mxnet')
-    print('mxnet done')

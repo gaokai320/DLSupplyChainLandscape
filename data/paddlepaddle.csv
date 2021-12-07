@@ -92,31 +92,31 @@ paddlepalm,"a flexible, general and easy-to-use NLP large-scale pretraining and 
 paddletools,,https://github.com/LKKlein/PaddleTools,2,,paddlepaddle-gpu
 paddlevideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,2,,paddlepaddle-gpu
 ppvideo,Awesome Video toolkits based on PaddlePaddle,https://github.com/PaddlePaddle/PaddleVideo,2,,paddlepaddle-gpu
-appzoo,description,https://github.com/Jie-Yuan/StreamlitApp,3,,paddleocr
-nesc,ai for nesc,https://github.com/Jie-Yuan/nesc,3,,paddleocr
+paddlefsl,"Few-shot learning(FSL) software tools and examples, building on top of PaddlePaddle2.0.",https://github.com/tata1661/FSL-Mate,3,1.0,paddlenlp
+paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,3,3.0,paddlenlp
+paddleocr-sabhi,Package to test the Awesome PaddleOCR,https://github.com/Sabhi-org/PaddleOCRSabhi,3,,paddleocr-sabhi
+paddlehelix,,,3,,pgl
 id-segmenter,Self Rolled ID Document Segmenter works for IDs in the wild,,3,,sabhi-utils
 idsegmenter,Self Rolled ID Document Segmenter works for IDs in the wild,,3,,sabhi-utils
 matatron,Document Verifier,,3,,sabhi-utils
 qashi,Self Rolled ID Document Segmenter works for IDs in the wild,,3,,sabhi-utils
 sabhidoctools,Document Verifier,,3,,sabhi-utils
 sabhixreader,"Self rolled utils to QRCodes, Barcodes and MRZs",,3,,sabhi-utils
-paddlex,PaddlePaddle Entire Process Development Toolkit,https://github.com/PaddlePaddle/PaddleX,3,1.0,paddlehub
-sabhiocr-module,Awesome self rolled OCR toolkits based on PaddlePaddle,,3,,paddlehub
-sabhiocr-server,Awesome self rolled OCR toolkits based on PaddlePaddle,,3,,paddlehub
-paddlefsl,"Few-shot learning(FSL) software tools and examples, building on top of PaddlePaddle2.0.",https://github.com/tata1661/FSL-Mate,3,1.0,paddlenlp
-paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,3,,paddlenlp
-EISeg,交互式标注软件,https://github.com/PaddleCV-SIG/EISeg,3,,paddleseg
-iann,交互式标注软件,https://github.com/PaddleCV-SIG/iann,3,,paddleseg
-paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-client
-paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-client
-paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,3,,paddle2onnx
-paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-app
-paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-app
 paddlexrest,a toolkit for providing restful api of PaddleX,,3,,paddlex
 ivystar,python tools package of ivystar,,3,1.0,bert-serving
-paddlehelix,,,3,,pgl
-paddleocr-sabhi,Package to test the Awesome PaddleOCR,https://github.com/Sabhi-org/PaddleOCRSabhi,3,,paddleocr-sabhi
+paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-client
+paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-client
+paddlehub,A toolkit for managing pretrained models of PaddlePaddle and helping user getting started with transfer learning more efficiently.,https://github.com/PaddlePaddle/PaddleHub,3,3.0,paddle2onnx
+paddle-serving-server,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-app
+paddle-serving-server-gpu,Paddle Serving Package for saved model with PaddlePaddle,https://github.com/PaddlePaddle/Serving,3,,paddle-serving-app
+paddlex,PaddlePaddle Entire Process Development Toolkit,https://github.com/PaddlePaddle/PaddleX,3,,paddlehub
+sabhiocr-module,Awesome self rolled OCR toolkits based on PaddlePaddle,,3,,paddlehub
+sabhiocr-server,Awesome self rolled OCR toolkits based on PaddlePaddle,,3,,paddlehub
+appzoo,description,https://github.com/Jie-Yuan/StreamlitApp,3,,paddleocr
+nesc,ai for nesc,https://github.com/Jie-Yuan/nesc,3,,paddleocr
 paddlepaddle,Parallel Distributed Deep Learning,,3,,recordio
 paddlepaddle-gpu,Parallel Distributed Deep Learning,,3,,recordio
-paddlenlp,PaddlePaddle NLP Model Core Library,https://github.com/PaddlePaddle/PaddleNLP,4,,paddlefsl
+EISeg,交互式标注软件,https://github.com/PaddleCV-SIG/EISeg,3,,paddleseg
+iann,交互式标注软件,https://github.com/PaddleCV-SIG/iann,3,,paddleseg
 ivystar,python tools package of ivystar,,4,,ivystar
+paddlenlp,PaddlePaddle NLP Model Core Library,https://github.com/PaddlePaddle/PaddleNLP,4,,paddlefsl

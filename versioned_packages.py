@@ -12,17 +12,22 @@ dependencies = db.get_collection('dependencies')
 distribution_metadata = db.get_collection('distribution_metadata')
 
 logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 handler = logging.FileHandler('versioned_dependency.log', 'w', 'utf-8')
-handler.setFormatter(logging.Formatter('%(levelname)s:%(message)s'))
+handler.setFormatter(logging.Formatter(
+    '%(asctime)s [%(levelname)s] %(message)s'))
 logger.addHandler(handler)
 
 
 def contain_version(dependency_version: list, package_version: str):
     specs = SpecifierSet(prereleases=True)
-    for operator, tmp_version in dependency_version:
-        specs &= (operator + tmp_version)
-    v = Version(package_version)
+    for s in dependency_version:
+        specs &= s
+    try:
+        v = Version(package_version)
+    except packaging.version.InvalidVersion:
+        logging.error('InvalidVersion: {}'.format(package_version))
+        return False
     return v in specs
 
 
@@ -41,7 +46,7 @@ def get_package_versions(package: str):
                 if Version(v):
                     tmp.append(v)
             except packaging.version.InvalidVersion:
-                logging.debug('Invalid version name: {}'.format(v))
+                logging.error('InvalidVersion: {}'.format(v))
         tmp.sort(key=Version)
     return tmp
 
@@ -56,20 +61,16 @@ def build_versioned_graph_per_package(package: str):
     tmp = []
     result = list(dependencies.find(query))
     if result:
-        for doc in tqdm(result):
+        for doc in result:
             name = doc['name']
             ver = doc['version']
             dependency_version = doc['dependency_version']
             extra = doc['extra']
             for v in versions:
-                try:
-                    if contain_version(dependency_version, v):
-                        tmp.append(
-                            {"name": name, "version": ver, "dependency": package, "dependency_version": v,
-                             "extra": extra})
-                except:
-                    logging.debug(
-                        'Package: {}, Version: {}, Record: {}'.format(package, v, doc))
+                if contain_version(dependency_version, v):
+                    tmp.append(
+                        {"name": name, "version": ver, "dependency": package, "dependency_version": v,
+                            "extra": extra})
     return tmp
 
 
@@ -91,7 +92,7 @@ def update_versioned_dependencies():
             dependency = doc['dependency']
             extra = doc['extra']
             coll.update_many({"name": name, "version": ver, "dependency": dependency}, {
-                            "$set": {"extra": extra}})
+                "$set": {"extra": extra}})
         except:
             print(name, ver, dependency, extra)
 
@@ -102,18 +103,16 @@ def build_complete_versioned_graph():
     coll = db['versioned_dependencies']
     deps = dependencies.distinct("dependency", {"dependency": {"$ne": None}})
     logging.info('{} dependencies'.format(len(deps)))
-    for dep in deps:
+    for dep in tqdm(deps):
         logging.info('Begin building versioned graph for {}'.format(dep))
-        try:
-            tmp = build_versioned_graph_per_package(dep)
-            if tmp:
-                coll.insert_many(tmp)
-            logging.info(
-                'Finish building versioned graph of {}, {} records in total'.format(dep, len(tmp)))
-        except:
-            logging.debug('Building error for {}'.format(dep))
+        tmp = build_versioned_graph_per_package(dep)
+        if tmp:
+            coll.insert_many(tmp)
+        logging.info(
+            'Finish building ver1{}, {} records in total'.format(dep, len(tmp)))
 
 
 if __name__ == '__main__':
     build_complete_versioned_graph()
+    # build_versioned_graph_per_package("Cython")
     # update_versioned_dependencies()

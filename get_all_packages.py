@@ -27,7 +27,7 @@ def get_official_packages(url: str):
                 {"project_urls": {"$elemMatch": {"$regex": url, "$options": "$i"}}}]
     }
     query_results = list(distribution_metadata.find(query, projection={"_id": False, "name": True, "version": True,
-                                                                       "summary": True, "home_page": True}))
+                                                                       "summary": True, "home_page": True, "project_urls": True, "download_url": True}))
     if len(query_results) > 0:
         df = pd.DataFrame(query_results)
         res = pd.DataFrame()
@@ -35,6 +35,8 @@ def get_official_packages(url: str):
         res['name'] = gpr.get('name')
         res['summary'] = gpr.get('summary')
         res['home_page'] = gpr.get('home_page')
+        res['project_urls'] = gpr.get('project_urls')
+        res['download_url'] = gpr.get('download_url')
         res['layer'] = 2
         unique_names = list(res['name'].unique())
         return unique_names, res
@@ -62,7 +64,7 @@ def get_downstream_packages(packages: list, prior_packages: list, layer: int, df
                 }
                 try:
                     new_results = list(distribution_metadata.find(new_query, projection={
-                                       "_id": False, "name": True, "version": True, "summary": True, "home_page": True}))
+                                       "_id": False, "name": True, "version": True, "summary": True, "home_page": True, "project_urls": True, "download_url": True}))
                     new_df = new_df.append(pd.DataFrame(
                         new_results), ignore_index=True)
                 except:
@@ -72,6 +74,8 @@ def get_downstream_packages(packages: list, prior_packages: list, layer: int, df
             new_df['name'] = gpr.get('name')
             new_df['summary'] = gpr.get('summary')
             new_df['home_page'] = gpr.get('home_page')
+            new_df['project_urls'] = gpr.get('project_urls')
+            new_df['download_url'] = gpr.get('download_url')
             new_df['layer'] = layer
             new_df['dependency'] = pkg
             df.loc[df['name'] == pkg, 'dependent_number'] = len(
@@ -88,12 +92,14 @@ def get_all_packages(package: list, url: str):
     all_packages = []
     official_packages, df = get_official_packages(url)
     df.loc[df['name'].isin(package), 'layer'] = 1
-    print("{} official packages in layer 2".format(len(official_packages) - len(package)))
+    print("{} official packages in layer 2".format(
+        len(official_packages) - len(package)))
     all_packages.extend(official_packages)
     layer += 1
     downstream_packages, df = get_downstream_packages(
         package, all_packages, layer, df)
-    print("Find another {} packages in layer 2".format(len(downstream_packages), layer))
+    print("Find another {} packages in layer 2".format(
+        len(downstream_packages), layer))
     # get all downstream packages
     all_packages.extend(downstream_packages)
     downstream_packages = list(set(all_packages) - set(package))

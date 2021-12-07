@@ -1,14 +1,14 @@
-name,summary,home_page,layer,dependent_number,dependency
-mindarmour,"A smart AI security and trustworthy tool box. Git version: [sha1]:1582b60, [branch]: (HEAD, origin/master, origin/HEAD, master)",https://www.mindspore.cn/,2,,
-mindinsight,"mindinsight platform: linux, cpu: x86_64, git version: [sha1]:9e310b1, [branch]: (HEAD, origin/r1.5, r1.5)",https://www.mindspore.cn,2,,
-mindquantum,A hybrid quantum-classic framework for quantum machine learning,https://www.mindspore.cn/,2,,
-mindscience-mindelec-ascend,A mindelec framework for electromagnetic simulation,https://www.mindspore.cn/,2,,
-mindscience-mindsponge-gpu,simulation package of next generation molecular modeling in mindspore,https://www.mindspore.cn/,2,,
-mindspore,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,1,3.0,
-mindspore-ascend,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,1,,
-mindspore-gpu,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,1,,
-mindspore-rl,A MindSpore reinforcement learning framework.,https://gitee.com/mindspore/reinforcement,2,,
-mindspore-xai,"mindspore_xai platform: linux, cpu: x86_64, git version: [sha1]:01c09f1, [branch]: (HEAD, origin/r1.5, r1.5)",https://www.mindspore.cn/xai,2,,
-HEBO-mindspore,Heteroscedastic evolutionary bayesian optimisation,https://github.com/huawei-noah/noah-research/tree/mindspore/HEBO_mindspore,2,,mindspore
-READ-mindspore,Unsupervised Anomaly Localization Toolbox and Benchmark,https://git.openi.org.cn/OpenI/READ_mindspore,2,,mindspore
-tinyms,TinyMS is an Easy-to-Use deep learning development toolkit.,https://tinyms.readthedocs.io/en/latest/,2,,mindspore
+name,summary,home_page,project_urls,download_url,layer,dependent_number,dependency
+mindarmour,"A smart AI security and trustworthy tool box. Git version: [sha1]:1582b60, [branch]: (HEAD, origin/master, origin/HEAD, master)",https://www.mindspore.cn/,"['Sources, https://gitee.com/mindspore/mindarmour', 'Issue Tracker, https://gitee.com/mindspore/mindarmour/issues']",https://gitee.com/mindspore/mindarmour/tags,2,,
+mindinsight,"mindinsight platform: linux, cpu: x86_64, git version: [sha1]:9e310b1, [branch]: (HEAD, origin/r1.5, r1.5)",https://www.mindspore.cn,"['Sources, https://gitee.com/mindspore/mindinsight', 'Issue Tracker, https://gitee.com/mindspore/mindinsight/issues']",https://gitee.com/mindspore/mindinsight/tags,2,,
+mindquantum,A hybrid quantum-classic framework for quantum machine learning,https://www.mindspore.cn/,"['Sources, https://gitee.com/mindspore/mindquantum', 'Issue Tracker, https://gitee.com/mindspore/mindquantum/issues']",https://gitee.com/mindspore/mindquantum/tags,2,,
+mindscience-mindelec-ascend,A mindelec framework for electromagnetic simulation,https://www.mindspore.cn/,"['Sources, https://gitee.com/mindspore/mindscience', 'Issue Tracker, https://gitee.com/mindspore/mindscience/issues']",https://gitee.com/mindspore/mindscience/tags,2,,
+mindscience-mindsponge-gpu,simulation package of next generation molecular modeling in mindspore,https://www.mindspore.cn/,"['Sources, https://gitee.com/mindspore/mindscience', 'Issue Tracker, https://gitee.com/mindspore/mindscience/issues']",https://gitee.com/mindspore/mindscience/tags,2,,
+mindspore,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,"['Sources, https://gitee.com/mindspore/mindspore', 'Issue Tracker, https://gitee.com/mindspore/mindspore/issues']",https://gitee.com/mindspore/mindspore/tags,1,3.0,
+mindspore-ascend,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,"['Sources, https://gitee.com/mindspore/mindspore', 'Issue Tracker, https://gitee.com/mindspore/mindspore/issues']",https://gitee.com/mindspore/mindspore/tags,1,,
+mindspore-gpu,"MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.",https://www.mindspore.cn,"['Sources, https://gitee.com/mindspore/mindspore', 'Issue Tracker, https://gitee.com/mindspore/mindspore/issues']",https://gitee.com/mindspore/mindspore/tags,1,,
+mindspore-rl,A MindSpore reinforcement learning framework.,https://gitee.com/mindspore/reinforcement,[],,2,,
+mindspore-xai,"mindspore_xai platform: linux, cpu: x86_64, git version: [sha1]:01c09f1, [branch]: (HEAD, origin/r1.5, r1.5)",https://www.mindspore.cn/xai,"['Sources, https://gitee.com/mindspore/xai', 'Issue Tracker, https://gitee.com/mindspore/xai/issues']",https://gitee.com/mindspore/xai/tags,2,,
+HEBO-mindspore,Heteroscedastic evolutionary bayesian optimisation,https://github.com/huawei-noah/noah-research/tree/mindspore/HEBO_mindspore,[],,2,,mindspore
+READ-mindspore,Unsupervised Anomaly Localization Toolbox and Benchmark,https://git.openi.org.cn/OpenI/READ_mindspore,[],,2,,mindspore
+tinyms,TinyMS is an Easy-to-Use deep learning development toolkit.,https://tinyms.readthedocs.io/en/latest/,"['Sources, https://github.com/tinyms-ai/tinyms', 'Issue Tracker, https://github.com/tinyms-ai/tinyms/issues']",https://github.com/tinyms-ai/tinyms/tags,2,,mindspore

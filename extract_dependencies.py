@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # req = 'psycopg2[abc, def] (>=2.8) ; (platform_python_implementation != "PyPy") and extra=="postgres"'
     # print(parse_req(req))
     logging.basicConfig(format="%(asctime)s [%(levelname)s] %(message)s", level=logging.INFO,
-                        filename='extract_dependency.log', filemode='w')
+                        filename='log/extract_dependency.log', filemode='w')
     transform()
     # test = [
     #     'psycopg2[abc, def] (>=2.8) ; (platform_python_implementation != "PyPy") and extra=="postgres"',

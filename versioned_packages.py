@@ -13,7 +13,7 @@ distribution_metadata = db.get_collection('distribution_metadata')
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-handler = logging.FileHandler('versioned_dependency.log', 'w', 'utf-8')
+handler = logging.FileHandler('log/versioned_dependency.log', 'w', 'utf-8')
 handler.setFormatter(logging.Formatter(
     '%(asctime)s [%(levelname)s] %(message)s'))
 logger.addHandler(handler)

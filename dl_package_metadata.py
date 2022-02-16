@@ -87,15 +87,20 @@ def insert_db():
     coll.drop()
     coll = pypi_db['dl_packages']
     res = all_layers(['tensorflow', 'tensorflow-cpu', 'tensorflow-gpu'])
+    res.loc[:, 'framework'] = 'tensorflow'
     coll.insert_many(res.to_dict("records"))
     res = all_layers(['torch'])
+    res.loc[:, 'framework'] = 'pytorch'
     coll.insert_many(res.to_dict("records"))
     res = all_layers(['mxnet', 'mxnet-cu112', 'mxnet-cu110', 'mxnet-cu102', 'mxnet-cu102mkl', 'mxnet-cu101', 'mxnet-cu101mkl', 'mxnet-cu100',
                      'mxnet-cu100mkl', 'mxnet-cu92', 'mxnet-cu92mkl', 'mxnet-cu90', 'mxnet-cu90mkl', 'mxnet-cu80', 'mxnet-cu80mkl', 'mxnet-native'])
+    res.loc[:, 'framework'] = 'mxnet'
     coll.insert_many(res.to_dict("records"))
     res = all_layers(['paddlepaddle', 'paddlepaddle-gpu'])
+    res.loc[:, 'framework'] = 'paddlepaddle'
     coll.insert_many(res.to_dict("records"))
     res = all_layers(['mindspore', 'mindspore-ascend', 'mindspore-gpu'])
+    res.loc[:, 'framework'] = 'mindspore'
     coll.insert_many(res.to_dict("records"))
 
 

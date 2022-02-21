@@ -1,4 +1,3 @@
-import pandas as pd
 import logging
 import packaging
 from tqdm import tqdm

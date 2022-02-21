@@ -1,5 +1,4 @@
 import json
-import re
 from tqdm import tqdm
 import logging
 from pymongo import MongoClient

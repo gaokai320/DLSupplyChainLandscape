@@ -5,6 +5,7 @@ pypi_db = MongoClient(host='127.0.0.1', port=27017)['pypi']
 dl_packages = pypi_db['dl_packages']
 distribution_metadata = pypi_db['distribution_metadata']
 
+
 def dependent_count(dependency: str, framework: str) -> int:
     pipeline = [
         {
@@ -31,6 +32,7 @@ def dependent_count(dependency: str, framework: str) -> int:
     if res.empty:
         return 0
     return res['count'][0]
+
 
 def unversioned_sc(frameworks: list):
     res = pd.DataFrame()
@@ -67,8 +69,10 @@ def unversioned_sc(frameworks: list):
         res = res.append(pkg_layers, ignore_index=True)
     return res
 
+
 if __name__ == "__main__":
-    frameworks = ['tensorflow', 'pytorch', 'mxnet', 'paddlepaddle', 'mindspore']
+    frameworks = ['tensorflow', 'pytorch',
+                  'mxnet', 'paddlepaddle', 'mindspore']
     pkg_layers = unversioned_sc(frameworks)
     pkg_layers.to_csv("data/package_statistics.csv", index=False)
     print(pkg_layers.head())

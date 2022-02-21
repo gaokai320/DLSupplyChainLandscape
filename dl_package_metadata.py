@@ -82,6 +82,7 @@ def all_layers(packages: list):
         versions = list(new_pkgs.values)
     return res
 
+
 def insert_db():
     coll = pypi_db['dl_packages']
     coll.drop()

@@ -133,3 +133,4 @@ dmypy.json
 data/versions.csv
 data/samples.xlsx
 log/
+.virtual_documents/

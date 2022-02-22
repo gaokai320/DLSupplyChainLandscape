@@ -50,4 +50,5 @@ def download_wheel(package: str, version: str):
 
 
 if __name__ == "__main__":
+    pkg2latestv = json.load(open("pkg2latestv.json"))
     download_wheel("tensorflow-addons", "0.7.1")

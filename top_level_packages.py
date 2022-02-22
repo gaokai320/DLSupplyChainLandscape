@@ -1,17 +1,19 @@
 import os
-import glob
-import subprocess
+import json
+import wget
+import logging
+import requests
 import pandas as pd
+from typing import List, Optional
 from pymongo import MongoClient
 from wheel_inspect import inspect_wheel
+import multiprocessing as mp
 
-pypi_db = MongoClient(host="127.0.0.1", port=27017)['pypi']
-dl_packages = pypi_db['dl_packages']
-distribution_metadata = pypi_db['distribution_metadata']
 
 WHEEL_DIR = "/data/pkg_wheels"
 
-def sort_versions(package: str) -> list:
+
+def sort_versions(package: str, distribution_metadata) -> list:
     def latest_time(df):
         return df.sort_values('upload_time', ascending=False).iloc[0]
     query = {
@@ -31,7 +33,7 @@ def sort_versions(package: str) -> list:
     return res
 
 
-def get_latest_versions(package: str) -> str:
+def get_latest_version(package: str, dl_packages, distribution_metadata) -> str:
     pipeline = [
         {
             "$match": {
@@ -48,38 +50,99 @@ def get_latest_versions(package: str) -> str:
         }
     ]
     res = list(dl_packages.aggregate(pipeline))[0]['versions']
-    sorted_versions = sort_versions(package)
+    sorted_versions = sort_versions(package, distribution_metadata)
     res.sort(key=sorted_versions.get)
     return res[-1]
 
 
-def download_wheels(package: str, version: str):
-    command = ["pip", "download", "--no-deps", "-i", "https://pypi.tuna.tsinghua.edu.cn/simple",
-               "-d", WHEEL_DIR, "--pre", f"{package}=={version}"]
+def get_pkg2latestv():
+    pypi_db = MongoClient(host="127.0.0.1", port=27017)['pypi']
+    dl_packages = pypi_db['dl_packages']
+    distribution_metadata = pypi_db['distribution_metadata']
+    df = pd.read_csv("data/package_statistics.csv")
+    packages = list(df['package'].unique())
+    pkg2v = []
+    for p in packages:
+        v = get_latest_version(p, dl_packages, distribution_metadata)
+        pkg2v.append((p, v))
+    with open('pkg2latestv.json', 'w') as outf:
+        json.dump(pkg2v, outf)
+    return pkg2v
+
+
+def _select_wheel(file_info: List[dict]) -> Optional[dict]:
+    result = None
+    result_py_ver = ""
+    for i in file_info:
+        if not i["filename"] or not i["filename"].endswith(".whl"):
+            continue
+        # Parse wheel file name according to https://www.python.org/dev/peps/pep-0427/
+        tags = i["filename"].split("-")
+        if len(tags) <= 4 or len(tags) >= 7:  # bad filename
+            continue
+        elif len(tags) == 5:
+            py_ver, platform = tags[2], tags[4]
+        else:
+            py_ver, platform = tags[3], tags[5]
+        if ("any" in platform or "linux" in platform) and py_ver > result_py_ver:
+            result = i
+            result_py_ver = py_ver
+    return result
+
+
+def download_wheel(package: str, version: str):
     try:
-        subprocess.check_call(
-            command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    except subprocess.CalledProcessError:
-        print(f"Downloading {package} {version} error")
-        return 0
-    filenames = glob.glob(f"{WHEEL_DIR}/{package}-{version}*.whl")
-    if filenames:
-        return filenames[0]
-    else:
-        return 0
+        pypi_info = requests.get(
+            f"https://pypi.org/pypi/{package}/json").json()
+    except json.decoder.JSONDecodeError:
+        logging.error(f"{package} does not exist on PyPI")
+    try:
+        file_infos = pypi_info['releases'][version]
+    except:
+        logging.error(f"{package} {version} does not exist on PyPI")
+    whl_file = _select_wheel(file_infos)
+    if whl_file is not None:
+        store_path = os.path.join(WHEEL_DIR, whl_file['filename'])
+        if os.path.exists(store_path):
+            logging.info(f"{whl_file['filename']} already exists")
+            return whl_file['filename']
+        else:
+            wget.download(whl_file['url'], store_path)
 
 
 def get_import_names(package: str, version: str) -> list:
-    whl_name = download_wheels(package, version)
+    whl_name = download_wheel(package, version)
     if whl_name == 0:
         return []
     else:
         whl_path = os.path.join(WHEEL_DIR, whl_name)
+        logging.info(f"inspect {whl_path}")
         whl_metadata = inspect_wheel(whl_path)
         if "top_level" in whl_metadata["dist_info"]:
             return whl_metadata["dist_info"]["top_level"]
+        else:
+            return []
+
+
+def package2names(package: str, version: str):
+    logging.info(f"Begin {package} {version}")
+    names = get_import_names(package, version)
+    logging.info(f"Import names of {package}: {names}")
+    logging.info(f"Finish {package} {version}")
+
 
 if __name__ == "__main__":
-    # print(sort_versions("mlmodels"))
-    # print(get_latest_versions("mlmodels"))
-    print(get_import_names("matplotlib", "3.5.1"))
+    logging.basicConfig(
+        filename="log/top_level_packages.log",
+        filemode='w',
+        format="%(asctime)s (Process %(process)d) [%(levelname)s] %(message)s",
+        level=logging.INFO
+    )
+    if not os.path.exists("data/pkg2latestv.json"):
+        pkg2v = get_pkg2latestv()
+    else:
+        pkg2v = json.load(open("pkg2latestv.json"))
+    logging.info(f"{len(pkg2v)} unique packages")
+    get_import_names("tensorflow-addons", "0.7.1")
+    # with mp.Pool(mp.cpu_count()) as pool:
+    #     pool.starmap(package2names, pkg2v)

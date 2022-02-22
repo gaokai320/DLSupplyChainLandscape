@@ -156,12 +156,6 @@ if __name__ == "__main__":
     else:
         pkg2v = json.load(open("data/pkg2latestv.json"))
     logging.info(f"{len(pkg2v)} unique packages")
-<<<<<<< HEAD
-    # get_import_names("tensorflow-addons", "0.7.1")
-    # with mp.Pool(mp.cpu_count()) as pool:
-    #     pool.starmap(package2names, pkg2v)
-=======
     # print(get_import_names("tensorflow-addons", "0.7.1"))
     with mp.Pool(mp.cpu_count()) as pool:
         pool.starmap(package2names, pkg2v)
->>>>>>> 045ec376bd470977c57550faa40c67c28434e6f1

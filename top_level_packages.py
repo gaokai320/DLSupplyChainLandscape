@@ -159,30 +159,33 @@ def check_log(pkg2v, logpath: str):
     return {p: all_pkgs[p] for p in remain_pkgs}, finished_pkgs 
 
 if __name__ == "__main__":
-    if not os.path.exists("data/pkg2latestv.json"):
-        pkg2v = get_pkg2latestv()
+    if os.path.exists("data/pkg_import_names.json"):
+        print("data/pkg_import_names.json already exists")
     else:
-        pkg2v = json.load(open("data/pkg2latestv.json"))
-    remain_pkgs, finished_pkgs = check_log(pkg2v, "log/top_level_packages.log")
-    print(len(remain_pkgs), len(finished_pkgs))
-    # print(remain_pkgs, finished_pkgs)
-    outf = open("data/pkg_import_names.json", 'w')
-    if len(remain_pkgs) == 0:
-        json.dump(finished_pkgs, outf)
-    else:
-        logging.basicConfig(
-            filename="log/top_level_packages.log",
-            filemode='a',
-            format="%(asctime)s (Process %(process)d) [%(levelname)s] %(message)s",
-            level=logging.INFO
-        )
-        
-        for package, version in remain_pkgs.items():
-            logging.info(f"Begin {package} {version}")
-            names = get_import_names(package, version)
-            finished_pkgs[package] = names
-            logging.info(f"Import names of {package}: {names}")
-            logging.info(f"Finish {package} {version}")
-        logging.info("Finished!")
-        json.dump(finished_pkgs, outf)
-    outf.close()
+        if not os.path.exists("data/pkg2latestv.json"):
+            pkg2v = get_pkg2latestv()
+        else:
+            pkg2v = json.load(open("data/pkg2latestv.json"))
+        remain_pkgs, finished_pkgs = check_log(pkg2v, "log/top_level_packages.log")
+        print(len(remain_pkgs), len(finished_pkgs))
+        # print(remain_pkgs, finished_pkgs)
+        outf = open("data/pkg_import_names.json", 'w')
+        if len(remain_pkgs) == 0:
+            json.dump(finished_pkgs, outf)
+        else:
+            logging.basicConfig(
+                filename="log/top_level_packages.log",
+                filemode='a',
+                format="%(asctime)s (Process %(process)d) [%(levelname)s] %(message)s",
+                level=logging.INFO
+            )
+            
+            for package, version in remain_pkgs.items():
+                logging.info(f"Begin {package} {version}")
+                names = get_import_names(package, version)
+                finished_pkgs[package] = names
+                logging.info(f"Import names of {package}: {names}")
+                logging.info(f"Finish {package} {version}")
+            logging.info("Finished!")
+            json.dump(finished_pkgs, outf)
+        outf.close()

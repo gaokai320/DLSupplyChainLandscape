@@ -141,7 +141,7 @@ if __name__ == "__main__":
     if not os.path.exists("data/pkg2latestv.json"):
         pkg2v = get_pkg2latestv()
     else:
-        pkg2v = json.load(open("pkg2latestv.json"))
+        pkg2v = json.load(open("data/pkg2latestv.json"))
     logging.info(f"{len(pkg2v)} unique packages")
     get_import_names("tensorflow-addons", "0.7.1")
     # with mp.Pool(mp.cpu_count()) as pool:

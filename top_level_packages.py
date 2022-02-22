@@ -54,18 +54,25 @@ def get_latest_version(package: str, dl_packages, distribution_metadata) -> str:
     res.sort(key=sorted_versions.get)
     return res[-1]
 
+def pkg2v(p: str):
+    pypi_db = MongoClient(host="127.0.0.1", port=27017)['pypi']
+    dl_packages = pypi_db['dl_packages']
+    distribution_metadata = pypi_db['distribution_metadata']
+    print(get_latest_version(p, dl_packages, distribution_metadata))
 
 def get_pkg2latestv():
     pypi_db = MongoClient(host="127.0.0.1", port=27017)['pypi']
     dl_packages = pypi_db['dl_packages']
     distribution_metadata = pypi_db['distribution_metadata']
     df = pd.read_csv("data/package_statistics.csv")
-    packages = list(df['package'].unique())
+    df = df[['package', 'layer']].groupby("package")['layer'].min()
+    df = df[df > 1]
+    packages = list(df.index)
     pkg2v = []
     for p in packages:
         v = get_latest_version(p, dl_packages, distribution_metadata)
         pkg2v.append((p, v))
-    with open('pkg2latestv.json', 'w') as outf:
+    with open('data/pkg2latestv.json', 'w') as outf:
         json.dump(pkg2v, outf)
     return pkg2v
 
@@ -143,6 +150,6 @@ if __name__ == "__main__":
     else:
         pkg2v = json.load(open("data/pkg2latestv.json"))
     logging.info(f"{len(pkg2v)} unique packages")
-    get_import_names("tensorflow-addons", "0.7.1")
+    # get_import_names("tensorflow-addons", "0.7.1")
     # with mp.Pool(mp.cpu_count()) as pool:
     #     pool.starmap(package2names, pkg2v)

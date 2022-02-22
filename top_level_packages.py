@@ -116,7 +116,9 @@ def download_wheel(package: str, version: str):
         if os.path.exists(store_path):
             logging.info(f"{whl_file['filename']} already exists")
         else:
+            logging.info(f"Downloading {whl_file['filename']}")
             wget.download(whl_file['url'], store_path)
+            logging.info(f"Downloaded {whl_file['filename']}")
             time.sleep(1)
         return whl_file['filename']
     else:
@@ -129,7 +131,7 @@ def get_import_names(package: str, version: str) -> list:
         return []
     else:
         whl_path = os.path.join(WHEEL_DIR, whl_name)
-        logging.info(f"inspect {whl_path}")
+        logging.info(f"inspect {whl_name}")
         whl_metadata = inspect_wheel(whl_path)
         if "top_level" in whl_metadata["dist_info"]:
             return whl_metadata["dist_info"]["top_level"]
@@ -137,25 +139,50 @@ def get_import_names(package: str, version: str) -> list:
             return []
 
 
-def package2names(package: str, version: str):
-    logging.info(f"Begin {package} {version}")
-    names = get_import_names(package, version)
-    logging.info(f"Import names of {package}: {names}")
-    logging.info(f"Finish {package} {version}")
-
+def check_log(pkg2v, logpath: str):
+    all_pkgs = dict()
+    for p, v in pkg2v:
+        all_pkgs[p] = v
+    finished_pkgs = dict()
+    if not os.path.exists(logpath):
+        return all_pkgs, dict()
+    with open(logpath) as f:
+        for line in f:
+            if "[INFO] Import names" in line:
+                pkg, names = line.strip(']\n').split(': [')
+                pkg = pkg.split(' ')[-1]
+                names = names.split(', ') if names != '' else []
+                names = [n.strip(r"'\"") for n in names]
+                finished_pkgs[pkg] = names
+    remain_pkgs = set(all_pkgs.keys()) - set(finished_pkgs.keys())
+    print(f"All packages: {len(all_pkgs)}, Finished packages: {len(finished_pkgs)}, Remaining: {len(remain_pkgs)}")
+    return {p: all_pkgs[p] for p in remain_pkgs}, finished_pkgs 
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        filename="log/top_level_packages.log",
-        filemode='w',
-        format="%(asctime)s (Process %(process)d) [%(levelname)s] %(message)s",
-        level=logging.INFO
-    )
     if not os.path.exists("data/pkg2latestv.json"):
         pkg2v = get_pkg2latestv()
     else:
         pkg2v = json.load(open("data/pkg2latestv.json"))
-    logging.info(f"{len(pkg2v)} unique packages")
-    # print(get_import_names("tensorflow-addons", "0.7.1"))
-    with mp.Pool(mp.cpu_count()) as pool:
-        pool.starmap(package2names, pkg2v)
+    remain_pkgs, finished_pkgs = check_log(pkg2v, "log/top_level_packages.log")
+    print(len(remain_pkgs), len(finished_pkgs))
+    # print(remain_pkgs, finished_pkgs)
+    outf = open("data/pkg_import_names.json", 'w')
+    if len(remain_pkgs) == 0:
+        json.dump(finished_pkgs, outf)
+    else:
+        logging.basicConfig(
+            filename="log/top_level_packages.log",
+            filemode='a',
+            format="%(asctime)s (Process %(process)d) [%(levelname)s] %(message)s",
+            level=logging.INFO
+        )
+        
+        for package, version in remain_pkgs.items():
+            logging.info(f"Begin {package} {version}")
+            names = get_import_names(package, version)
+            finished_pkgs[package] = names
+            logging.info(f"Import names of {package}: {names}")
+            logging.info(f"Finish {package} {version}")
+        logging.info("Finished!")
+        json.dump(finished_pkgs, outf)
+    outf.close()

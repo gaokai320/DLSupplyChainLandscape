@@ -1,6 +1,7 @@
 import os
 import json
 import wget
+import time
 import logging
 import requests
 import pandas as pd
@@ -10,7 +11,7 @@ from wheel_inspect import inspect_wheel
 import multiprocessing as mp
 
 
-WHEEL_DIR = "/data/pkg_wheels"
+WHEEL_DIR = "/data/kyle/pkg_wheels"
 
 
 def sort_versions(package: str, distribution_metadata) -> list:
@@ -96,18 +97,23 @@ def download_wheel(package: str, version: str):
             f"https://pypi.org/pypi/{package}/json").json()
     except json.decoder.JSONDecodeError:
         logging.error(f"{package} does not exist on PyPI")
+        return 0
     try:
         file_infos = pypi_info['releases'][version]
     except:
         logging.error(f"{package} {version} does not exist on PyPI")
+        return 0
     whl_file = _select_wheel(file_infos)
     if whl_file is not None:
         store_path = os.path.join(WHEEL_DIR, whl_file['filename'])
         if os.path.exists(store_path):
             logging.info(f"{whl_file['filename']} already exists")
-            return whl_file['filename']
         else:
             wget.download(whl_file['url'], store_path)
+            time.sleep(1)
+        return whl_file['filename']
+    else:
+        return 0
 
 
 def get_import_names(package: str, version: str) -> list:
@@ -143,6 +149,6 @@ if __name__ == "__main__":
     else:
         pkg2v = json.load(open("data/pkg2latestv.json"))
     logging.info(f"{len(pkg2v)} unique packages")
-    get_import_names("tensorflow-addons", "0.7.1")
-    # with mp.Pool(mp.cpu_count()) as pool:
-    #     pool.starmap(package2names, pkg2v)
+    # print(get_import_names("tensorflow-addons", "0.7.1"))
+    with mp.Pool(mp.cpu_count()) as pool:
+        pool.starmap(package2names, pkg2v)

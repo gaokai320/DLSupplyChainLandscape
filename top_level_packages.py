@@ -55,11 +55,13 @@ def get_latest_version(package: str, dl_packages, distribution_metadata) -> str:
     res.sort(key=sorted_versions.get)
     return res[-1]
 
+
 def pkg2v(p: str):
     pypi_db = MongoClient(host="127.0.0.1", port=27017)['pypi']
     dl_packages = pypi_db['dl_packages']
     distribution_metadata = pypi_db['distribution_metadata']
     print(get_latest_version(p, dl_packages, distribution_metadata))
+
 
 def get_pkg2latestv():
     pypi_db = MongoClient(host="127.0.0.1", port=27017)['pypi']
@@ -155,8 +157,10 @@ def check_log(pkg2v, logpath: str):
                 names = [n.strip(r"'\"") for n in names]
                 finished_pkgs[pkg] = names
     remain_pkgs = set(all_pkgs.keys()) - set(finished_pkgs.keys())
-    print(f"All packages: {len(all_pkgs)}, Finished packages: {len(finished_pkgs)}, Remaining: {len(remain_pkgs)}")
-    return {p: all_pkgs[p] for p in remain_pkgs}, finished_pkgs 
+    print(
+        f"All packages: {len(all_pkgs)}, Finished packages: {len(finished_pkgs)}, Remaining: {len(remain_pkgs)}")
+    return {p: all_pkgs[p] for p in remain_pkgs}, finished_pkgs
+
 
 if __name__ == "__main__":
     if os.path.exists("data/pkg_import_names.json"):
@@ -166,7 +170,8 @@ if __name__ == "__main__":
             pkg2v = get_pkg2latestv()
         else:
             pkg2v = json.load(open("data/pkg2latestv.json"))
-        remain_pkgs, finished_pkgs = check_log(pkg2v, "log/top_level_packages.log")
+        remain_pkgs, finished_pkgs = check_log(
+            pkg2v, "log/top_level_packages.log")
         print(len(remain_pkgs), len(finished_pkgs))
         # print(remain_pkgs, finished_pkgs)
         outf = open("data/pkg_import_names.json", 'w')
@@ -179,7 +184,7 @@ if __name__ == "__main__":
                 format="%(asctime)s (Process %(process)d) [%(levelname)s] %(message)s",
                 level=logging.INFO
             )
-            
+
             for package, version in remain_pkgs.items():
                 logging.info(f"Begin {package} {version}")
                 names = get_import_names(package, version)

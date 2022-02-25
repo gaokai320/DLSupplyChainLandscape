@@ -95,7 +95,7 @@ def github_dependents(pkg: str, url: str) -> set:
     headers = {"Authorization": f"token {TOKEN}"}
     request_url, response = get_python_packge_url(pkg, url)
     if request_url == "":
-        return set()
+        return list()
     repos = get_repositories(request_url, response, headers)
     pkgs = get_packages(request_url, headers)
     res = list(repos.union(pkgs))

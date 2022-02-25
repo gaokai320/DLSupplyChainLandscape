@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import random
 import logging
 import requests
 from bs4 import BeautifulSoup
@@ -40,9 +41,10 @@ def get_python_packge_url(pkg: str, url: str):
     return "", None
 
 
-def parse_html(response: requests.Response, headers: dict) -> set:
+def parse_html(response: requests.Response, headers: dict) -> list:
     dependents = []
     flag = response.ok
+    page = 1
     while (flag):
         soup = BeautifulSoup(response.content, 'lxml')
         tmp = [
@@ -52,6 +54,7 @@ def parse_html(response: requests.Response, headers: dict) -> set:
             )
             for t in soup.findAll("div", {"class": "Box-row", "data-test-id": "dg-repo-pkg-dependent"})
         ]
+        logging.info(f"Page {page}: {len(tmp)} repositories")
         dependents.extend(tmp)
         btns = soup.find(
             "div", {"class": "paginate-container"})
@@ -64,22 +67,25 @@ def parse_html(response: requests.Response, headers: dict) -> set:
                     request_url = b['href']
                     break
         if request_url != "":
+            page += 1
             response = requests.get(request_url, headers=headers)
+            logging.info(f"Page {page}: Status Code {response.status_code}")
             flag = response.ok
-            time.sleep(1)
+            time.sleep(random.randint(4, 8))
         else:
             break
-    return set(dependents)
+    return dependents
 
 
-def get_repositories(request_url: str, response: requests.Response, headers: dict) -> set:
+def get_repositories(request_url: str, response: requests.Response, headers: dict) -> list:
     logging.info(f"Repository: {request_url}")
     if response is None:
         response = requests.get(request_url, headers=headers)
+    logging.info(f"Page {1}: Status Code {response.status_code}")
     return parse_html(response, headers)
 
 
-def get_packages(request_url: str, headers: dict) -> set:
+def get_packages(request_url: str, headers: dict) -> list:
     if "package_id" in request_url:
         package_id = request_url.split("package_id=")[1]
         prefix = request_url.split('?')[0]
@@ -88,6 +94,7 @@ def get_packages(request_url: str, headers: dict) -> set:
         request_url = request_url.replace("REPOSITORY", "PACKAGE")
     logging.info(f"Package: {request_url}")
     response = requests.get(request_url, headers=headers)
+    logging.info(f"Page {1}: Status Code: {response.status_code}")
     return parse_html(response, headers)
 
 
@@ -98,7 +105,7 @@ def github_dependents(pkg: str, url: str) -> set:
         return list()
     repos = get_repositories(request_url, response, headers)
     pkgs = get_packages(request_url, headers)
-    res = list(repos.union(pkgs))
+    res = list(set(repos).union(set(pkgs)))
     logging.info(
         f"{pkg}: {len(repos)} repositories, {len(pkgs)} packages, {len(res)} dependents")
     return res

@@ -9,6 +9,7 @@ TOKEN = json.load(open('gh_tokens.json'))['token']
 # TOKEN = "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"
 LOG_PATH = "log/downstream_repos.log"
 
+
 def get_python_packge_url(pkg: str, url: str):
     headers = {"Authorization": f"token {TOKEN}"}
     request_url = f"https://{url}/network/dependents?dependent_type=REPOSITORY"
@@ -98,7 +99,8 @@ def github_dependents(pkg: str, url: str) -> set:
     repos = get_repositories(request_url, response, headers)
     pkgs = get_packages(request_url, headers)
     res = list(repos.union(pkgs))
-    logging.info(f"{pkg}: {len(repos)} repositories, {len(pkgs)} packages, {len(res)} dependents")
+    logging.info(
+        f"{pkg}: {len(repos)} repositories, {len(pkgs)} packages, {len(res)} dependents")
     return res
 
 
@@ -124,6 +126,7 @@ def test():
     # Have select menu, pypi package the default
     print(len(github_dependents("autogluon", "github.com/awslabs/autogluon")))
 
+
 def check_log(pkg2repo: dict, logpath: str):
     all_pkgs = dict()
     for p, r in pkg2repo.items():
@@ -143,6 +146,7 @@ def check_log(pkg2repo: dict, logpath: str):
     print(
         f"All packages: {len(all_pkgs)}, Finished packages: {len(finished_pkgs)}, Remaining: {len(remain_pkgs)}")
     return [(p, all_pkgs[p]) for p in remain_pkgs], finished_pkgs
+
 
 if __name__ == "__main__":
     if os.path.exists("data/pkg_github_dependents.json"):
@@ -171,4 +175,3 @@ if __name__ == "__main__":
             logging.info("Finished!")
             json.dump(finished_pkgs, outf)
         outf.close()
-    test()

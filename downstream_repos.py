@@ -145,7 +145,7 @@ def check_log(pkg2repo: dict, logpath: str):
     remain_pkgs = set(all_pkgs.keys()) - set(finished_pkgs.keys())
     print(
         f"All packages: {len(all_pkgs)}, Finished packages: {len(finished_pkgs)}, Remaining: {len(remain_pkgs)}")
-    return [(p, all_pkgs[p]) for p in remain_pkgs], finished_pkgs
+    return {p: all_pkgs[p] for p in remain_pkgs}, finished_pkgs
 
 
 if __name__ == "__main__":
@@ -166,7 +166,7 @@ if __name__ == "__main__":
                 format="%(asctime)s [%(levelname)s] %(message)s",
                 level=logging.INFO
             )
-            for package, url in remain_pkgs:
+            for package, url in remain_pkgs.items():
                 logging.info(f"Begin {package} {url}")
                 dependents = github_dependents(package, url)
                 finished_pkgs[package] = dependents

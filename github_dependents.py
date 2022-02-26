@@ -164,16 +164,17 @@ def check_log(pkg2repo: dict, logpath: str):
 
 
 if __name__ == "__main__":
-    pkg2repo = json.load(open("data/pkg_repo_url.json"))
-    if os.path.exists(DATA_PATH) and (len(json.load(open(DATA_PATH))) == len(pkg2repo)):
+    if os.path.exists(DATA_PATH):
         print(f"{DATA_PATH} already exists")
     else:
+        pkg2repo = json.load(open("data/pkg_repo_url.json"))
         remain_pkgs, finished_pkgs = check_log(
             pkg2repo, LOG_PATH)
         print(len(remain_pkgs), len(finished_pkgs))
-        outf = open(DATA_PATH, 'w')
         if len(remain_pkgs) == 0:
+            outf = open(DATA_PATH, 'w')
             json.dump(finished_pkgs, outf)
+            outf.close()
         else:
             logging.basicConfig(
                 filename=LOG_PATH,
@@ -190,5 +191,6 @@ if __name__ == "__main__":
                 logging.info(f"Dependent Packages of {package}: {pkgs}")
                 logging.info(f"Finish {package} {url}")
             logging.info("Finished!")
+            outf = open(DATA_PATH, 'w')
             json.dump(finished_pkgs, outf)
-        outf.close()
+            outf.close()

@@ -4,11 +4,13 @@ import time
 import random
 import logging
 import requests
+from collections import defaultdict
 from bs4 import BeautifulSoup
 
 TOKEN = json.load(open('gh_tokens.json'))['token']
 # TOKEN = "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"
 LOG_PATH = "log/downstream_repos.log"
+DATA_PATH = "data/pkg_github_dependents.json"
 
 
 def get_python_packge_url(pkg: str, url: str):
@@ -98,17 +100,17 @@ def get_packages(request_url: str, headers: dict) -> list:
     return parse_html(response, headers)
 
 
-def github_dependents(pkg: str, url: str) -> set:
+def github_dependents(pkg: str, url: str):
     headers = {"Authorization": f"token {TOKEN}"}
     request_url, response = get_python_packge_url(pkg, url)
     if request_url == "":
-        return list()
+        return list(), list()
     repos = get_repositories(request_url, response, headers)
     pkgs = get_packages(request_url, headers)
     res = list(set(repos).union(set(pkgs)))
     logging.info(
         f"{pkg}: {len(repos)} repositories, {len(pkgs)} packages, {len(res)} dependents")
-    return res
+    return repos, pkgs
 
 
 def test():
@@ -138,17 +140,23 @@ def check_log(pkg2repo: dict, logpath: str):
     all_pkgs = dict()
     for p, r in pkg2repo.items():
         all_pkgs[p] = r
-    finished_pkgs = dict()
+    finished_pkgs = defaultdict(dict)
     if not os.path.exists(logpath):
         return all_pkgs, finished_pkgs
     with open(logpath) as f:
         for line in f:
-            if "[INFO] Dependents of " in line:
-                info = line.strip('\n').split('Dependents of ')[1]
+            if "[INFO] Dependent Repositories of " in line:
+                info = line.strip('\n').split('Dependent Repositories of ')[1]
                 pkg, deps = info.split(': ')
                 deps = deps.strip('][').split(', ') if deps != '[]' else []
                 deps = [d.strip(r"'\"") for d in deps]
-                finished_pkgs[pkg] = deps
+                finished_pkgs[pkg]['Repositories'] = deps
+            elif "[INFO] Dependent Packages of " in line:
+                info = line.strip('\n').split('Dependent Packages of ')[1]
+                pkg, deps = info.split(': ')
+                deps = deps.strip('][').split(', ') if deps != '[]' else []
+                deps = [d.strip(r"'\"") for d in deps]
+                finished_pkgs[pkg]['Packages'] = deps
     remain_pkgs = set(all_pkgs.keys()) - set(finished_pkgs.keys())
     print(
         f"All packages: {len(all_pkgs)}, Finished packages: {len(finished_pkgs)}, Remaining: {len(remain_pkgs)}")
@@ -157,14 +165,13 @@ def check_log(pkg2repo: dict, logpath: str):
 
 if __name__ == "__main__":
     pkg2repo = json.load(open("data/pkg_repo_url.json"))
-    if os.path.exists("data/pkg_github_dependents.json"):
-        if len(json.load(open("data/pkg_github_dependents.json"))) == len(pkg2repo):
-            print("data/pkg_github_dependents.json already exists")
+    if os.path.exists(DATA_PATH) and (len(json.load(open(DATA_PATH))) == len(pkg2repo)):
+        print(f"{DATA_PATH} already exists")
     else:
         remain_pkgs, finished_pkgs = check_log(
             pkg2repo, LOG_PATH)
         print(len(remain_pkgs), len(finished_pkgs))
-        outf = open("data/pkg_github_dependents.json", 'w')
+        outf = open(DATA_PATH, 'w')
         if len(remain_pkgs) == 0:
             json.dump(finished_pkgs, outf)
         else:
@@ -176,9 +183,11 @@ if __name__ == "__main__":
             )
             for package, url in remain_pkgs.items():
                 logging.info(f"Begin {package} {url}")
-                dependents = github_dependents(package, url)
-                finished_pkgs[package] = dependents
-                logging.info(f"Dependents of {package}: {dependents}")
+                repos, pkgs = github_dependents(package, url)
+                finished_pkgs[package]['Repositories'] = repos
+                finished_pkgs[package]['Packages'] = pkgs
+                logging.info(f"Dependent Repositories of {package}: {repos}")
+                logging.info(f"Dependent Packages of {package}: {pkgs}")
                 logging.info(f"Finish {package} {url}")
             logging.info("Finished!")
             json.dump(finished_pkgs, outf)

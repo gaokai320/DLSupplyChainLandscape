@@ -156,10 +156,11 @@ def check_log(pkg2repo: dict, logpath: str):
 
 
 if __name__ == "__main__":
+    pkg2repo = json.load(open("data/pkg_repo_url.json"))
     if os.path.exists("data/pkg_github_dependents.json"):
-        print("data/pkg_github_dependents.json already exists")
+        if len(json.load(open("data/pkg_github_dependents.json"))) == len(pkg2repo):
+            print("data/pkg_github_dependents.json already exists")
     else:
-        pkg2repo = json.load(open("data/pkg_repo_url.json"))
         remain_pkgs, finished_pkgs = check_log(
             pkg2repo, LOG_PATH)
         print(len(remain_pkgs), len(finished_pkgs))

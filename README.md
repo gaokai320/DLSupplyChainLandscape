@@ -27,3 +27,26 @@ The Landscape of Deep Learning Supply Chain
     ```shell
     python versioned_packages.py
     ```
+## Build DL SC
+1. Collect package metadata from DL SC
+    ```shell
+    python dl_package_metadata.py
+    ```
+2. Get the number of dependent packages for each package
+    ```shell
+    python package_stats.py
+    ```
+3. Get GitHub dependents for each package
+    ```shell
+    # Get the repository url
+    python pkg_repo_url.py
+    # Crawl and parse the dependency network page
+    python github_dependents.py
+    ```
+4. Get WoC dependents for each package
+    ```shell
+    # Get import names for each package
+    python top_level_packages.py
+    # extract python dependencies from woc
+    python build_woc_dbs.py
+    ```

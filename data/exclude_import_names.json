@@ -1,0 +1,157 @@
+{
+    "_": [
+        "utils",
+        "config",
+        "configs",
+        "models",
+        "app",
+        "google",
+        "model",
+        "util",
+        "data",
+        "test",
+        "src",
+        "main",
+        "core",
+        "lib",
+        "__main__",
+        "api",
+        "tests",
+        "helpers",
+        "base",
+        "tools",
+        "dataset",
+        "server",
+        "log",
+        "home",
+        "helper",
+        "resources",
+        "utilities",
+        "apps",
+        "datasets",
+        "train",
+        "client",
+        "conf",
+        "pycocotools",
+        "gui",
+        "preprocessing",
+        "ui",
+        "run",
+        "scripts",
+        "graphics",
+        "object_detection",
+        "bin",
+        "ai",
+        "service",
+        "example",
+        "model_utils",
+        "examples",
+        "trainer",
+        "algorithms",
+        "dashboard",
+        "callback",
+        "pdf",
+        "eve",
+        "callback",
+        "hparams",
+        "transfer",
+        "ddpg",
+        "cv",
+        "env",
+        "losses",
+        "metrics",
+        "dnn",
+        "rbm",
+        "about"
+    ],
+    "ryakugo-pkg": [
+        "tensorflow"
+    ],
+    "rpi-torchvision": [
+        "torchvision"
+    ],
+    "pl-face-recognition": [
+        "face_recognition"
+    ],
+    "torchbearer-visual": [
+        "visual"
+    ],
+    "transforms-for-ndarray": [
+        "transforms"
+    ],
+    "layer-sdk": [
+        "layer"
+    ],
+    "unofficial-allennlp-nightly": [
+        "allennlp"
+    ],
+    "etc-ml": [
+        "etc"
+    ],
+    "torch-snake": [
+        "snake"
+    ],
+    "helloworldrm": [
+        "helloworld"
+    ],
+    "tfbert": [
+        "bert"
+    ],
+    "cf-nlp": [
+        "nlp"
+    ],
+    "omolab-conf-analysis": [
+        "elements"
+    ],
+    "RLDQN": [
+        "dqn"
+    ],
+    "ml-lib": [
+        "ml"
+    ],
+    "convolution-kernels": [
+        "kernel"
+    ],
+    "tensorflowservingclient": [
+        "tensorflow_serving"
+    ],
+    "adapt-diagnostics": [
+        "adapt"
+    ],
+    "bootstrap.pytorch": [
+        "bootstrap"
+    ],
+    "murel.bootstrap.pytorch": [
+        "bootstrap"
+    ],
+    "attention": [
+        "attention"
+    ],
+    "tf-models-official": [
+        "official"
+    ],
+    "analytics-mesh": [
+        "mesh"
+    ],
+    "pixel-classifier-torch": [
+        "segmentation"
+    ],
+    "torch-pixel-classifier": [
+        "segmentation"
+    ],
+    "flair-82": [
+        "flair"
+    ],
+    "flairstreamlined": [
+        "flair"
+    ],
+    "gym-simplifiedtetris": [
+        "agents"
+    ],
+    "face-detector": [
+        "face_detector"
+    ],
+    "information": [
+        "information"
+    ]
+}

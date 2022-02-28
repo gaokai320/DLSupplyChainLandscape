@@ -1,3 +1,5 @@
+import json
+import os
 import pandas as pd
 from pymongo import MongoClient
 
@@ -63,16 +65,67 @@ def unversioned_sc(frameworks: list):
         pkg_layers["framework"] = framework
         for p in pkg_layers['package'].unique():
             pkg_layers.loc[pkg_layers.package == p,
-                           'dependent_number'] = dependent_count(p, framework)
-        pkg_layers['dependent_number'] = pkg_layers['dependent_number'].astype(
+                           'down_pkgs'] = dependent_count(p, framework)
+        pkg_layers['down_pkgs'] = pkg_layers['down_pkgs'].astype(
             int)
         res = res.append(pkg_layers, ignore_index=True)
     return res
+
+
+def append_deps(pkg_layers):
+    if os.path.exists("data/pkg_github_dependents.json") and os.path.exists("data/pkg_woc_dependents.json"):
+        woc_dependents = json.load(open("data/pkg_woc_dependents.json"))
+        gh_dependents = json.load(open("data/pkg_github_dependents.json"))
+        gh_dependents = {k: {
+            "Repositories": [_.replace('/', '_') for _ in v['Repositories']],
+            "Packages": [_.replace('/', '_') for _ in v['Packages']]
+        } for k, v in gh_dependents.items()}
+
+        def map_gh_repo(x):
+            if x in gh_dependents.keys():
+                return len(gh_dependents[x]["Repositories"])
+            return 0
+
+        def map_gh_repo2(x):
+            if x in gh_dependents.keys():
+                return len(set(gh_dependents[x]["Repositories"]) - set(gh_dependents[x]["Packages"]))
+            return 0
+
+        def map_woc_repo(x):
+            if x in woc_dependents.keys():
+                return len(woc_dependents[x])
+            return 0
+
+        def map_woc_repo2(x):
+            if x in woc_dependents.keys():
+                return len(set(woc_dependents[x]) - set(gh_dependents[x]["Packages"]))
+            return 0
+
+        def map_all_repo(x):
+            if x in woc_dependents.keys():
+                return len(set(gh_dependents[x]["Repositories"]).union(set(woc_dependents[x])))
+            return 0
+
+        def map_all_repo2(x):
+            if x in woc_dependents.keys():
+                return len(set(gh_dependents[x]["Repositories"]).union(set(woc_dependents[x])) - set(gh_dependents[x]["Packages"]))
+            return 0
+        pkg_layers['gh_down_repos'] = pkg_layers['package'].map(map_gh_repo)
+        pkg_layers['gh_down_repos2'] = pkg_layers['package'].map(map_gh_repo2)
+        pkg_layers['woc_down_repos'] = pkg_layers['package'].map(map_woc_repo)
+        pkg_layers['woc_down_repos2'] = pkg_layers['package'].map(
+            map_woc_repo2)
+        pkg_layers['comb_down_repos'] = pkg_layers['package'].map(map_all_repo)
+        pkg_layers['comb_down_repos2'] = pkg_layers['package'].map(
+            map_all_repo2)
+        pkg_layers = pkg_layers.fillna(0)
+    return pkg_layers
 
 
 if __name__ == "__main__":
     frameworks = ['tensorflow', 'pytorch',
                   'mxnet', 'paddlepaddle', 'mindspore']
     pkg_layers = unversioned_sc(frameworks)
+    pkg_layers = append_deps(pkg_layers)
     pkg_layers.to_csv("data/package_statistics.csv", index=False)
-    print(pkg_layers.head())
+    print(pkg_layers)

@@ -43,12 +43,18 @@ def get_python_packge_url(pkg: str, url: str):
     return "", None
 
 
-def parse_html(response: requests.Response, headers: dict) -> list:
+def parse_html(response: requests.Response, headers: dict, pkg: str) -> list:
     dependents = []
     flag = response.ok
     page = 1
     while (flag):
         soup = BeautifulSoup(response.content, 'lxml')
+        try:
+            val = soup.find("p", {"class": "mb-4"}).find("strong").text
+            if val != pkg:
+                return []
+        except:
+            return []
         tmp = [
             "{}/{}".format(
                 t.find('a', {"data-repository-hovercards-enabled": ""}).text,
@@ -79,15 +85,15 @@ def parse_html(response: requests.Response, headers: dict) -> list:
     return dependents
 
 
-def get_repositories(request_url: str, response: requests.Response, headers: dict) -> list:
+def get_repositories(request_url: str, response: requests.Response, headers: dict, pkg: str) -> list:
     logging.info(f"Repository: {request_url}")
     if response is None:
         response = requests.get(request_url, headers=headers)
     logging.info(f"Page {1}: Status Code {response.status_code}")
-    return parse_html(response, headers)
+    return parse_html(response, headers, pkg)
 
 
-def get_packages(request_url: str, headers: dict) -> list:
+def get_packages(request_url: str, headers: dict, pkg: str) -> list:
     if "package_id" in request_url:
         package_id = request_url.split("package_id=")[1]
         prefix = request_url.split('?')[0]
@@ -97,7 +103,7 @@ def get_packages(request_url: str, headers: dict) -> list:
     logging.info(f"Package: {request_url}")
     response = requests.get(request_url, headers=headers)
     logging.info(f"Page {1}: Status Code: {response.status_code}")
-    return parse_html(response, headers)
+    return parse_html(response, headers, pkg)
 
 
 def github_dependents(pkg: str, url: str):
@@ -105,8 +111,8 @@ def github_dependents(pkg: str, url: str):
     request_url, response = get_python_packge_url(pkg, url)
     if request_url == "":
         return list(), list()
-    repos = get_repositories(request_url, response, headers)
-    pkgs = get_packages(request_url, headers)
+    repos = get_repositories(request_url, response, headers, pkg)
+    pkgs = get_packages(request_url, headers, pkg)
     res = list(set(repos).union(set(pkgs)))
     logging.info(
         f"{pkg}: {len(repos)} repositories, {len(pkgs)} packages, {len(res)} dependents")

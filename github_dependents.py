@@ -49,12 +49,6 @@ def parse_html(response: requests.Response, headers: dict, pkg: str) -> list:
     page = 1
     while (flag):
         soup = BeautifulSoup(response.content, 'lxml')
-        try:
-            val = soup.find("p", {"class": "mb-4"}).find("strong").text
-            if val != pkg:
-                return []
-        except:
-            return []
         tmp = [
             "{}/{}".format(
                 t.find('a', {"data-repository-hovercards-enabled": ""}).text,
@@ -90,6 +84,14 @@ def get_repositories(request_url: str, response: requests.Response, headers: dic
     if response is None:
         response = requests.get(request_url, headers=headers)
     logging.info(f"Page {1}: Status Code {response.status_code}")
+    soup = BeautifulSoup(response.content, 'lxml')
+    try:
+        val = soup.find("p", {"class": "mb-4"}).find("strong").text
+        if val.lower() != pkg.lower():
+            print(f"Package {pkg} does not match {request_url}")
+            return []
+    except:
+        return []
     return parse_html(response, headers, pkg)
 
 
@@ -103,6 +105,14 @@ def get_packages(request_url: str, headers: dict, pkg: str) -> list:
     logging.info(f"Package: {request_url}")
     response = requests.get(request_url, headers=headers)
     logging.info(f"Page {1}: Status Code: {response.status_code}")
+    soup = BeautifulSoup(response.content, 'lxml')
+    try:
+        val = soup.find("p", {"class": "mb-4"}).find("strong").text
+        if val.lower() != pkg.lower():
+            print(f"Package {pkg} does not match {request_url}")
+            return []
+    except:
+        return []
     return parse_html(response, headers, pkg)
 
 

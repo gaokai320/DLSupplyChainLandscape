@@ -49,6 +49,7 @@ The Landscape of Deep Learning Supply Chain
     python top_level_packages.py
     # extract python dependencies from woc
     python build_woc_dbs.py
+    python clean_import_names.py
     ```
 
 5. Append downstream statistics

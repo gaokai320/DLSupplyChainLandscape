@@ -1,7 +1,6 @@
 {
     "125softNLP": [
-        "125softNLP",
-        "tests"
+        "125softNLP"
     ],
     "1madana": [],
     "3d-connectX-env": [
@@ -15,16 +14,12 @@
         "ACSNI"
     ],
     "ADAFMNoiseReducer": [
-        "ADAFMNoiseReducer",
-        "ADAFMNoiseReducer/models",
-        "ADAFMNoiseReducer/models/modules"
+        "ADAFMNoiseReducer"
     ],
     "ADLStream": [
         "ADLStream"
     ],
-    "ANN-Implementation-kkkumar2": [
-        "utils"
-    ],
+    "ANN-Implementation-kkkumar2": [],
     "ASAPPpy": [
         "ASAPPpy"
     ],
@@ -78,7 +73,6 @@
         "AutoGAN"
     ],
     "AutoQAI": [
-        "ml",
         "quantum"
     ],
     "AutoTorch": [
@@ -97,20 +91,13 @@
     "BERTVector": [
         "BERTVector"
     ],
-    "BOML": [
-        "boml"
-    ],
+    "BOML": [],
     "BPrune": [
-        "bprune",
-        "example",
-        "test"
+        "bprune"
     ],
     "BSPPypi3": [],
     "BackgroundVellore": [
-        "Emotion_Detection2",
-        "background",
-        "main",
-        "src"
+        "Emotion_Detection2"
     ],
     "Barberchop": [
         "Barberchop"
@@ -139,15 +126,13 @@
         "brewgorithm"
     ],
     "BuilT": [
-        "built",
-        "tests"
+        "built"
     ],
     "BxModels": [
         "bxmodels"
     ],
     "BxTorch": [
-        "bxtorch",
-        "tests"
+        "bxtorch"
     ],
     "CAD-Recognition": [
         "CAD_Recognition"
@@ -174,9 +159,7 @@
     "Cemotion": [
         "cemotion"
     ],
-    "Cemotion-apple": [
-        "cemotion"
-    ],
+    "Cemotion-apple": [],
     "ChatbotVerse": [
         "ChatbotVerse"
     ],
@@ -236,9 +219,7 @@
     "DCA": [
         "dca"
     ],
-    "DDPG-TF": [
-        "ddpg"
-    ],
+    "DDPG-TF": [],
     "DI-engine": [
         "ding",
         "dizoo"
@@ -257,11 +238,7 @@
         "DLHelper"
     ],
     "DLPipeline": [
-        "build",
-        "dlpipeline",
-        "exclude",
-        "samples",
-        "tests"
+        "dlpipeline"
     ],
     "DLTKDL": [
         "dltkdl"
@@ -285,9 +262,7 @@
     "DXC-Industrialized-AI-Starter": [
         "dxc"
     ],
-    "DXC-RL": [
-        "dxc"
-    ],
+    "DXC-RL": [],
     "Da-Ponz": [
         "da_ponz"
     ],
@@ -327,20 +302,14 @@
         "ui"
     ],
     "DeepGProp": [
-        "dgp",
-        "tests"
+        "dgp"
     ],
     "DeepMatter": [
         "DeepMatter"
     ],
-    "DeepNN": [
-        "Examples",
-        "Tutorials",
-        "inn"
-    ],
+    "DeepNN": [],
     "DeepRank-GNN": [
-        "deeprank_gnn",
-        "tests"
+        "deeprank_gnn"
     ],
     "DeepSR": [],
     "DeepSpectrum": [
@@ -372,9 +341,7 @@
         "DominantSparseEigenAD"
     ],
     "Draugr": [
-        "benchmarks",
-        "draugr",
-        "tests"
+        "draugr"
     ],
     "DynEnv": [
         "DynEnv"
@@ -385,12 +352,10 @@
         "EELSFitter"
     ],
     "EQTransformer": [
-        "EQTransformer",
-        "tests"
+        "EQTransformer"
     ],
     "ESEm": [
-        "esem",
-        "tests"
+        "esem"
     ],
     "ESINet": [
         "ESINet"
@@ -409,16 +374,13 @@
         "echotorch"
     ],
     "EduCDM": [
-        "EduCDM",
-        "tests"
+        "EduCDM"
     ],
     "EduKTM": [
-        "EduKTM",
-        "tests"
+        "EduKTM"
     ],
     "EduNLP": [
-        "EduNLP",
-        "tests"
+        "EduNLP"
     ],
     "Edward": [
         "edward"
@@ -437,12 +399,9 @@
         "Notebooks"
     ],
     "EthicML": [
-        "ethicml",
-        "tests"
+        "ethicml"
     ],
-    "Eve-ml": [
-        "eve"
-    ],
+    "Eve-ml": [],
     "EvoInjection": [],
     "ExGrads": [
         "exgrads"
@@ -461,15 +420,12 @@
     "FFF-profiler": [],
     "FFFF-profiler": [],
     "FFTA": [
-        "ffta",
-        "tests"
+        "ffta"
     ],
     "FQCS": [
         "FQCS"
     ],
-    "Face-Detector-shu244": [
-        "face_detector"
-    ],
+    "Face-Detector-shu244": [],
     "FaceChannel": [
         "FaceChannel"
     ],
@@ -502,9 +458,7 @@
     "FireHR": [
         "FireHR"
     ],
-    "Flask-Image-Search": [
-        "flask_image_search"
-    ],
+    "Flask-Image-Search": [],
     "Fluence": [
         "fluence"
     ],
@@ -547,87 +501,28 @@
         "ginniro"
     ],
     "GraphFloris": [
-        "GraphFloris",
-        "examples"
+        "GraphFloris"
     ],
-    "Greenformer": [
-        "greenformer"
-    ],
+    "Greenformer": [],
     "H-profiler": [],
     "H0": [],
     "HEBO": [
-        "hebo",
-        "test"
+        "hebo"
     ],
-    "HEBO-mindspore": [
-        "hebo",
-        "test"
-    ],
+    "HEBO-mindspore": [],
     "HMBP2": [],
     "HMOBSTER": [
         "mobster"
     ],
     "HOPP": [
         "alt_dev",
-        "alt_dev\\\\__pycache__",
-        "hybrid",
-        "hybrid\\\\__pycache__",
-        "hybrid\\\\add_custom_modules",
-        "hybrid\\\\add_custom_modules\\\\__pycache__",
-        "hybrid\\\\dispatch",
-        "hybrid\\\\dispatch\\\\__pycache__",
-        "hybrid\\\\dispatch\\\\power_sources",
-        "hybrid\\\\dispatch\\\\power_sources\\\\__pycache__",
-        "hybrid\\\\dispatch\\\\power_storage",
-        "hybrid\\\\dispatch\\\\power_storage\\\\__pycache__",
-        "hybrid\\\\layout",
-        "hybrid\\\\layout\\\\__pycache__",
-        "hybrid\\\\layout\\\\flicker_data",
-        "hybrid\\\\layout\\\\flicker_data\\\\__pycache__",
-        "hybrid\\\\pySSC_daotk",
-        "hybrid\\\\pySSC_daotk\\\\__pycache__",
-        "hybrid\\\\pySSC_daotk\\\\libs",
-        "hybrid\\\\pySSC_daotk\\\\tower_data",
-        "hybrid\\\\pySSC_daotk\\\\trough_data",
-        "hybrid\\\\resource",
-        "hybrid\\\\resource\\\\__pycache__",
-        "hybrid\\\\sites",
-        "hybrid\\\\sites\\\\__pycache__",
-        "hybrid\\\\wind",
-        "hybrid\\\\wind\\\\__pycache__",
-        "tools",
-        "tools\\\\__pycache__",
-        "tools\\\\analysis",
-        "tools\\\\analysis\\\\__pycache__",
-        "tools\\\\analysis\\\\bos",
-        "tools\\\\analysis\\\\bos\\\\__pycache__",
-        "tools\\\\optimization",
-        "tools\\\\optimization\\\\__pycache__",
-        "tools\\\\optimization\\\\candidate_converter",
-        "tools\\\\optimization\\\\candidate_converter\\\\__pycache__",
-        "tools\\\\optimization\\\\command_line_tools",
-        "tools\\\\optimization\\\\command_line_tools\\\\__pycache__",
-        "tools\\\\optimization\\\\data_logging",
-        "tools\\\\optimization\\\\data_logging\\\\__pycache__",
-        "tools\\\\optimization\\\\driver",
-        "tools\\\\optimization\\\\driver\\\\__pycache__",
-        "tools\\\\optimization\\\\optimizer",
-        "tools\\\\optimization\\\\optimizer\\\\__pycache__",
-        "tools\\\\optimization\\\\optimizer\\\\dimension",
-        "tools\\\\optimization\\\\optimizer\\\\dimension\\\\__pycache__",
-        "tools\\\\resource",
-        "tools\\\\resource\\\\__pycache__",
-        "tools\\\\resource\\\\resource_loader",
-        "tools\\\\resource\\\\resource_loader\\\\__pycache__"
+        "hybrid"
     ],
     "HackDuck": [
         "HackDuck"
     ],
     "Heimdallr": [
-        "benchmarks",
-        "exclude",
-        "heimdallr",
-        "tests"
+        "heimdallr"
     ],
     "HipoMap": [
         "HipoMap"
@@ -684,11 +579,9 @@
         "indexedconv"
     ],
     "Influenciae": [
-        "influenciae",
-        "tests"
+        "influenciae"
     ],
     "Inpr": [
-        "INPR",
         "inpr"
     ],
     "InteractionSimulator": [
@@ -699,15 +592,13 @@
     ],
     "Itachi": [
         "bakend",
-        "dataset",
         "itachi"
     ],
     "IteratedLearning": [
         "IteratedLearning"
     ],
     "JLpyUtils": [
-        "JLpyUtils",
-        "tests"
+        "JLpyUtils"
     ],
     "JT-Techfield": [
         "JT"
@@ -737,15 +628,13 @@
         "karka"
     ],
     "Keras": [
-        "docs",
         "keras"
     ],
     "Keras-Applications-3D": [
         "keras_applications_3d"
     ],
     "Keras-TextClassification": [
-        "keras_textclassification",
-        "test"
+        "keras_textclassification"
     ],
     "Keras-clip": [],
     "Keras28Models": [
@@ -772,11 +661,7 @@
         "lpctorch"
     ],
     "LRSPhotos": [
-        "eye_classifier",
-        "eye_detector",
-        "face_detector",
-        "lrsphotos",
-        "smile_classifier"
+        "lrsphotos"
     ],
     "LanguageIdentifier": [
         "LanguageIdentifier"
@@ -817,8 +702,7 @@
         "MRISeg"
     ],
     "Mask-Face-Inference": [
-        "Losses",
-        "model"
+        "Losses"
     ],
     "MatchZoo": [
         "matchzoo"
@@ -830,11 +714,7 @@
         "metann"
     ],
     "MiMSI": [
-        "analyze",
-        "data",
-        "main",
-        "model",
-        "utils"
+        "analyze"
     ],
     "MiScan": [
         "MiScan"
@@ -870,8 +750,7 @@
         "MultiInputTimeseriesGenerator"
     ],
     "NALU": [
-        "nalu",
-        "tests"
+        "nalu"
     ],
     "NBEATS": [
         "NBEATS"
@@ -880,10 +759,7 @@
         "NERDA"
     ],
     "NIA-image-2-latex": [],
-    "NIA-image-2latex": [
-        "dataset",
-        "utils"
-    ],
+    "NIA-image-2latex": [],
     "NIA-image2latex": [],
     "NIA-image2latex-ver1": [],
     "NIA-image2table": [],
@@ -896,9 +772,7 @@
     "NLP-LIB": [
         "NLP_LIB"
     ],
-    "NLP-LIB-cpu": [
-        "NLP_LIB"
-    ],
+    "NLP-LIB-cpu": [],
     "NLQF": [],
     "NNClass": [
         "NNClass"
@@ -919,14 +793,10 @@
         "NaMAZU"
     ],
     "NeodroidAgent": [
-        "docs",
-        "neodroidagent",
-        "samples"
+        "neodroidagent"
     ],
     "NeodroidVision": [
-        "neodroidvision",
-        "samples",
-        "tests"
+        "neodroidvision"
     ],
     "NiLBS": [
         "NiLBS"
@@ -935,15 +805,13 @@
         "niftynet"
     ],
     "NucDetect": [
-        "core",
         "fcn",
         "gui",
         "overexposure"
     ],
     "OBC2AI": [],
     "OCRfixr": [
-        "ocrfixr",
-        "tests"
+        "ocrfixr"
     ],
     "OSKut": [
         "oskut"
@@ -964,8 +832,7 @@
         "openhands"
     ],
     "OpenNIR-XPM": [
-        "onir",
-        "test"
+        "onir"
     ],
     "OpenNMT-py": [
         "onmt"
@@ -974,25 +841,15 @@
         "opennmt"
     ],
     "Orange-3-MNE-Widgets": [],
-    "Orange3-Educational-zh": [
-        "orangecontrib"
-    ],
+    "Orange3-Educational-zh": [],
     "Orange3-MNE": [
         "Orange3MNE"
     ],
     "Orange3-Network-zh": [],
-    "Orange3-Recommendation-zh": [
-        "orangecontrib"
-    ],
-    "Orange3-Shangtang": [
-        "orangecontrib"
-    ],
-    "Orange3-Text-zh": [
-        "orangecontrib"
-    ],
-    "Orange3-Timeseries-zh": [
-        "orangecontrib"
-    ],
+    "Orange3-Recommendation-zh": [],
+    "Orange3-Shangtang": [],
+    "Orange3-Text-zh": [],
+    "Orange3-Timeseries-zh": [],
     "Orange3-zh": [],
     "OutbreakPAD": [
         "OutbreakPAD"
@@ -1009,10 +866,7 @@
     "PaMoveIt": [
         "pamoveit"
     ],
-    "PaPie": [
-        "pie",
-        "test"
-    ],
+    "PaPie": [],
     "PaoDing": [
         "paoding"
     ],
@@ -1035,8 +889,7 @@
         "potosnail"
     ],
     "Poutyne": [
-        "poutyne",
-        "tests"
+        "poutyne"
     ],
     "PsychRNN": [
         "psychrnn"
@@ -1046,9 +899,7 @@
     ],
     "Py-Serv": [],
     "PyABSA": [],
-    "PyAutoFact": [
-        "greenformer"
-    ],
+    "PyAutoFact": [],
     "PyAutoMaker": [
         "PyAutoMaker"
     ],
@@ -1107,12 +958,9 @@
         "pythonvideoannotator_module_deeplab"
     ],
     "Pytorch-NLU": [
-        "pytorch_nlu",
-        "test"
+        "pytorch_nlu"
     ],
-    "Pytorch-detection": [
-        "retinaface"
-    ],
+    "Pytorch-detection": [],
     "PytorchCNNModules": [
         "PytorchCNNModules"
     ],
@@ -1163,8 +1011,7 @@
         "Recursive_Symmetry_Aware_Materials_Microstructure_Explorer"
     ],
     "ReiL": [
-        "reil",
-        "tests"
+        "reil"
     ],
     "Resemblyzer": [
         "resemblyzer"
@@ -1180,7 +1027,7 @@
         "SDD"
     ],
     "SDDect": [
-        "SDD"
+        "SocialDistance"
     ],
     "SDE-Net-Keras": [],
     "SDG": [
@@ -1209,7 +1056,6 @@
         "sagitta"
     ],
     "SciANN": [
-        "docs",
         "sciann"
     ],
     "SeeMee": [
@@ -1279,9 +1125,7 @@
     "StrawberryFields": [
         "strawberryfields"
     ],
-    "StrawberryFields-gpu": [
-        "strawberryfields"
-    ],
+    "StrawberryFields-gpu": [],
     "StyleTransferArt": [
         "StyleTransferArt"
     ],
@@ -1334,8 +1178,7 @@
     ],
     "THE-profiler": [],
     "TKT": [
-        "TKT",
-        "tests"
+        "TKT"
     ],
     "TLAF": [
         "TLA"
@@ -1368,15 +1211,11 @@
     "Tensorflow-ChatBots": [
         "tensorflow_chatbots"
     ],
-    "TensorflowTTS": [
-        "tensorflow_tts"
-    ],
+    "TensorflowTTS": [],
     "Tensorforce": [
         "tensorforce"
     ],
-    "TextAnalyticsLab": [
-        "textlab"
-    ],
+    "TextAnalyticsLab": [],
     "TextLab": [
         "textlab"
     ],
@@ -1427,26 +1266,21 @@
     "WHU-ScoreChecker": [
         "scorechecker"
     ],
-    "WeightWatcher": [
-        "weightwatcher"
-    ],
+    "WeightWatcher": [],
     "WordEmbed": [],
     "XBNet": [
         "XBNet"
     ],
     "XKT": [
-        "XKT",
-        "tests"
+        "XKT"
     ],
     "Xplique": [
-        "tests",
         "xplique"
     ],
     "Yikai-helper-funcs": [
         "Yikai_helper_funcs"
     ],
     "Yolo-Distribution-Distillation-Demo": [
-        "model",
         "utilz"
     ],
     "Yolo-ED2-Demo": [
@@ -1462,39 +1296,20 @@
         "a2t"
     ],
     "a3t": [
-        "a3t",
-        "tests"
+        "a3t"
     ],
     "a5dev": [
         "a5dev"
     ],
     "aa-profiler": [],
     "aaa-jiang": [],
-    "abdelrahman-obfuscate": [
-        "convo",
-        "convo_sdk",
-        "pytransform"
-    ],
-    "abdo": [
-        "convo",
-        "convo_sdk"
-    ],
-    "abdo-obfuscate": [
-        "convo",
-        "convo_sdk",
-        "pytransform"
-    ],
-    "abdoTheBest": [
-        "genn"
-    ],
-    "abdoconvo": [
-        "convo",
-        "convo_sdk"
-    ],
+    "abdelrahman-obfuscate": [],
+    "abdo": [],
+    "abdo-obfuscate": [],
+    "abdoTheBest": [],
+    "abdoconvo": [],
     "abmarl": [
-        "abmarl",
-        "examples",
-        "tests"
+        "abmarl"
     ],
     "abraham3k": [
         "abraham3k"
@@ -1522,7 +1337,6 @@
     ],
     "activations": [
         "activations",
-        "models",
         "visualize"
     ],
     "active-learning-img-augmentation-utils": [
@@ -1537,8 +1351,7 @@
         "cext_acv",
         "cyext_acv",
         "cyext_acv_cache",
-        "cyext_acv_nopa",
-        "experiments"
+        "cyext_acv_nopa"
     ],
     "adabelief-pytorch": [
         "adabelief_pytorch"
@@ -1558,17 +1371,11 @@
     "adamod": [
         "adamod"
     ],
-    "adapt-diagnostics": [
-        "adapt",
-        "bin"
-    ],
+    "adapt-diagnostics": [],
     "adaptation": [
-        "adapt",
-        "tests"
+        "adapt"
     ],
-    "adapted-NERDA": [
-        "NERDA"
-    ],
+    "adapted-NERDA": [],
     "adaptnlp": [
         "adaptnlp"
     ],
@@ -1576,8 +1383,7 @@
         "adas"
     ],
     "adeptRL": [
-        "adept",
-        "tests"
+        "adept"
     ],
     "adit": [],
     "adjacent-attention-pytorch": [
@@ -1615,14 +1421,12 @@
     "aether": [
         "aether",
         "aether_shared",
-        "api",
         "insightgis",
         "libraries",
         "utilities"
     ],
     "affordable": [
-        "affordable",
-        "samples"
+        "affordable"
     ],
     "aft-pt": [
         "aft_pt"
@@ -1633,16 +1437,12 @@
     "agc-optims": [
         "agc_optims"
     ],
-    "agents": [
-        "agents"
-    ],
+    "agents": [],
     "aglvq": [
         "aglvq"
     ],
     "agml": [],
-    "ai-arena-21": [
-        "aiarena21"
-    ],
+    "ai-arena-21": [],
     "ai-core": [
         "ai_core"
     ],
@@ -1651,12 +1451,8 @@
         "ai_flow_plugins",
         "airflow"
     ],
-    "ai-graphics": [
-        "graphics"
-    ],
-    "ai-graphics-gpu": [
-        "graphics"
-    ],
+    "ai-graphics": [],
+    "ai-graphics-gpu": [],
     "ai-katie": [
         "katie"
     ],
@@ -1666,13 +1462,9 @@
     "ai-python": [
         "ai-python"
     ],
-    "ai-trainer": [
-        "trainer",
-        "tutorials"
-    ],
+    "ai-trainer": [],
     "ai-traineree": [
-        "ai_traineree",
-        "examples"
+        "ai_traineree"
     ],
     "ai-utils": [
         "ai_utils"
@@ -1688,8 +1480,7 @@
         "aiarena21"
     ],
     "aibolit": [
-        "aibolit",
-        "test"
+        "aibolit"
     ],
     "aibomc": [
         "aibomc"
@@ -1698,8 +1489,7 @@
         "aichatbot"
     ],
     "aicmder": [
-        "aicmder",
-        "model"
+        "aicmder"
     ],
     "aidatafactory": [
         "aidatafactory"
@@ -1746,8 +1536,7 @@
         "aimodelshare"
     ],
     "aiotf": [
-        "aiotf",
-        "tensorflow_serving"
+        "aiotf"
     ],
     "aipack": [
         "aipack"
@@ -1784,12 +1573,10 @@
     ],
     "aitoolbox": [
         "aitoolbox",
-        "tests",
         "tests_gpu"
     ],
     "aix360": [
-        "aix360",
-        "tests"
+        "aix360"
     ],
     "aixm": [],
     "aixm-gpu": [],
@@ -1800,8 +1587,7 @@
         "aladdin"
     ],
     "alcokit": [
-        "alcokit",
-        "tests"
+        "alcokit"
     ],
     "alectio-sdk": [
         "alectio_sdk"
@@ -1836,8 +1622,7 @@
     "alira": [],
     "all-packages": [],
     "allRank": [
-        "allrank",
-        "tests"
+        "allrank"
     ],
     "allencv": [
         "allencv"
@@ -1856,9 +1641,7 @@
         "allennlp_models"
     ],
     "allennlp-optuna": [],
-    "allennlp-pvt-nightly": [
-        "allennlp"
-    ],
+    "allennlp-pvt-nightly": [],
     "allennlp-runmodel": [
         "allennlp_runmodel"
     ],
@@ -1894,9 +1677,7 @@
     "alphafold": [
         "alphafold"
     ],
-    "alphafold-colabfold": [
-        "alphafold"
-    ],
+    "alphafold-colabfold": [],
     "alphafold2": [
         "alphafold2"
     ],
@@ -1924,8 +1705,7 @@
         "amber"
     ],
     "amorf": [
-        "amorf",
-        "examples"
+        "amorf"
     ],
     "amplitf": [
         "amplitf"
@@ -1936,9 +1716,7 @@
     "amt-tools": [
         "amt_tools"
     ],
-    "anago": [
-        "anago"
-    ],
+    "anago": [],
     "anago-py367": [
         "anago"
     ],
@@ -1970,16 +1748,14 @@
     ],
     "anneal": [],
     "annolid": [
-        "annolid",
-        "tests"
+        "annolid"
     ],
     "annotations-comparer": [],
     "anomalous": [
         "anomalous"
     ],
     "anomaly-detection-framework": [
-        "anomaly_detection",
-        "anomaly_detection/web"
+        "anomaly_detection"
     ],
     "anomaly-detection-models": [
         "anomaly_detection_models"
@@ -1997,9 +1773,7 @@
         "antinex_utils"
     ],
     "antspynet": [
-        "antspynet",
-        "antspynet/architectures",
-        "antspynet/utilities"
+        "antspynet"
     ],
     "anuvaad": [
         "anuvaad"
@@ -2007,8 +1781,7 @@
     "anvil-rl": [],
     "anvilrl": [],
     "any-face": [
-        "anony_face",
-        "app"
+        "anony_face"
     ],
     "anyrl": [
         "anyrl"
@@ -2021,9 +1794,7 @@
     ],
     "apparel-description-generator": [],
     "appzoo": [
-        "appzoo",
-        "configs",
-        "examples"
+        "appzoo"
     ],
     "apteryx-transformers": [],
     "arabaci01": [
@@ -2039,8 +1810,7 @@
         "arcface"
     ],
     "ardent": [
-        "ardent",
-        "tests"
+        "ardent"
     ],
     "ardiss": [
         "ardiss"
@@ -2054,12 +1824,10 @@
     ],
     "argos-trains": [],
     "argos-translate-files": [
-        "argostranslatefiles",
-        "tests"
+        "argostranslatefiles"
     ],
     "argostranslate": [
-        "argostranslate",
-        "tests"
+        "argostranslate"
     ],
     "argostranslatefiles": [],
     "argusvision": [
@@ -2107,8 +1875,7 @@
         "asdfghjkl"
     ],
     "asian-bart": [
-        "asian_bart",
-        "tests"
+        "asian_bart"
     ],
     "aspect-based-sentiment-analysis": [
         "aspect_based_sentiment_analysis"
@@ -2124,23 +1891,13 @@
     "asrecognition": [],
     "asreview": [
         "asreview",
-        "test"
-    ],
-    "asreview-covid19": [
         "asreviewcontrib"
     ],
-    "asreview-hyperopt": [
-        "asreviewcontrib"
-    ],
-    "asreview-statistics": [
-        "asreviewcontrib"
-    ],
-    "asreview-visualization": [
-        "asreviewcontrib"
-    ],
-    "asreview-wordcloud": [
-        "asreviewcontrib"
-    ],
+    "asreview-covid19": [],
+    "asreview-hyperopt": [],
+    "asreview-statistics": [],
+    "asreview-visualization": [],
+    "asreview-wordcloud": [],
     "assistant-chat-check": [
         "assistant_chat_check"
     ],
@@ -2151,8 +1908,7 @@
         "asteroid_filterbanks"
     ],
     "astir": [
-        "astir",
-        "tests"
+        "astir"
     ],
     "astro-parsnip": [
         "parsnip"
@@ -2174,14 +1930,8 @@
         "atacworks",
         "atacworks_wheel",
         "ci",
-        "configs",
-        "data",
-        "docs",
         "local_bin",
-        "reference",
-        "scripts",
-        "tests",
-        "tutorials"
+        "reference"
     ],
     "atalaya": [
         "atalaya"
@@ -2205,8 +1955,7 @@
         "atom3d"
     ],
     "atomai": [
-        "atomai",
-        "test"
+        "atomai"
     ],
     "attacut": [
         "attacut"
@@ -2224,8 +1973,7 @@
         "audeep"
     ],
     "aucmedi": [
-        "aucmedi",
-        "tests"
+        "aucmedi"
     ],
     "audacitorch": [
         "audacitorch"
@@ -2234,12 +1982,9 @@
         "audio_augmentations"
     ],
     "audio2text": [
-        "audio2text",
-        "tests"
+        "audio2text"
     ],
-    "audiomodels": [
-        "src"
-    ],
+    "audiomodels": [],
     "audiozen": [],
     "audlib": [
         "audlib"
@@ -2255,7 +2000,6 @@
     ],
     "augly-jp": [],
     "augmentation-engine": [
-        "CONSTANTS",
         "filament_augmentation"
     ],
     "augmix-tf": [
@@ -2271,12 +2015,10 @@
         "aursad"
     ],
     "auto-LiRPA": [
-        "auto_LiRPA",
-        "examples"
+        "auto_LiRPA"
     ],
     "auto-caption": [
-        "auto_caption",
-        "tests"
+        "auto_caption"
     ],
     "auto-cnn": [
         "auto_cnn"
@@ -2288,12 +2030,8 @@
         "auto_feature_extraction",
         "feature_extraction"
     ],
-    "auto-graph-learning": [
-        "autogl"
-    ],
-    "auto-ml-cl": [
-        "auto_ml"
-    ],
+    "auto-graph-learning": [],
+    "auto-ml-cl": [],
     "auto-orion": [],
     "auto-query-cluster": [
         "auto_query_cluster"
@@ -2302,16 +2040,13 @@
         "auto_tensorflow"
     ],
     "autoPyTorch": [
-        "autoPyTorch",
-        "examples",
-        "test"
+        "autoPyTorch"
     ],
     "auto_ml": [
         "auto_ml"
     ],
     "autoai-ts-libs": [
-        "autoai_ts_libs",
-        "tests"
+        "autoai_ts_libs"
     ],
     "autoalbument": [
         "autoalbument"
@@ -2331,9 +2066,7 @@
     "autodl": [
         "autodl"
     ],
-    "autodl-gpu": [
-        "autodl"
-    ],
+    "autodl-gpu": [],
     "autoforecast": [
         "autoforecast"
     ],
@@ -2346,16 +2079,13 @@
     "autogluon": [
         "autogluon"
     ],
-    "autogluon.tabular": [
-        "autogluon"
-    ],
+    "autogluon.tabular": [],
     "autograd-lib": [
         "autograd_lib"
     ],
     "autokeras": [
         "autokeras",
-        "benchmark",
-        "tests"
+        "benchmark"
     ],
     "autolabel": [
         "autolabel"
@@ -2366,9 +2096,7 @@
     "automatic-speech-recognition": [
         "automatic_speech_recognition"
     ],
-    "automl": [
-        "auto_ml"
-    ],
+    "automl": [],
     "automl-alex": [
         "automl_alex"
     ],
@@ -2381,13 +2109,10 @@
         "automlkiller"
     ],
     "autonn": [
-        "autonn",
-        "tests"
+        "autonn"
     ],
     "autonomous-learning-library": [
-        "all",
-        "examples",
-        "scripts"
+        "all"
     ],
     "autonvtx": [
         "autonvtx"
@@ -2469,42 +2194,21 @@
         "azalea"
     ],
     "azureml-automl-core": [
-        "azureml",
-        "tests"
-    ],
-    "azureml-automl-dnn-nlp": [
-        "azureml",
-        "tests"
-    ],
-    "azureml-automl-dnn-vision": [
-        "azureml",
-        "tests"
-    ],
-    "azureml-automl-runtime": [
         "azureml"
     ],
+    "azureml-automl-dnn-nlp": [],
+    "azureml-automl-dnn-vision": [],
+    "azureml-automl-runtime": [],
     "azureml-contrib-automl-dnn-forecasting": [
         "Deep4Cast",
-        "azureml",
         "forecast"
     ],
-    "azureml-contrib-automl-dnn-vision": [
-        "azureml",
-        "tests"
-    ],
-    "azureml-contrib-brainwave": [
-        "azureml"
-    ],
-    "azureml-designer-pytorch-modules": [
-        "azureml"
-    ],
-    "azureml-designer-recommender-modules": [
-        "azureml"
-    ],
+    "azureml-contrib-automl-dnn-vision": [],
+    "azureml-contrib-brainwave": [],
+    "azureml-designer-pytorch-modules": [],
+    "azureml-designer-recommender-modules": [],
     "azureml-train-automl": [],
-    "azureml-train-automl-runtime": [
-        "azureml"
-    ],
+    "azureml-train-automl-runtime": [],
     "azuremlftk": [
         "ftk"
     ],
@@ -2524,8 +2228,7 @@
         "backpack"
     ],
     "backprop": [
-        "backprop",
-        "tests"
+        "backprop"
     ],
     "backtraderbd": [
         "backtraderbd"
@@ -2586,16 +2289,13 @@
         "batchglm"
     ],
     "bavard": [
-        "bavard",
-        "test"
+        "bavard"
     ],
     "bavard-ml-common": [
-        "bavard_ml_common",
-        "test"
+        "bavard_ml_common"
     ],
     "bavard-nlu": [
-        "bavard_nlu",
-        "test"
+        "bavard_nlu"
     ],
     "bayes-optim": [
         "bayes_optim"
@@ -2649,8 +2349,7 @@
         "bert_experimental"
     ],
     "bert-for-tf2": [
-        "bert",
-        "tests"
+        "bert"
     ],
     "bert-multitask-learning": [
         "bert_multitask_learning"
@@ -2679,8 +2378,7 @@
         "text_classifier"
     ],
     "bert-text-summarizer": [
-        "bert_text_summarizer",
-        "test"
+        "bert_text_summarizer"
     ],
     "bert-token-tagger": [],
     "bert2tf": [
@@ -2720,9 +2418,7 @@
         "besuto"
     ],
     "beta-rec": [
-        "beta_rec",
-        "examples",
-        "tests"
+        "beta_rec"
     ],
     "betbot": [
         "betbot"
@@ -2769,16 +2465,12 @@
         "bindsnet"
     ],
     "bio-embeddings": [],
-    "bio-embeddings-allennlp": [
-        "allennlp"
-    ],
+    "bio-embeddings-allennlp": [],
     "bio-embeddings-deepblast": [
         "deepblast"
     ],
     "bio-embeddings-plus": [],
-    "bio-embeddings-tape-proteins": [
-        "tape"
-    ],
+    "bio-embeddings-tape-proteins": [],
     "bio-image-unet": [],
     "bio-transformers": [
         "biotransformers"
@@ -2800,8 +2492,7 @@
         "biopytorch"
     ],
     "biotorch": [
-        "biotorch",
-        "tests"
+        "biotorch"
     ],
     "bird-or-bicycle": [
         "bird_or_bicycle"
@@ -2813,8 +2504,7 @@
         "bittensor"
     ],
     "blackbox-mpc": [
-        "blackbox_mpc",
-        "tutorials"
+        "blackbox_mpc"
     ],
     "blackfox-extras": [
         "blackfox_extras"
@@ -2834,9 +2524,7 @@
     "blobcity": [
         "blobcity"
     ],
-    "block.bootstrap.pytorch": [
-        "block"
-    ],
+    "block.bootstrap.pytorch": [],
     "blokus-gym": [
         "blokus_gym",
         "rainbow"
@@ -2850,12 +2538,9 @@
     "blusky": [
         "blusky"
     ],
-    "bmlx-metadata": [
-        "ml_metadata"
-    ],
+    "bmlx-metadata": [],
     "bmstu-ovchinnikov-capsnet": [
-        "bmstu",
-        "tests"
+        "bmstu"
     ],
     "bnlearn": [
         "bnlearn"
@@ -2887,9 +2572,7 @@
     "bootleg": [
         "bootleg"
     ],
-    "bootstrap.pytorch": [
-        "bootstrap"
-    ],
+    "bootstrap.pytorch": [],
     "borch": [
         "borch"
     ],
@@ -2900,8 +2583,7 @@
         "botnoi"
     ],
     "botorch": [
-        "botorch",
-        "test"
+        "botorch"
     ],
     "bottleneck-transformer-pytorch": [
         "bottleneck_transformer_pytorch"
@@ -2931,8 +2613,7 @@
     "bpnlp": [],
     "bpreg": [],
     "brainlit": [
-        "brainlit",
-        "tests"
+        "brainlit"
     ],
     "brainmri-ps": [
         "brainmri_ps"
@@ -2964,12 +2645,7 @@
         "brevitas_examples"
     ],
     "brnolm": [
-        "brnolm",
-        "brnolm/data_pipeline",
-        "brnolm/language_models",
-        "brnolm/oov_clustering",
-        "brnolm/runtime",
-        "brnolm/smm_itf"
+        "brnolm"
     ],
     "brook": [
         "brook"
@@ -2999,13 +2675,10 @@
         "buzz"
     ],
     "buzzword": [
-        "buzzword",
-        "buzzword/parts",
-        "docs"
+        "buzzword"
     ],
     "bwmd": [
-        "bwmd",
-        "test"
+        "bwmd"
     ],
     "byol-pytorch": [
         "byol_pytorch"
@@ -3014,25 +2687,9 @@
         "bytesep"
     ],
     "c3-toolset": [
-        "c3",
-        "c3/generator",
-        "c3/libraries",
-        "c3/optimizers",
-        "c3/qiskit",
-        "c3/schemas",
-        "c3/signal",
-        "c3/utils"
+        "c3"
     ],
-    "c3-toolset-nightly": [
-        "c3",
-        "c3/generator",
-        "c3/libraries",
-        "c3/optimizers",
-        "c3/qiskit",
-        "c3/schemas",
-        "c3/signal",
-        "c3/utils"
-    ],
+    "c3-toolset-nightly": [],
     "c4v-py": [],
     "cTPnet": [
         "ctpnet"
@@ -3099,9 +2756,7 @@
     "cardea": [
         "cardea"
     ],
-    "cardec": [
-        "CarDEC"
-    ],
+    "cardec": [],
     "careless": [
         "careless"
     ],
@@ -3112,16 +2767,14 @@
         "carla"
     ],
     "carpedm": [
-        "carpedm",
-        "test"
+        "carpedm"
     ],
     "castordashboard": [
         "castordashboard"
     ],
     "cat-dog-classifier": [],
     "catalyst": [
-        "catalyst",
-        "tests"
+        "catalyst"
     ],
     "catalyst-rl": [
         "catalyst_rl"
@@ -3143,8 +2796,7 @@
         "causalnex"
     ],
     "causing": [
-        "causing",
-        "tests"
+        "causing"
     ],
     "caver": [
         "caver"
@@ -3160,13 +2812,11 @@
     ],
     "cclm": [],
     "cctv-analysis": [
-        "model",
         "performance"
     ],
     "cdacal": [],
     "cde": [
-        "cde",
-        "tests"
+        "cde"
     ],
     "cdeid": [
         "cdeid"
@@ -3188,7 +2838,6 @@
         "cell_tracking_BC"
     ],
     "cell2cell": [
-        "benchmarks",
         "cell2cell"
     ],
     "cell2location": [
@@ -3201,8 +2850,7 @@
         "cellfinder"
     ],
     "cellfinder-core": [
-        "cellfinder_core",
-        "tests"
+        "cellfinder_core"
     ],
     "cellfinder-napari": [
         "cellfinder_napari"
@@ -3211,8 +2859,7 @@
         "cellpose"
     ],
     "cellpose-napari": [
-        "cellpose_napari",
-        "tests"
+        "cellpose_napari"
     ],
     "celltk": [],
     "cellunet": [],
@@ -3236,15 +2883,13 @@
         "visual_bars"
     ],
     "cfmUtils": [
-        "cfmUtils",
-        "test"
+        "cfmUtils"
     ],
     "cfscores": [],
     "cgm-3d-cnn": [
         "box_maker",
         "cgm_cnn_rotations",
         "generators",
-        "models",
         "plot_maker",
         "rotations",
         "small_cgm_cnn",
@@ -3290,8 +2935,7 @@
         "chess_cheat_utils"
     ],
     "chi": [
-        "chi",
-        "legacy"
+        "chi"
     ],
     "chia": [
         "chia"
@@ -3308,8 +2952,7 @@
         "chonker"
     ],
     "chop-pytorch": [
-        "chop",
-        "tests"
+        "chop"
     ],
     "chreader": [
         "chreader"
@@ -3339,33 +2982,24 @@
     "classification-pipeline": [
         "classification_pipeline"
     ],
-    "classification-text-email": [
-        "example_pkg"
-    ],
+    "classification-text-email": [],
     "classifire": [],
     "classitransformers": [
         "classitransformers",
         "electra"
     ],
     "classla": [
-        "classla",
-        "stanfordnlp",
-        "tests",
-        "tests_classla"
+        "classla"
     ],
     "classmail": [
         "classmail"
     ],
     "classy-core": [
-        "classy",
-        "configurations",
-        "hydra_plugins"
+        "classy"
     ],
     "classy-ml": [],
     "classy-vision": [
-        "classy_vision",
-        "hydra_plugins",
-        "test"
+        "classy_vision"
     ],
     "clean-fid": [
         "cleanfid"
@@ -3382,8 +3016,7 @@
         "climetlab_maelstrom_radiation"
     ],
     "clinica": [
-        "clinica",
-        "test"
+        "clinica"
     ],
     "clinicadl": [
         "clinicadl"
@@ -3391,9 +3024,7 @@
     "clip-anytorch": [
         "clip"
     ],
-    "clip-by-openai": [
-        "clip"
-    ],
+    "clip-by-openai": [],
     "clip-ods": [
         "clip_ods"
     ],
@@ -3412,10 +3043,7 @@
     "cloud-tpu-profiler": [
         "cloud_tpu_profiler"
     ],
-    "cloudml-hackathon-tensorboard": [
-        "external",
-        "tensorboard"
-    ],
+    "cloudml-hackathon-tensorboard": [],
     "cloverwallpaper": [
         "cloverwallpaper"
     ],
@@ -3446,10 +3074,7 @@
     "cnvrg": [
         "cnvrg"
     ],
-    "coach-cli": [
-        "coach",
-        "main"
-    ],
+    "coach-cli": [],
     "coach-ml": [
         "coach"
     ],
@@ -3498,12 +3123,10 @@
         "collagist"
     ],
     "collie": [
-        "collie",
-        "tests"
+        "collie"
     ],
     "collie-recs": [
-        "collie_recs",
-        "tests"
+        "collie_recs"
     ],
     "color-spray": [
         "color_spray"
@@ -3516,8 +3139,7 @@
     ],
     "colornet": [],
     "colossalai": [
-        "colossalai",
-        "model_zoo"
+        "colossalai"
     ],
     "colourgan": [
         "colourgan"
@@ -3602,13 +3224,10 @@
         "continual_learning"
     ],
     "continuation-jax": [
-        "cjax",
-        "examples",
-        "tests"
+        "cjax"
     ],
     "continuum": [
-        "continuum",
-        "tests"
+        "continuum"
     ],
     "contrastive-learner": [
         "contrastive_learner"
@@ -3622,61 +3241,26 @@
     ],
     "convert-labse-tf-pt": [],
     "convo-NLU2": [
-        "convo"
-    ],
-    "convo-engine": [
         "convo",
         "convo_sdk",
         "pytransform"
     ],
-    "convo-latest": [
-        "convo",
-        "convo_sdk",
-        "pytransform"
-    ],
-    "convo-n2": [
-        "convo"
-    ],
-    "convo-new-version-abdo": [
-        "convo",
-        "convo_sdk"
-    ],
-    "convo-nl2": [
-        "convo"
-    ],
-    "convo-nlu": [
-        "convo",
-        "convo_sdk",
-        "pytransform"
-    ],
+    "convo-engine": [],
+    "convo-latest": [],
+    "convo-n2": [],
+    "convo-new-version-abdo": [],
+    "convo-nl2": [],
+    "convo-nlu": [],
     "convo-nlu-v2": [],
-    "convo-nlu2": [
-        "convo"
-    ],
-    "convo-tt": [
-        "convo",
-        "convo_sdk",
-        "pytransform"
-    ],
-    "convo5": [
-        "convo",
-        "convo_sdk"
-    ],
-    "convo6": [
-        "convo",
-        "convo_sdk"
-    ],
-    "convo7": [
-        "convo",
-        "convo_sdk"
-    ],
+    "convo-nlu2": [],
+    "convo-tt": [],
+    "convo5": [],
+    "convo6": [],
+    "convo7": [],
     "convolution-kernels": [
         "kernel"
     ],
-    "convoxxx": [
-        "convo",
-        "convo_sdk"
-    ],
+    "convoxxx": [],
     "cooka": [
         "cooka"
     ],
@@ -3710,9 +3294,7 @@
     ],
     "coreml": [
         "coreml",
-        "evaluation",
-        "tests",
-        "training"
+        "evaluation"
     ],
     "corgie": [
         "corgie"
@@ -3776,8 +3358,7 @@
         "craynn"
     ],
     "credentialdigger": [
-        "credentialdigger",
-        "tests"
+        "credentialdigger"
     ],
     "cressp": [
         "cressp"
@@ -3805,23 +3386,15 @@
         "crossedwires"
     ],
     "crosspredict": [
-        "crosspredict",
-        "tests"
+        "crosspredict"
     ],
     "crypten": [
-        "benchmarks",
-        "configs",
-        "crypten",
-        "examples",
-        "test"
+        "crypten"
     ],
     "crystal4D": [
         "crystal4D"
     ],
-    "crystalml": [
-        "models",
-        "src"
-    ],
+    "crystalml": [],
     "cs272-project": [
         "cs272_project"
     ],
@@ -3849,22 +3422,14 @@
         "data_science_helpers"
     ],
     "ctorch": [],
-    "ctrl-bench": [
-        "ctrl",
-        "tests"
-    ],
+    "ctrl-bench": [],
     "ctrl-benchmark": [
-        "ctrl",
-        "tests"
+        "ctrl"
     ],
     "ctrzoo": [
         "cloudml",
-        "conf",
         "ctrzoo",
-        "data",
         "dsl",
-        "scripts",
-        "tests",
         "train_conf"
     ],
     "ctunet": [
@@ -3918,8 +3483,7 @@
         "cytoself"
     ],
     "czmodel": [
-        "czmodel",
-        "test"
+        "czmodel"
     ],
     "d3rlpy": [
         "d3rlpy"
@@ -3931,8 +3495,7 @@
         "da_rnn"
     ],
     "dacy": [
-        "dacy",
-        "dev"
+        "dacy"
     ],
     "dadmatools": [],
     "dafd": [],
@@ -3952,13 +3515,11 @@
         "dalle_pytorch_dev"
     ],
     "daltons-tensorflow": [
-        "_foo",
         "daltons_tensorflow"
     ],
     "daluke": [
         "daluke",
-        "reproduction",
-        "tests"
+        "reproduction"
     ],
     "danish-bert-embeddings": [],
     "dankag": [
@@ -3968,8 +3529,7 @@
         "danspeech"
     ],
     "darkon": [
-        "darkon",
-        "test"
+        "darkon"
     ],
     "darmo": [
         "darmo"
@@ -3982,30 +3542,9 @@
     ],
     "das": [],
     "das2": [],
-    "dashes": [
-        "about",
-        "background",
-        "dashboard",
-        "data",
-        "home",
-        "utils"
-    ],
-    "dashes2": [
-        "about",
-        "background",
-        "dashboard",
-        "data",
-        "home",
-        "utils"
-    ],
-    "dashes3": [
-        "about",
-        "background",
-        "dashboard",
-        "data",
-        "home",
-        "utils"
-    ],
+    "dashes": [],
+    "dashes2": [],
+    "dashes3": [],
     "dask-pytorch": [
         "dask_pytorch"
     ],
@@ -4065,15 +3604,13 @@
         "datature_hub"
     ],
     "datawig": [
-        "datawig",
-        "test"
+        "datawig"
     ],
     "datupapi": [
         "datupapi"
     ],
     "dbestclient": [
-        "dbestclient",
-        "tests"
+        "dbestclient"
     ],
     "dbnd-tensorflow": [
         "dbnd_tensorflow"
@@ -4096,9 +3633,7 @@
     "ddparser": [
         "ddparser"
     ],
-    "ddpg": [
-        "ddpg"
-    ],
+    "ddpg": [],
     "ddpg-agent": [
         "ddpg_agent"
     ],
@@ -4116,8 +3651,7 @@
         "ddu_dirty_mnist"
     ],
     "ddup": [
-        "ddup",
-        "tools"
+        "ddup"
     ],
     "deatf": [
         "deatf"
@@ -4133,16 +3667,13 @@
     "decavision": [
         "decavision"
     ],
-    "decile-spear": [
-        "spear"
-    ],
+    "decile-spear": [],
     "decimer": [
         "decimer"
     ],
     "decode2": [],
     "decofre": [
-        "decofre",
-        "tests"
+        "decofre"
     ],
     "decuen": [
         "decuen"
@@ -4154,8 +3685,7 @@
         "deel"
     ],
     "deep-alignment-pytorch": [
-        "dan",
-        "tests"
+        "dan"
     ],
     "deep-animator": [
         "deep_animator"
@@ -4173,21 +3703,18 @@
         "deep_ei"
     ],
     "deep-kolibri": [
-        "kolibri",
-        "tests"
+        "kolibri"
     ],
     "deep-leaps": [
         "deepleaps"
     ],
     "deep-learning-utils": [
-        "dlutils",
-        "tests"
+        "dlutils"
     ],
     "deep-linear-network": [
         "deep_linear_network"
     ],
     "deep-logic": [
-        "data",
         "deep_logic"
     ],
     "deep-medical-toolkit": [
@@ -4276,19 +3803,16 @@
         "deepcheck"
     ],
     "deepclassifier": [
-        "deepclassifier",
-        "examples"
+        "deepclassifier"
     ],
     "deepclustering": [
-        "deepclustering",
-        "playground"
+        "deepclustering"
     ],
     "deepcoil": [
         "deepcoil"
     ],
     "deepcola": [
-        "cola",
-        "test"
+        "cola"
     ],
     "deepcomp": [
         "deepcomp"
@@ -4296,9 +3820,7 @@
     "deepcon": [
         "deepcon"
     ],
-    "deepconpkg": [
-        "deepcon"
-    ],
+    "deepconpkg": [],
     "deepconsensus": [
         "deepconsensus"
     ],
@@ -4361,13 +3883,9 @@
         "deepflash2"
     ],
     "deepforest": [
-        "deepforest",
-        "tests"
+        "deepforest"
     ],
-    "deepforest-pytorch": [
-        "deepforest",
-        "tests"
-    ],
+    "deepforest-pytorch": [],
     "deepfree": [
         "deepfree"
     ],
@@ -4448,27 +3966,23 @@
         "deepnull"
     ],
     "deepoc": [
-        "deepoc",
-        "tests"
+        "deepoc"
     ],
     "deepof": [
         "deepof"
     ],
     "deepoffense": [
-        "deepoffense",
-        "examples"
+        "deepoffense"
     ],
     "deeposlandia": [
         "deeposlandia"
     ],
     "deepparse": [
         "deepparse",
-        "models_evaluation",
-        "tests"
+        "models_evaluation"
     ],
     "deeppavlov": [
-        "deeppavlov",
-        "utils"
+        "deeppavlov"
     ],
     "deepprot": [
         "deepprot"
@@ -4487,8 +4001,7 @@
         "deeprobust"
     ],
     "deepse": [
-        "deepse",
-        "tests"
+        "deepse"
     ],
     "deepsegment": [
         "deepsegment"
@@ -4503,8 +4016,7 @@
     ],
     "deepsleep": [],
     "deepsnap": [
-        "deepsnap",
-        "tests"
+        "deepsnap"
     ],
     "deepspace": [
         "deepspace"
@@ -4535,8 +4047,7 @@
         "deepsynthbody"
     ],
     "deeptables": [
-        "deeptables",
-        "tests"
+        "deeptables"
     ],
     "deeptech": [
         "deeptech"
@@ -4546,8 +4057,7 @@
     ],
     "deeptissueunet": [],
     "deeptl": [
-        "deeptl",
-        "test"
+        "deeptl"
     ],
     "deeptrack": [
         "deeptrack"
@@ -4563,10 +4073,8 @@
     ],
     "deform-conv2d-onnx-exporter": [],
     "deformetrica": [
-        "__init__",
         "__main__",
-        "deformetrica",
-        "src"
+        "deformetrica"
     ],
     "defsent": [],
     "dehyphen": [],
@@ -4574,15 +4082,13 @@
         "deidentify"
     ],
     "delft": [
-        "delft",
-        "tests"
+        "delft"
     ],
     "delft-physics-lab": [
         "delft_physics_lab"
     ],
     "delira-cycle-gan": [
-        "cycle_gan",
-        "tests"
+        "cycle_gan"
     ],
     "deliverable-model": [
         "deliverable_model"
@@ -4594,14 +4100,12 @@
     "deluca": [
         "assets",
         "deluca",
-        "plugin",
-        "scripts"
+        "plugin"
     ],
     "delve": [
         "delve"
     ],
     "demo-fa": [
-        "CONSTANTS",
         "bbsofa"
     ],
     "democlassi": [
@@ -4638,9 +4142,7 @@
         "densenet_pytorch"
     ],
     "density_forest": [
-        "baselines",
         "density_forest",
-        "helpers",
         "keras_helpers"
     ],
     "deployml": [],
@@ -4648,9 +4150,7 @@
     "desc": [
         "desc"
     ],
-    "description2process": [
-        "description2process"
-    ],
+    "description2process": [],
     "desker": [
         "desker"
     ],
@@ -4667,11 +4167,7 @@
         "detoxify"
     ],
     "detoxify-unitary": [],
-    "detr": [
-        "datasets",
-        "models",
-        "util"
-    ],
+    "detr": [],
     "deutschland": [],
     "devastator": [
         "blaster",
@@ -4694,16 +4190,13 @@
         "dfencoder"
     ],
     "dffml-model-pytorch": [
-        "dffml_model_pytorch",
-        "tests"
+        "dffml_model_pytorch"
     ],
     "dffml-model-tensorflow": [
-        "dffml_model_tensorflow",
-        "tests"
+        "dffml_model_tensorflow"
     ],
     "dffml-model-tensorflow-hub": [
-        "dffml_model_tensorflow_hub",
-        "tests"
+        "dffml_model_tensorflow_hub"
     ],
     "dgbpy-dm": [
         "dgbpy",
@@ -4715,9 +4208,7 @@
     "diagNNose": [
         "diagnnose"
     ],
-    "diagnnose": [
-        "diagnnose"
-    ],
+    "diagnnose": [],
     "dial": [
         "dial_gui"
     ],
@@ -4730,12 +4221,10 @@
     "diaparser": [
         "diaparser",
         "elg",
-        "tests",
         "tokenizer"
     ],
     "dice-ml": [
-        "dice_ml",
-        "tests"
+        "dice_ml"
     ],
     "dienen": [
         "dienen"
@@ -4744,7 +4233,6 @@
         "dieterpy"
     ],
     "diffdart": [
-        "cmake_example",
         "diffdart"
     ],
     "diffeqtorch": [
@@ -4754,9 +4242,7 @@
         "differentiable_randaugment"
     ],
     "differnet": [],
-    "differnet-zerobox": [
-        "tests"
-    ],
+    "differnet-zerobox": [],
     "diffgram": [
         "diffgram"
     ],
@@ -4777,9 +4263,7 @@
         "digcommpy"
     ],
     "digipathos": [
-        "digipathos",
-        "example",
-        "tests"
+        "digipathos"
     ],
     "digital-nondigital-pdf-extraction": [
         "digital_nondigital_pdf_extraction"
@@ -4805,8 +4289,7 @@
     ],
     "disent": [
         "disent",
-        "experiment",
-        "tests"
+        "experiment"
     ],
     "disentanglement-lib": [
         "disentanglement_lib"
@@ -4875,8 +4358,7 @@
         "dlprepare"
     ],
     "dlproject": [
-        "dlproject",
-        "tests"
+        "dlproject"
     ],
     "dls-marco-score-ispyb": [
         "dls_marco_score_ispyb"
@@ -4887,18 +4369,14 @@
     "dltkai": [
         "dltkai"
     ],
-    "dltkdl": [
-        "dltkdl"
-    ],
+    "dltkdl": [],
     "dm-sonnet-gpu": [
         "sonnet"
     ],
     "dmae": [
         "dmae"
     ],
-    "dmae-gpu": [
-        "dmae"
-    ],
+    "dmae-gpu": [],
     "dmai": [],
     "dnadna": [
         "dnadna"
@@ -4943,8 +4421,7 @@
     ],
     "doc-parser": [],
     "doc-ufcn": [
-        "doc_ufcn",
-        "tests"
+        "doc_ufcn"
     ],
     "docly": [
         "docly"
@@ -4954,8 +4431,7 @@
     ],
     "document-classifier": [],
     "dodfminer": [
-        "dodfminer",
-        "tests"
+        "dodfminer"
     ],
     "dogs-vs-cats": [],
     "dogsvscats": [
@@ -4996,11 +4472,7 @@
         "dreegdl"
     ],
     "drl-model": [
-        "config",
-        "data",
-        "env",
-        "model",
-        "preprocessing"
+        "env"
     ],
     "drlgeb": [
         "drlgeb"
@@ -5008,9 +4480,7 @@
     "drlkit": [
         "drlkit"
     ],
-    "drmlapp": [
-        "app"
-    ],
+    "drmlapp": [],
     "dronesearch": [
         "dronesearch"
     ],
@@ -5031,7 +4501,6 @@
     ],
     "dsFramework": [
         "api_cli",
-        "cli",
         "dsframework"
     ],
     "dsbot": [
@@ -5044,8 +4513,7 @@
         "dscript"
     ],
     "dsfun": [
-        "dsfun",
-        "tests"
+        "dsfun"
     ],
     "dsntnn": [
         "dsntnn"
@@ -5061,9 +4529,7 @@
     "dtox": [
         "detox"
     ],
-    "dtween": [
-        "src"
-    ],
+    "dtween": [],
     "dualing": [
         "dualing"
     ],
@@ -5092,8 +4558,7 @@
         "e2cnn"
     ],
     "e2e-Dutch": [
-        "e2edutch",
-        "test"
+        "e2edutch"
     ],
     "e2eml": [
         "e2eml"
@@ -5102,8 +4567,7 @@
         "e3nn"
     ],
     "eaas": [
-        "eaas",
-        "tests"
+        "eaas"
     ],
     "eagpytorch": [
         "eagpytorch"
@@ -5184,8 +4648,7 @@
     ],
     "ecpredict": [],
     "ecws": [
-        "ecws",
-        "tests"
+        "ecws"
     ],
     "eda-fe-model": [
         "eda_fe_model"
@@ -5200,9 +4663,7 @@
     "effdet": [
         "effdet"
     ],
-    "efficient-det": [
-        "efficient_det"
-    ],
+    "efficient-det": [],
     "efficientnet-lite-pytorch": [
         "efficientnet_lite_pytorch"
     ],
@@ -5227,8 +4688,7 @@
         "eisen_cli"
     ],
     "eisen-core": [
-        "eisen",
-        "tests"
+        "eisen"
     ],
     "eisen-deploy": [
         "eisen_deploy"
@@ -5249,7 +4709,6 @@
         "elegantrl"
     ],
     "elephas": [
-        "docs",
         "elephas"
     ],
     "elfragmentador": [],
@@ -5268,9 +4727,7 @@
     "email-text-classify": [],
     "email-try2-classification": [],
     "email-try3-classification": [],
-    "email-txt-classification": [
-        "example_pkg"
-    ],
+    "email-txt-classification": [],
     "emailme": [
         "emailme"
     ],
@@ -5290,9 +4747,7 @@
         "embedeval"
     ],
     "embryoseg": [
-        "embryoseg",
-        "embryoseg/models",
-        "embryoseg/utils"
+        "embryoseg"
     ],
     "emepy": [
         "emepy"
@@ -5304,12 +4759,7 @@
         "emmental"
     ],
     "empyrial": [],
-    "encdecmeta": [
-        "dataset",
-        "model",
-        "tutorials",
-        "utils"
-    ],
+    "encdecmeta": [],
     "enchanter": [],
     "endoscopy": [
         "endoscopy"
@@ -5326,20 +4776,15 @@
         "enniolearning"
     ],
     "enot-autodl": [
-        "*",
         "enot"
     ],
-    "enot-autodl-yandex": [
-        "*",
-        "enot"
-    ],
+    "enot-autodl-yandex": [],
     "enterideas-test": [],
     "entity-embed": [
         "entity_embed"
     ],
     "entity-embeddings-categorical": [
-        "entity_embeddings",
-        "tests"
+        "entity_embeddings"
     ],
     "env-wrappers": [
         "env_wrappers"
@@ -5358,8 +4803,7 @@
         "ergonomics"
     ],
     "ernie": [
-        "ernie",
-        "test"
+        "ernie"
     ],
     "ernie4us": [
         "ernie4us"
@@ -5368,8 +4812,7 @@
         "ersatz"
     ],
     "ersilia": [
-        "ersilia",
-        "test"
+        "ersilia"
     ],
     "es-distributed": [
         "es_distributed"
@@ -5424,10 +4867,7 @@
     ],
     "etna": [],
     "etna-ts": [],
-    "euler-gl": [
-        "tf_euler",
-        "euler"
-    ],
+    "euler-gl": [],
     "euler2-gl": [
         "euler",
         "euler_estimator",
@@ -5439,12 +4879,9 @@
     "evan": [
         "evan"
     ],
-    "eve-mli": [
-        "eve"
-    ],
+    "eve-mli": [],
     "evoflow": [
-        "evoflow",
-        "tests"
+        "evoflow"
     ],
     "evolocity": [
         "evolocity"
@@ -5453,8 +4890,7 @@
         "evolutionary_keras"
     ],
     "evostrat": [
-        "evostrat",
-        "test"
+        "evostrat"
     ],
     "evxpredictor": [
         "evxpredictor"
@@ -5505,8 +4941,7 @@
         "qurator"
     ],
     "eywa": [
-        "eywa",
-        "tests"
+        "eywa"
     ],
     "ez-torch": [],
     "ezLncPred": [],
@@ -5535,9 +4970,7 @@
     "face-detection-tflite": [
         "fdlite"
     ],
-    "face-detector": [
-        "face_detector"
-    ],
+    "face-detector": [],
     "face-mask-classifier": [
         "face-mask-classifier"
     ],
@@ -5545,9 +4978,7 @@
     "face-mask-detector": [
         "face_mask_detector"
     ],
-    "face-network": [
-        "api"
-    ],
+    "face-network": [],
     "face-sdlr": [
         "face_sdlr"
     ],
@@ -5555,7 +4986,6 @@
         "facemask_detection"
     ],
     "facenet": [
-        "contributed",
         "facenet",
         "tmp"
     ],
@@ -5563,7 +4993,6 @@
         "facenet_pytorch"
     ],
     "facenet-sandberg": [
-        "contributed",
         "facenet_sandberg"
     ],
     "faceservice": [
@@ -5589,8 +5018,7 @@
         "fairensics"
     ],
     "fairmlhealth": [
-        "fairmlhealth",
-        "test"
+        "fairmlhealth"
     ],
     "fairmotion": [
         "fairmotion"
@@ -5625,12 +5053,10 @@
         "fandak"
     ],
     "fannypack": [
-        "fannypack",
-        "tests"
+        "fannypack"
     ],
     "farabio": [
-        "farabio",
-        "tests"
+        "farabio"
     ],
     "farm": [
         "farm"
@@ -5647,8 +5073,7 @@
         "fast_bert"
     ],
     "fast-form": [
-        "fast_form",
-        "notebooks"
+        "fast_form"
     ],
     "fast-gat": [
         "fast_gat"
@@ -5660,12 +5085,10 @@
         "fast_layers"
     ],
     "fast-neptune": [
-        "fast_neptune",
-        "nbdev_template"
+        "fast_neptune"
     ],
     "fast-rl": [
-        "fast_rl",
-        "tests"
+        "fast_rl"
     ],
     "fast-tabnet": [
         "fast_tabnet"
@@ -5680,8 +5103,7 @@
         "fastBio"
     ],
     "fastHan": [
-        "fastHan",
-        "test"
+        "fastHan"
     ],
     "fastTF": [
         "fastTF"
@@ -5738,17 +5160,12 @@
         "fasterai"
     ],
     "fastestimator": [
-        "fastestimator",
-        "test"
+        "fastestimator"
     ],
-    "fastestimator-nightly": [
-        "fastestimator",
-        "test"
-    ],
+    "fastestimator-nightly": [],
     "fastestimator-nightly-test": [],
     "fastface": [
-        "fastface",
-        "tests"
+        "fastface"
     ],
     "fastformers": [
         "fastformers"
@@ -5815,8 +5232,7 @@
         "faststyle"
     ],
     "fastt5": [
-        "fastT5",
-        "tests"
+        "fastT5"
     ],
     "fate-client": [],
     "fathom-lib": [
@@ -5853,26 +5269,16 @@
     ],
     "fedbiomed-cli": [],
     "fedjax": [
-        "docs",
-        "examples",
         "fedjax"
     ],
     "fedlearner": [
-        "fedlearner",
-        "test"
+        "fedlearner"
     ],
-    "fedlearner-manylinux": [
-        "fedlearner",
-        "test"
-    ],
+    "fedlearner-manylinux": [],
     "fedot": [
-        "examples",
         "fedot"
     ],
-    "fedot-example-test": [
-        "examples",
-        "fedot"
-    ],
+    "fedot-example-test": [],
     "feedback-transformer-pytorch": [
         "feedback_transformer_pytorch"
     ],
@@ -5915,9 +5321,7 @@
     "finbert-embedding": [
         "finbert_embedding"
     ],
-    "finetunetags": [
-        "NERDA"
-    ],
+    "finetunetags": [],
     "fingerflow": [
         "fingerflow"
     ],
@@ -5935,7 +5339,6 @@
         "firelight"
     ],
     "fireworks-ml": [
-        "examples",
         "fireworks"
     ],
     "fitbert": [
@@ -5956,22 +5359,16 @@
     "flair": [
         "flair"
     ],
-    "flair-82": [
-        "flair"
-    ],
+    "flair-82": [],
     "flairjsonnlp": [
-        "flairjsonnlp",
-        "tests"
+        "flairjsonnlp"
     ],
-    "flairstreamlined": [
-        "flair"
-    ],
+    "flairstreamlined": [],
     "flambe": [
         "flambe"
     ],
     "flamedisx": [
-        "flamedisx",
-        "tests"
+        "flamedisx"
     ],
     "flask-image-search": [
         "flask_image_search"
@@ -6002,8 +5399,7 @@
         "flexs"
     ],
     "flights-time-series-dataset": [
-        "flights_time_series_dataset",
-        "tests"
+        "flights_time_series_dataset"
     ],
     "flood-forecast": [
         "flood_forecast"
@@ -6027,15 +5423,9 @@
     "focal-frequency-loss": [
         "focal_frequency_loss"
     ],
-    "focal-loss": [
-        "focal_loss"
-    ],
-    "focal-loss-torch": [
-        "focal_loss"
-    ],
-    "focalloss4keras": [
-        "focal_loss"
-    ],
+    "focal-loss": [],
+    "focal-loss-torch": [],
+    "focalloss4keras": [],
     "foggy": [
         "foggy"
     ],
@@ -6048,7 +5438,6 @@
     "foogoo": [],
     "foogoo-utils": [],
     "forager-server": [
-        "clip",
         "forager",
         "forager_backend",
         "forager_backend_api",
@@ -6064,19 +5453,12 @@
         "forest_utils"
     ],
     "formerbox": [],
-    "forte.allennlp": [
-        "fortex"
-    ],
-    "forte.stanza": [
-        "fortex"
-    ],
+    "forte.allennlp": [],
+    "forte.stanza": [],
     "forth": [],
-    "foundry-econml": [
-        "econml"
-    ],
+    "foundry-econml": [],
     "foundry-ml": [
-        "foundry",
-        "tests"
+        "foundry"
     ],
     "foundry-ml-cli": [
         "foundry_cli"
@@ -6097,7 +5479,6 @@
         "frapi"
     ],
     "freemocap": [
-        "docs",
         "freemocap",
         "freemocap_blender_addon"
     ],
@@ -6181,19 +5562,15 @@
     "gamornet": [
         "gamornet"
     ],
-    "gamornet-cpu": [
-        "gamornet"
-    ],
+    "gamornet-cpu": [],
     "gan-pytorch": [
-        "gan_pytorch",
-        "utils"
+        "gan_pytorch"
     ],
     "gan-recover-image": [
         "gan_recover_image"
     ],
     "ganbase": [
-        "ganbase",
-        "tests"
+        "ganbase"
     ],
     "ganify": [
         "ganify"
@@ -6212,8 +5589,7 @@
         "gans"
     ],
     "gansdojo": [
-        "gansdojo",
-        "test"
+        "gansdojo"
     ],
     "ganslate": [
         "ganslate"
@@ -6222,8 +5598,7 @@
         "ganutils"
     ],
     "ganzoo": [
-        "ganzoo",
-        "tests"
+        "ganzoo"
     ],
     "gazeclassify": [
         "gazeclassify"
@@ -6286,7 +5661,6 @@
         "genienlp"
     ],
     "geniverse": [
-        "forks",
         "geniverse"
     ],
     "genn": [
@@ -6298,11 +5672,9 @@
         "webapp"
     ],
     "genrl": [
-        "genrl",
-        "tests"
+        "genrl"
     ],
     "geometric-vector-perceptron": [
-        "examples",
         "geometric_vector_perceptron"
     ],
     "geometric2dr": [
@@ -6316,13 +5688,10 @@
     ],
     "geotime-classify": [
         "geotime_classify",
-        "geotime_schema",
-        "tests"
+        "geotime_schema"
     ],
     "geotorch": [
-        "examples",
-        "geotorch",
-        "test"
+        "geotorch"
     ],
     "gerald-tools": [],
     "germansentiment": [
@@ -6345,14 +5714,12 @@
         "gibson"
     ],
     "giganticode-langmodels": [
-        "langmodels",
-        "tests"
+        "langmodels"
     ],
     "gil-galad": [
         "gilgalad"
     ],
     "gimmick": [
-        "app",
         "gimmick"
     ],
     "gimpml": [
@@ -6406,12 +5773,10 @@
         "googlenet_pytorch"
     ],
     "gordo": [
-        "gordo",
-        "tests"
+        "gordo"
     ],
     "gordo-components": [
-        "gordo_components",
-        "tests"
+        "gordo_components"
     ],
     "gorilla-core": [
         "gorilla"
@@ -6431,8 +5796,7 @@
     ],
     "gperc": [],
     "gpflow": [
-        "gpflow",
-        "tests"
+        "gpflow"
     ],
     "gpflux": [
         "gpflux"
@@ -6465,12 +5829,10 @@
         "gptf"
     ],
     "gptorch": [
-        "gptorch",
-        "test"
+        "gptorch"
     ],
     "gpytorch": [
-        "gpytorch",
-        "test"
+        "gpytorch"
     ],
     "gpytorch-lattice-kernel": [
         "gpytorch_lattice_kernel"
@@ -6484,17 +5846,13 @@
     "gradient-centralization-tf": [
         "gctf"
     ],
-    "gradient-compression": [
-        "rp_compression"
-    ],
+    "gradient-compression": [],
     "gradrack": [
-        "gradrack",
-        "test"
+        "gradrack"
     ],
     "gradsflow": [],
     "gradslam": [
-        "gradslam",
-        "tests"
+        "gradslam"
     ],
     "grai-One-Vip-Profiler": [],
     "grai-One-Vip-profiler": [],
@@ -6525,29 +5883,13 @@
         "graph_transformer_pytorch"
     ],
     "graph4nlp": [
-        "dev",
         "graph4nlp"
     ],
-    "graph4nlp-cu101": [
-        "dev",
-        "graph4nlp"
-    ],
-    "graph4nlp-cu102": [
-        "dev",
-        "graph4nlp"
-    ],
-    "graph4nlp-cu110": [
-        "dev",
-        "graph4nlp"
-    ],
-    "graph4nlp-cu111": [
-        "dev",
-        "graph4nlp"
-    ],
-    "graph4nlp-cu92": [
-        "dev",
-        "graph4nlp"
-    ],
+    "graph4nlp-cu101": [],
+    "graph4nlp-cu102": [],
+    "graph4nlp-cu110": [],
+    "graph4nlp-cu111": [],
+    "graph4nlp-cu92": [],
     "graph4nlp101": [],
     "graph4nlp102": [],
     "graph4nlpnone": [],
@@ -6570,8 +5912,7 @@
         "gravityspy"
     ],
     "grb": [
-        "grb",
-        "tests"
+        "grb"
     ],
     "greattunes": [
         "greattunes"
@@ -6606,8 +5947,7 @@
     "grr-profiler": [],
     "gryffin": [],
     "gs-divergence": [
-        "gs_divergence",
-        "tests"
+        "gs_divergence"
     ],
     "gsa-pytorch": [
         "gsa_pytorch"
@@ -6645,10 +5985,7 @@
         "gym-guesswho"
     ],
     "gym-idsgame": [
-        "examples",
-        "experiments",
-        "gym_idsgame",
-        "tests"
+        "gym_idsgame"
     ],
     "gym-jiminy": [
         "gym_jiminy"
@@ -6659,10 +5996,7 @@
         "gym_pool"
     ],
     "gym-simplifiedtetris": [
-        "agents",
-        "envs",
-        "helpers",
-        "utils"
+        "gym_simplifiedtetris"
     ],
     "gym-unity": [
         "gym_unity"
@@ -6699,8 +6033,6 @@
     ],
     "handObject-pkg-acb2": [],
     "handObjectacb": [
-        "datasets",
-        "model",
         "pycocotools",
         "roi_data_layer"
     ],
@@ -6717,8 +6049,7 @@
         "happy_learning"
     ],
     "happytransformer": [
-        "happytransformer",
-        "tests"
+        "happytransformer"
     ],
     "haracat": [
         "haracat"
@@ -6733,8 +6064,7 @@
         "harzvatool"
     ],
     "haven-ai": [
-        "haven",
-        "scripts"
+        "haven"
     ],
     "hawking": [
         "hawking"
@@ -6746,29 +6076,20 @@
         "hcai_dataset_utils",
         "hcai_datasets"
     ],
-    "hcai-datasets-nightly": [
-        "hcai_dataset_utils",
-        "hcai_datasets"
-    ],
+    "hcai-datasets-nightly": [],
     "hcai-models": [
         "hcai_models"
     ],
-    "hcai-models-nightly": [
-        "hcai_models"
-    ],
+    "hcai-models-nightly": [],
     "hcai-nova-server": [
         "nova_server"
     ],
-    "hcai-nova-server-nightly": [
-        "nova_server"
-    ],
+    "hcai-nova-server-nightly": [],
     "hcat": [
         "hcat"
     ],
     "hclctpm": [
-        "dataprep",
-        "models",
-        "scripts"
+        "dataprep"
     ],
     "hd-clustering": [],
     "hd-glio": [
@@ -6784,8 +6105,7 @@
         "headctools"
     ],
     "headliner": [
-        "headliner",
-        "tests"
+        "headliner"
     ],
     "headpose": [
         "headpose"
@@ -6824,12 +6144,10 @@
         "hexagdly"
     ],
     "hexcapsnet": [
-        "capsnet",
-        "datasets"
+        "capsnet"
     ],
     "hexfarm": [
-        "hexfarm",
-        "tests"
+        "hexfarm"
     ],
     "heyvi": [
         "heyvi"
@@ -6841,7 +6159,6 @@
         "hforl"
     ],
     "hgdl": [
-        "examples",
         "hgdl"
     ],
     "hi-ml": [
@@ -6864,9 +6181,7 @@
         "hindiwsd"
     ],
     "hipo-map": [],
-    "hipomap": [
-        "hipomap"
-    ],
+    "hipomap": [],
     "hippocamp": [],
     "hippunfold": [
         "hippunfold"
@@ -6892,15 +6207,13 @@
         "hmni"
     ],
     "hnlp": [
-        "hnlp",
-        "tests"
+        "hnlp"
     ],
     "holmes-extractor": [
         "holmes_extractor"
     ],
     "homura-core": [
-        "homura",
-        "tests"
+        "homura"
     ],
     "hopfield4py": [
         "hopfield4py"
@@ -6924,8 +6237,7 @@
     ],
     "hover": [
         "hover",
-        "model_template",
-        "tests"
+        "model_template"
     ],
     "howiml": [
         "howiml"
@@ -6953,8 +6265,7 @@
         "hugdatafast"
     ],
     "hugging-gan-test": [
-        "bigotis",
-        "forks"
+        "bigotis"
     ],
     "huginn": [
         "huginn"
@@ -6969,7 +6280,6 @@
         "human_parsing"
     ],
     "hummingbird-ml": [
-        "benchmarks",
         "hummingbird"
     ],
     "humpday": [
@@ -6987,8 +6297,7 @@
     ],
     "hylia": [],
     "hyperactive": [
-        "hyperactive",
-        "tests"
+        "hyperactive"
     ],
     "hyperconfig": [
         "hyperconfig"
@@ -7007,9 +6316,7 @@
     ],
     "hypermodern-python-cli99": [],
     "hypernets": [
-        "examples",
-        "hypernets",
-        "tests"
+        "hypernets"
     ],
     "hyperparameter-hunter": [
         "hyperparameter_hunter"
@@ -7023,8 +6330,7 @@
     "hypertag": [],
     "hzai": [],
     "iMIX": [
-        "imix",
-        "openchat"
+        "imix"
     ],
     "iatorch": [
         "iatorch"
@@ -7033,28 +6339,19 @@
         "_iatransfer_setup",
         "iatransfer"
     ],
-    "iatransfer-research": [
-        "_iatransfer_setup",
-        "iatransfer"
-    ],
+    "iatransfer-research": [],
     "ibl-pipeline": [
         "ibl_pipeline"
     ],
-    "ibl-pipeline-light": [
-        "ibl_pipeline"
-    ],
+    "ibl-pipeline-light": [],
     "ibllib": [
         "alf",
         "brainbox",
-        "examples",
         "ibllib",
         "oneibl"
     ],
     "ibotta-uplift": [
-        "dataset",
-        "examples",
-        "ibotta_uplift",
-        "tests"
+        "ibotta_uplift"
     ],
     "iceberg-penguins.search": [
         "iceberg_penguins"
@@ -7070,8 +6367,7 @@
         "iceflow"
     ],
     "icevision": [
-        "icevision",
-        "tests"
+        "icevision"
     ],
     "icevision-dashboards": [
         "icevision_dashboards"
@@ -7080,16 +6376,13 @@
     "icon-registration": [
         "icon_registration"
     ],
-    "id-fer": [
-        "fer"
-    ],
+    "id-fer": [],
     "id-segmenter": [],
     "ida-lib": [
         "ida_lib"
     ],
     "idptools-parrot": [
-        "parrot",
-        "tests"
+        "parrot"
     ],
     "idrlnet": [
         "idrlnet"
@@ -7106,8 +6399,7 @@
         "pyforms-gui"
     ],
     "iflow": [
-        "iflow",
-        "tests"
+        "iflow"
     ],
     "ig-tagger": [
         "igtagger"
@@ -7132,9 +6424,7 @@
         "ikfs_anomaly_detector"
     ],
     "ilpyt": [],
-    "image-caption-generator-elizastarr": [
-        "src"
-    ],
+    "image-caption-generator-elizastarr": [],
     "image-classifier": [
         "ImageClassifier"
     ],
@@ -7160,13 +6450,11 @@
         "imageatm"
     ],
     "imagedataextractor": [
-        "imagedataextractor",
-        "tests"
+        "imagedataextractor"
     ],
     "imagededup": [],
     "imagegengan": [
-        "imagegengan",
-        "tests"
+        "imagegengan"
     ],
     "imbDRL": [
         "imbDRL"
@@ -7185,20 +6473,16 @@
         "img2dataset"
     ],
     "img2feat": [
-        "img2feat",
-        "tests"
+        "img2feat"
     ],
     "imgpkg": [],
     "imgsim": [
         "imgsim"
     ],
     "immuneML": [
-        "immuneML",
-        "scripts"
+        "immuneML"
     ],
-    "imnn": [
-        "imnn"
-    ],
+    "imnn": [],
     "imnn-tf": [
         "imnn_tf"
     ],
@@ -7241,8 +6525,7 @@
         "infbot"
     ],
     "infer-gender": [
-        "infer_gender",
-        "tests"
+        "infer_gender"
     ],
     "infercode": [
         "infercode"
@@ -7251,13 +6534,9 @@
         "inferrd"
     ],
     "infery": [
-        "infery",
-        "tests"
+        "infery"
     ],
-    "infery-gpu": [
-        "infery",
-        "tests"
-    ],
+    "infery-gpu": [],
     "inflame": [
         "inflame"
     ],
@@ -7275,8 +6554,6 @@
         "inltk"
     ],
     "inn": [
-        "Examples",
-        "Tutorials",
         "inn"
     ],
     "innateml": [
@@ -7302,8 +6579,7 @@
         "interpret_eval"
     ],
     "interpret-pytorch": [
-        "interpret",
-        "test"
+        "interpret"
     ],
     "interpret-text": [
         "interpret_text"
@@ -7322,29 +6598,23 @@
     ],
     "ioflow": [
         "dummy",
-        "ioflow",
-        "tests"
+        "ioflow"
     ],
     "iotfunctions": [
         "iotfunctions"
     ],
     "iotoutlier1": [
-        "iot_outlier_src",
-        "tests"
+        "iot_outlier_src"
     ],
     "iqa-Winteryan": [],
     "iqradre": [
-        "iqradre",
-        "test",
-        "tests"
+        "iqradre"
     ],
     "iracema": [
         "iracema"
     ],
     "iranlowo": [
-        "iranlowo",
-        "onmt",
-        "torchtext"
+        "iranlowo"
     ],
     "irembg": [
         "rembg"
@@ -7408,8 +6678,7 @@
         "jhsp"
     ],
     "jiant": [
-        "jiant",
-        "tests"
+        "jiant"
     ],
     "jinxif": [
         "jinxif"
@@ -7421,13 +6690,11 @@
         "job_offer_classifier"
     ],
     "joeynmt": [
-        "joeynmt",
-        "test"
+        "joeynmt"
     ],
     "john-toolbox": [],
     "jovsatools": [
-        "jovsatools",
-        "notebooks"
+        "jovsatools"
     ],
     "jrpypytorch": [],
     "jrpytensorflow": [],
@@ -7471,8 +6738,7 @@
     ],
     "kamilib": [
         "env-kamilib",
-        "kami",
-        "tests"
+        "kami"
     ],
     "kangeras": [],
     "kapture": [
@@ -7485,8 +6751,7 @@
         "karas"
     ],
     "kashgari": [
-        "kashgari",
-        "tests"
+        "kashgari"
     ],
     "kassandra": [
         "kassandra"
@@ -7499,19 +6764,16 @@
         "kayra"
     ],
     "kazane": [
-        "kazane",
-        "tests"
+        "kazane"
     ],
     "kbert": [
         "kbert"
     ],
     "kd-med": [
-        "kd_med",
-        "tests"
+        "kd_med"
     ],
     "keraTorch": [
-        "keraTorch",
-        "nbdev_template"
+        "keraTorch"
     ],
     "keract": [
         "keract"
@@ -7539,8 +6801,7 @@
         "keras_conv_visualizer"
     ],
     "keras-crf": [
-        "keras_crf",
-        "tests"
+        "keras_crf"
     ],
     "keras-ctcmodel": [],
     "keras-cv-attention-models": [
@@ -7548,7 +6809,6 @@
     ],
     "keras-data-format-converter": [],
     "keras-datasets": [
-        "examples",
         "keras_datasets"
     ],
     "keras-dna": [
@@ -7605,18 +6865,12 @@
         "compute_openmax",
         "openmax_utils"
     ],
-    "keras-pandas": [
-        "examples",
-        "keras_pandas",
-        "tests"
-    ],
+    "keras-pandas": [],
     "keras-pyramid-pooling-module": [
         "keras_pyramid_pooling_module"
     ],
     "keras-rl2": [
-        "rl",
-        "tests",
-        "utils"
+        "rl"
     ],
     "keras-spiking": [
         "keras_spiking"
@@ -7635,8 +6889,7 @@
         "keras_trainer"
     ],
     "keras-tuner": [
-        "kerastuner",
-        "tests"
+        "kerastuner"
     ],
     "keras-vggface-deploy": [],
     "keras2onnx": [
@@ -7675,8 +6928,7 @@
         "kgraph"
     ],
     "kgtk": [
-        "kgtk",
-        "tests"
+        "kgtk"
     ],
     "kilonovanet": [
         "kilonovanet"
@@ -7688,8 +6940,7 @@
         "kindle"
     ],
     "kiri": [
-        "kiri",
-        "tests"
+        "kiri"
     ],
     "kirisearch": [
         "kiri_search"
@@ -7702,16 +6953,13 @@
     ],
     "kmeanstf": [],
     "kmeseg": [
-        "kmeseg",
-        "scripts"
+        "kmeseg"
     ],
     "kmex": [
         "kmex"
     ],
     "knodle": [
-        "examples",
-        "knodle",
-        "tests"
+        "knodle"
     ],
     "kobert-transformers": [
         "kobert_transformers"
@@ -7731,8 +6979,7 @@
         "kor2vec"
     ],
     "kornia": [
-        "kornia",
-        "test"
+        "kornia"
     ],
     "kornia-moons": [
         "kornia_moons"
@@ -7755,26 +7002,17 @@
     "ktext": [
         "ktext"
     ],
-    "kubeflow-kale": [
-        "kale"
-    ],
+    "kubeflow-kale": [],
     "kubeml": [
         "kubeml"
     ],
     "kubiki": [
-        "kubiki/blocks",
-        "kubiki/datamodules",
-        "kubiki/models",
-        "kubiki/utils"
+        "kubiki"
     ],
     "kubric": [
-        "kubric",
-        "test"
+        "kubric"
     ],
-    "kubric-nightly": [
-        "kubric",
-        "test"
-    ],
+    "kubric-nightly": [],
     "kut": [],
     "kuti": [],
     "kviz": [
@@ -7813,8 +7051,7 @@
         "labml_helpers"
     ],
     "labml-nn": [
-        "labml_nn",
-        "utils"
+        "labml_nn"
     ],
     "labml-python-autocomplete": [
         "python_autocomplete"
@@ -7824,8 +7061,7 @@
         "lairgpt"
     ],
     "lale": [
-        "lale",
-        "test"
+        "lale"
     ],
     "lambda-networks": [
         "lambda_networks"
@@ -7868,9 +7104,7 @@
     "latent": [
         "latent"
     ],
-    "latticex": [
-        "latticex"
-    ],
+    "latticex": [],
     "latticex.rosetta": [
         "latticex"
     ],
@@ -7903,15 +7137,11 @@
     "lazylabel": [
         "lazylabel"
     ],
-    "lc-classifier": [
-        "tests"
-    ],
+    "lc-classifier": [],
     "lcbuilder": [
         "lcbuilder"
     ],
-    "lcrl": [
-        "src"
-    ],
+    "lcrl": [],
     "ldt": [
         "ldt"
     ],
@@ -7939,16 +7169,13 @@
     "lecture-transcriber": [],
     "legal-doc-processing": [
         "legal_doc_processing",
-        "params",
-        "tests"
+        "params"
     ],
     "legos.ai": [
-        "legos",
-        "tests"
+        "legos"
     ],
     "leibniz": [
-        "leibniz",
-        "samples"
+        "leibniz"
     ],
     "leidenmark": [
         "leidenmark"
@@ -7966,8 +7193,7 @@
         "alira"
     ],
     "lfcnn": [
-        "lfcnn",
-        "test"
+        "lfcnn"
     ],
     "lfm-flow": [
         "lfm_flow"
@@ -8004,10 +7230,7 @@
     "librec-auto": [
         "librec_auto"
     ],
-    "libretranslate": [
-        "app",
-        "tests"
-    ],
+    "libretranslate": [],
     "libretranslate-euber": [],
     "libspn-keras": [],
     "libtlda": [
@@ -8046,11 +7269,8 @@
     "lightVision": [],
     "lightVisualization": [],
     "lightautoml": [],
-    "lightelligence-model-visualization": [
-        "graph_visualization"
-    ],
+    "lightelligence-model-visualization": [],
     "lightelligence-sdk": [
-        "graph_visualization",
         "lt_sdk",
         "yis_sdk"
     ],
@@ -8061,22 +7281,19 @@
         "lightnet"
     ],
     "lightning-bolts": [
-        "pl_bolts",
-        "tests"
+        "pl_bolts"
     ],
     "lightning-flash": [
         "flash"
     ],
     "lightning-transformers": [
-        "conf",
         "lightning_transformers"
     ],
     "lightweight-gan": [
         "lightweight_gan"
     ],
     "lightwood": [
-        "lightwood",
-        "tests"
+        "lightwood"
     ],
     "lign": [
         "lign"
@@ -8106,8 +7323,7 @@
         "lingvo"
     ],
     "lingx": [
-        "lingx",
-        "tests"
+        "lingx"
     ],
     "link-jam-handle": [
         "link_jam_handle"
@@ -8144,8 +7360,7 @@
         "lm"
     ],
     "lm-eval": [
-        "lm_eval",
-        "scripts"
+        "lm_eval"
     ],
     "lm-scorer": [],
     "lmproof": [],
@@ -8221,12 +7436,9 @@
         "luminoth"
     ],
     "lumo": [
-        "lumo",
-        "tests"
+        "lumo"
     ],
-    "luna-fviz": [
-        "luna"
-    ],
+    "luna-fviz": [],
     "lungs": [
         "lungs"
     ],
@@ -8292,9 +7504,7 @@
     "magenta": [
         "magenta"
     ],
-    "magenta-gpu": [
-        "magenta"
-    ],
+    "magenta-gpu": [],
     "magnet-loss-iclr2016": [
         "magnet_loss_iclr2016"
     ],
@@ -8302,8 +7512,7 @@
         "mai"
     ],
     "malaya": [
-        "malaya",
-        "tests"
+        "malaya"
     ],
     "malaya-gpu": [],
     "malaya-speech": [
@@ -8323,8 +7532,7 @@
         "mantis_ml"
     ],
     "mantisshrimp": [
-        "mantisshrimp",
-        "tests"
+        "mantisshrimp"
     ],
     "mapyllary": [
         "mapyllary"
@@ -8367,8 +7575,7 @@
         "mathreader"
     ],
     "mathy": [
-        "mathy",
-        "tests"
+        "mathy"
     ],
     "mathy-alpha-sm": [
         "mathy_alpha_sm"
@@ -8426,10 +7633,7 @@
         "libmedaka",
         "medaka"
     ],
-    "medaka-cpu": [
-        "libmedaka",
-        "medaka"
-    ],
+    "medaka-cpu": [],
     "medcat": [
         "medcat"
     ],
@@ -8465,8 +7669,7 @@
         "meerkat"
     ],
     "megatron-11b": [
-        "megatron_11b",
-        "tests"
+        "megatron_11b"
     ],
     "megatron-lm": [
         "megatron"
@@ -8507,8 +7710,7 @@
     "memtorch": [],
     "memtorch-cpu": [
         "memtorch",
-        "memtorch_bindings",
-        "tests"
+        "memtorch_bindings"
     ],
     "menovideo": [
         "menovideo"
@@ -8531,7 +7733,6 @@
         "mesmerize"
     ],
     "meta-blocks": [
-        "hydra_plugins",
         "meta_blocks"
     ],
     "meta-ml": [
@@ -8565,8 +7766,7 @@
         "mhcnuggets"
     ],
     "mi-module-zoo": [
-        "mi_module_zoo",
-        "tests"
+        "mi_module_zoo"
     ],
     "miRe2e": [
         "miRe2e"
@@ -8617,18 +7817,9 @@
     "mimir-visualizer": [
         "mimir_visualizer"
     ],
-    "minapip1": [
-        "convo",
-        "convo_sdk"
-    ],
-    "minapipe": [
-        "convo",
-        "convo_sdk"
-    ],
-    "minapipe1": [
-        "convo",
-        "convo_sdk"
-    ],
+    "minapip1": [],
+    "minapipe": [],
+    "minapipe1": [],
     "mindmeld": [
         "mindmeld"
     ],
@@ -8643,7 +7834,6 @@
     ],
     "minicons": [],
     "minpy": [
-        "examples",
         "minpy"
     ],
     "minst-data-expansion-o": [],
@@ -8665,15 +7855,10 @@
         "misas"
     ],
     "miscnn": [
-        "miscnn",
-        "tests"
-    ],
-    "miscnn-TF-1.14": [
         "miscnn"
     ],
-    "miscnn-TF-2.0": [
-        "miscnn"
-    ],
+    "miscnn-TF-1.14": [],
+    "miscnn-TF-2.0": [],
     "misic": [
         "misic"
     ],
@@ -8690,9 +7875,7 @@
     "mitorch": [
         "mitorch"
     ],
-    "mitorch-models": [
-        "mitorch"
-    ],
+    "mitorch-models": [],
     "mix-mavis": [
         "mavis"
     ],
@@ -8706,12 +7889,9 @@
         "tf_img_mod"
     ],
     "ml-commons": [
-        "ml_commons",
-        "tests"
+        "ml_commons"
     ],
-    "ml-dataset": [
-        "datasets"
-    ],
+    "ml-dataset": [],
     "ml-env": [],
     "ml-experiment-manager": [
         "experiment_manager"
@@ -8720,10 +7900,7 @@
     "ml-idm": [
         "ml_idm"
     ],
-    "ml-lib": [
-        "ml",
-        "tools"
-    ],
+    "ml-lib": [],
     "ml-logger": [
         "ml_logger"
     ],
@@ -8731,8 +7908,7 @@
         "ml_metadata"
     ],
     "ml-ocean-bl": [
-        "mloceanbl",
-        "notebooks"
+        "mloceanbl"
     ],
     "ml-pipeline-gen": [
         "ml_pipeline_gen"
@@ -8768,8 +7944,7 @@
     ],
     "mlbazaar": [],
     "mlbench-core": [
-        "mlbench_core",
-        "tests"
+        "mlbench_core"
     ],
     "mlblocks": [
         "mlblocks"
@@ -8784,7 +7959,6 @@
         "mlcollect"
     ],
     "mlcomp": [
-        "examples",
         "mlcomp"
     ],
     "mle-logging": [
@@ -8811,9 +7985,7 @@
     "mlm-pytorch": [
         "mlm_pytorch"
     ],
-    "mlm-task-for-contextual-embedding": [
-        "src"
-    ],
+    "mlm-task-for-contextual-embedding": [],
     "mlmd-dataset-management": [
         "dataset_management",
         "dataset_manager",
@@ -8827,8 +7999,7 @@
     ],
     "mlops-sdk": [],
     "mlops-tempo": [
-        "tempo",
-        "tests"
+        "tempo"
     ],
     "mlp-gpt-jax": [
         "mlp_gpt_jax"
@@ -8840,8 +8011,7 @@
         "mlp_mixer_pytorch"
     ],
     "mlpepr": [
-        "pepr",
-        "tests"
+        "pepr"
     ],
     "mlpipe-trainer": [
         "mlpipe"
@@ -8902,8 +8072,7 @@
     ],
     "mmm-profiler": [],
     "mmpose": [
-        "mmpose",
-        "tests"
+        "mmpose"
     ],
     "mmsplice": [
         "mmsplice"
@@ -8934,9 +8103,7 @@
     "modeci-mdf": [
         "modeci_mdf"
     ],
-    "model-card": [
-        "model_card_toolkit"
-    ],
+    "model-card": [],
     "model-card-toolkit": [
         "model_card_toolkit"
     ],
@@ -8965,9 +8132,7 @@
         "model2src"
     ],
     "model_template": [],
-    "modelai": [
-        "model_zoo"
-    ],
+    "modelai": [],
     "modelbrick": [
         "modelbrick"
     ],
@@ -8979,8 +8144,7 @@
     ],
     "modelsummary": [],
     "modeltrack": [
-        "modeltrack",
-        "utils"
+        "modeltrack"
     ],
     "modelutils": [
         "modelutils"
@@ -8990,8 +8154,7 @@
     ],
     "modelzoo-alpha": [],
     "modelzoo-client": [
-        "modelzoo",
-        "tests"
+        "modelzoo"
     ],
     "mogptk": [
         "mogptk"
@@ -9013,11 +8176,7 @@
         "molmapnets"
     ],
     "molsets": [
-        "moses",
-        "moses/dataset/data",
-        "moses/metrics/NP_Score",
-        "moses/metrics/SA_Score",
-        "tests"
+        "moses"
     ],
     "momentumnet": [
         "momentumnet"
@@ -9026,9 +8185,7 @@
         "monai"
     ],
     "monai-test-weekly": [],
-    "monai-weekly": [
-        "monai"
-    ],
+    "monai-weekly": [],
     "monasca-predictor": [
         "monasca_predictor"
     ],
@@ -9038,144 +8195,58 @@
     "monitaur": [
         "monitaur"
     ],
-    "monk-cls-test1": [
-        "monk"
-    ],
-    "monk-cls-test2": [
-        "monk"
-    ],
-    "monk-cls-test3": [
-        "monk"
-    ],
-    "monk-colab": [
-        "monk"
-    ],
+    "monk-cls-test1": [],
+    "monk-cls-test2": [],
+    "monk-cls-test3": [],
+    "monk-colab": [],
     "monk-cpu": [
         "monk"
     ],
-    "monk-cpu-test": [
-        "monk"
-    ],
-    "monk-cuda100": [
-        "monk"
-    ],
-    "monk-cuda100-test": [
-        "monk"
-    ],
-    "monk-cuda101-test": [
-        "monk"
-    ],
-    "monk-cuda102": [
-        "monk"
-    ],
-    "monk-cuda90": [
-        "monk"
-    ],
-    "monk-cuda92": [
-        "monk"
-    ],
-    "monk-cuda92-test": [
-        "monk"
-    ],
-    "monk-gluon-cpu": [
-        "monk"
-    ],
-    "monk-gluon-cpu-test": [
-        "monk"
-    ],
-    "monk-gluon-cuda100": [
-        "monk"
-    ],
-    "monk-gluon-cuda101": [
-        "monk"
-    ],
-    "monk-gluon-cuda102": [
-        "monk"
-    ],
-    "monk-gluon-cuda102-test": [
-        "monk"
-    ],
-    "monk-gluon-cuda90": [
-        "monk"
-    ],
-    "monk-gluon-cuda90-test1": [
-        "monk"
-    ],
-    "monk-gluon-cuda92": [
-        "monk"
-    ],
-    "monk-gluon-cuda92-test": [
-        "monk"
-    ],
-    "monk-keras-cpu-test": [
-        "monk"
-    ],
-    "monk-keras-cuda100": [
-        "monk"
-    ],
-    "monk-keras-cuda100-test": [
-        "monk"
-    ],
-    "monk-keras-cuda102": [
-        "monk"
-    ],
-    "monk-keras-cuda102-test": [
-        "monk"
-    ],
-    "monk-keras-cuda90-test": [
-        "monk"
-    ],
-    "monk-keras-cuda90-test1": [
-        "monk"
-    ],
-    "monk-keras-cuda92": [
-        "monk"
-    ],
+    "monk-cpu-test": [],
+    "monk-cuda100": [],
+    "monk-cuda100-test": [],
+    "monk-cuda101-test": [],
+    "monk-cuda102": [],
+    "monk-cuda90": [],
+    "monk-cuda92": [],
+    "monk-cuda92-test": [],
+    "monk-gluon-cpu": [],
+    "monk-gluon-cpu-test": [],
+    "monk-gluon-cuda100": [],
+    "monk-gluon-cuda101": [],
+    "monk-gluon-cuda102": [],
+    "monk-gluon-cuda102-test": [],
+    "monk-gluon-cuda90": [],
+    "monk-gluon-cuda90-test1": [],
+    "monk-gluon-cuda92": [],
+    "monk-gluon-cuda92-test": [],
+    "monk-keras-cpu-test": [],
+    "monk-keras-cuda100": [],
+    "monk-keras-cuda100-test": [],
+    "monk-keras-cuda102": [],
+    "monk-keras-cuda102-test": [],
+    "monk-keras-cuda90-test": [],
+    "monk-keras-cuda90-test1": [],
+    "monk-keras-cuda92": [],
     "monk-obj-test1": [
         "monk_gluoncv_finetune_test"
     ],
     "monk-obj-test2": [
         "monk_pytorch_finetune_test"
     ],
-    "monk-pytorch-cpu": [
-        "monk"
-    ],
-    "monk-pytorch-cpu-test": [
-        "monk"
-    ],
-    "monk-pytorch-cuda100": [
-        "monk"
-    ],
-    "monk-pytorch-cuda100-test": [
-        "monk"
-    ],
-    "monk-pytorch-cuda101": [
-        "monk"
-    ],
-    "monk-pytorch-cuda101-test": [
-        "monk"
-    ],
-    "monk-pytorch-cuda102": [
-        "monk"
-    ],
-    "monk-pytorch-cuda102-test": [
-        "monk"
-    ],
-    "monk-pytorch-cuda90": [
-        "monk"
-    ],
-    "monk-pytorch-cuda90-test": [
-        "monk"
-    ],
-    "monk-pytorch-cuda90-test1": [
-        "monk"
-    ],
-    "monk-pytorch-cuda92": [
-        "monk"
-    ],
-    "monk-pytorch-cuda92-test": [
-        "monk"
-    ],
+    "monk-pytorch-cpu": [],
+    "monk-pytorch-cpu-test": [],
+    "monk-pytorch-cuda100": [],
+    "monk-pytorch-cuda100-test": [],
+    "monk-pytorch-cuda101": [],
+    "monk-pytorch-cuda101-test": [],
+    "monk-pytorch-cuda102": [],
+    "monk-pytorch-cuda102-test": [],
+    "monk-pytorch-cuda90": [],
+    "monk-pytorch-cuda90-test": [],
+    "monk-pytorch-cuda90-test1": [],
+    "monk-pytorch-cuda92": [],
+    "monk-pytorch-cuda92-test": [],
     "monk-test1": [
         "monk_obj"
     ],
@@ -9212,8 +8283,7 @@
     "morphling": [],
     "morty": [],
     "mosaicml": [
-        "composer",
-        "tests"
+        "composer"
     ],
     "mosaicml-composer": [],
     "mothnet": [
@@ -9224,8 +8294,7 @@
     ],
     "mpi4tf": [],
     "mplc": [
-        "mplc",
-        "tests"
+        "mplc"
     ],
     "mpo-lab": [
         "mpo_lab"
@@ -9238,15 +8307,10 @@
         "mpunet"
     ],
     "mr": [
-        "mr/blocks",
-        "mr/datamodules",
-        "mr/models",
-        "mr/utils"
+        "mr"
     ],
     "mr-uplift": [
-        "examples",
-        "mr_uplift",
-        "tests"
+        "mr_uplift"
     ],
     "mrainet": [
         "mrainet"
@@ -9263,24 +8327,20 @@
         "mroi_fd"
     ],
     "mrphy": [
-        "mrphy",
-        "tests"
+        "mrphy"
     ],
     "mrspuff": [
         "mrspuff"
     ],
     "mrtframework": [
-        "examples",
         "mrtframework"
     ],
     "ms-recommenders": [],
     "ms2deepscore": [
-        "ms2deepscore",
-        "tests"
+        "ms2deepscore"
     ],
     "ms2query": [
-        "ms2query",
-        "tests"
+        "ms2query"
     ],
     "ms2rescore": [],
     "msAI": [
@@ -9296,31 +8356,24 @@
     "mtcnn-tflite": [
         "mtcnn_tflite"
     ],
-    "mtnlp-model": [
-        "mtnlpmodel"
-    ],
+    "mtnlp-model": [],
     "mtnlpmodel": [
         "mtnlpmodel"
     ],
     "mtr": [
-        "mr/blocks",
-        "mr/datamodules",
-        "mr/models",
-        "mr/utils"
+        "mr"
     ],
     "mtse": [
         "mtse"
     ],
     "mudes": [
-        "examples",
         "mudes"
     ],
     "muffnn": [
         "muffnn"
     ],
     "mulearn": [
-        "mulearn",
-        "tests"
+        "mulearn"
     ],
     "multi-input-timeseries-generator": [],
     "multi-task-nmt-lawhy": [
@@ -9330,8 +8383,7 @@
         "multi_task_utils"
     ],
     "multi-view-network": [
-        "multi_view_network",
-        "tests"
+        "multi_view_network"
     ],
     "multicombo": [
         "multicombo"
@@ -9353,8 +8405,6 @@
         "multistream_transformers"
     ],
     "murel.bootstrap.pytorch": [
-        "block",
-        "bootstrap",
         "murel"
     ],
     "murre": [
@@ -9391,8 +8441,7 @@
         "muzero_baseline"
     ],
     "mvlearn": [
-        "mvlearn",
-        "tests"
+        "mvlearn"
     ],
     "mvtec": [],
     "mwptoolkit": [
@@ -9409,23 +8458,18 @@
         "donkeycar"
     ],
     "mxnet-model-server": [
-        "mms",
-        "tools"
+        "mms"
     ],
     "mxnet-to-coreml": [],
     "mxop": [
         "mxop"
     ],
     "my-anatome": [],
-    "my-test-pkg-tnfru": [
-        "efficient_det"
-    ],
+    "my-test-pkg-tnfru": [],
     "mycroft-precise": [
         "precise"
     ],
-    "myeasyocr": [
-        "easyocr"
-    ],
+    "myeasyocr": [],
     "mymetal": [
         "mymetal"
     ],
@@ -9445,8 +8489,7 @@
         "n2d"
     ],
     "n2dit": [
-        "n2dit",
-        "tests"
+        "n2dit"
     ],
     "n3": [
         "n3"
@@ -9540,8 +8583,7 @@
         "nclick"
     ],
     "nclustgen": [
-        "nclustgen",
-        "tests"
+        "nclustgen"
     ],
     "nd-mlp-mixer": [
         "nd_mlp_mixer"
@@ -9556,8 +8598,7 @@
         "ndsampler"
     ],
     "nebulae": [
-        "nebulae",
-        "test"
+        "nebulae"
     ],
     "nefesi": [
         "nefesi"
@@ -9570,9 +8611,7 @@
     ],
     "nemo-simple-gan": [],
     "nemo-toolkit": [
-        "nemo",
-        "nemo_text_processing",
-        "tests"
+        "nemo_text_processing"
     ],
     "nemo-tts": [
         "nemo_tts"
@@ -9598,8 +8637,7 @@
         "nerblackbox"
     ],
     "nerwhal": [
-        "nerwhal",
-        "tests"
+        "nerwhal"
     ],
     "nessai": [
         "nessai"
@@ -9607,7 +8645,6 @@
     "nest2tree": [],
     "nestedtensor": [],
     "netcal": [
-        "examples",
         "netcal"
     ],
     "netharn": [
@@ -9617,7 +8654,6 @@
         "netspeedmonitor"
     ],
     "neupy": [
-        "examples",
         "neupy"
     ],
     "neural-art": [],
@@ -9640,8 +8676,7 @@
         "neuralstyletransfer"
     ],
     "neural-wrappers": [
-        "neural_wrappers",
-        "test"
+        "neural_wrappers"
     ],
     "neuralart": [
         "neuralart"
@@ -9692,14 +8727,12 @@
         "neurocat"
     ],
     "neurodiffeq": [
-        "neurodiffeq",
-        "tests"
+        "neurodiffeq"
     ],
     "neurol": [
         "neurol"
     ],
     "neuronunitopt": [
-        "benchmarks",
         "neuronunit"
     ],
     "neurotpr": [
@@ -9709,11 +8742,9 @@
         "neurox"
     ],
     "neuspell": [
-        "neuspell",
-        "scripts"
+        "neuspell"
     ],
     "neutrino-torch": [
-        "build",
         "neutrino",
         "thirdparty",
         "wheelhouse"
@@ -9761,7 +8792,6 @@
         "niftytorch"
     ],
     "nimblephysics": [
-        "cmake_example",
         "nimblephysics"
     ],
     "nixtlats": [
@@ -9774,9 +8804,7 @@
         "njuseg"
     ],
     "nkia": [
-        "nkia/ml/classify_products",
-        "nkia/ml/cnn_nlp_model",
-        "utils/utils"
+        "nkia"
     ],
     "nlkit": [
         "nlkit"
@@ -9796,15 +8824,13 @@
         "nlp_dict"
     ],
     "nlp-gym": [
-        "nlp_gym",
-        "tests"
+        "nlp_gym"
     ],
     "nlp-nn": [
         "nlp_nn"
     ],
     "nlp-pie": [
-        "pie",
-        "test"
+        "pie"
     ],
     "nlp-primitives": [
         "nlp_primitives"
@@ -9817,8 +8843,7 @@
     ],
     "nlp-xiaojiang": [
         "nlp_xiaojiang",
-        "result_test",
-        "tests"
+        "result_test"
     ],
     "nlp2go": [
         "nlp2go"
@@ -9828,8 +8853,7 @@
     ],
     "nlpcube": [
         "_cube",
-        "cube",
-        "scripts"
+        "cube"
     ],
     "nlpia": [
         "nlpia"
@@ -9851,8 +8875,7 @@
         "nmrdata"
     ],
     "nmtlab": [
-        "nmtlab",
-        "test"
+        "nmtlab"
     ],
     "nmtpytorch": [
         "nmtpytorch"
@@ -9866,8 +8889,7 @@
         "nn_pruning"
     ],
     "nn-toolbox": [
-        "nntoolbox",
-        "tests"
+        "nntoolbox"
     ],
     "nn-torch": [
         "nn_torch"
@@ -9920,9 +8942,7 @@
     "nnunet": [
         "nnunet"
     ],
-    "nnunet-inference-on-cpu-and-gpu": [
-        "nnunet"
-    ],
+    "nnunet-inference-on-cpu-and-gpu": [],
     "nnutils-pytorch": [
         "nnutils_pytorch"
     ],
@@ -9943,12 +8963,8 @@
     "nomeroff-net": [
         "NomeroffNet"
     ],
-    "nomeroff-net-gpu": [
-        "NomeroffNet"
-    ],
-    "nomeroff-net-test": [
-        "NomeroffNet"
-    ],
+    "nomeroff-net-gpu": [],
+    "nomeroff-net-test": [],
     "nonlincausality": [
         "nonlincausality"
     ],
@@ -9959,12 +8975,9 @@
     "nosypy": [
         "nosypy"
     ],
-    "nosypy-gpu": [
-        "nosypy"
-    ],
+    "nosypy-gpu": [],
     "not-tf-opt": [
-        "not_tf_opt",
-        "tests"
+        "not_tf_opt"
     ],
     "noteblog": [
         "noteblog"
@@ -9991,8 +9004,7 @@
         "nowcasting_dataloader"
     ],
     "nowcasting-dataset": [
-        "nowcasting_dataset",
-        "tests"
+        "nowcasting_dataset"
     ],
     "nowcasting-utils": [
         "nowcasting_utils"
@@ -10043,8 +9055,7 @@
         "nudeclient"
     ],
     "num-fh": [
-        "num_fh",
-        "tests"
+        "num_fh"
     ],
     "numeraicb": [
         "numeraicb"
@@ -10057,12 +9068,10 @@
     ],
     "nuscenes-devkit": [
         "nuimages",
-        "nuscenes",
-        "tutorials"
+        "nuscenes"
     ],
     "nussl": [
-        "nussl",
-        "tests"
+        "nussl"
     ],
     "nvflare": [
         "dlmed",
@@ -10076,7 +9085,6 @@
         "nymph"
     ],
     "nyoka": [
-        "examples",
         "nyoka"
     ],
     "nystrom-attention": [
@@ -10085,18 +9093,12 @@
     "o4": [
         "o4"
     ],
-    "obfuscated-convo-new-version-abdo": [
-        "convo",
-        "convo_sdk",
-        "pytransform"
-    ],
+    "obfuscated-convo-new-version-abdo": [],
     "obfuscation-classification": [],
     "obfuscation-detection": [
         "obfuscation_detection"
     ],
-    "object-detection": [
-        "object_detection"
-    ],
+    "object-detection": [],
     "object-detection-fastai": [
         "object_detection_fastai"
     ],
@@ -10104,18 +9106,13 @@
         "anchor_generators",
         "box_coders",
         "builders",
-        "core",
         "data_decoders",
         "dataset_tools",
         "inference",
-        "legacy",
         "matchers",
         "meta_architectures",
-        "metrics",
-        "models",
         "predictors",
-        "protos",
-        "utils"
+        "protos"
     ],
     "objifier": [
         "objifier"
@@ -10131,8 +9128,7 @@
         "occamypy"
     ],
     "ocr4all-pixel-classifier": [
-        "ocr4all_pixel_classifier",
-        "tests"
+        "ocr4all_pixel_classifier"
     ],
     "ocr4all-pixel-classifier-frontend": [
         "ocr4all_pixel_classifier_frontend"
@@ -10141,8 +9137,7 @@
         "ocrd_anybaseocr"
     ],
     "ocrd-calamari": [
-        "ocrd_calamari",
-        "test"
+        "ocrd_calamari"
     ],
     "ocrd-cis": [
         "ocrd_cis"
@@ -10155,8 +9150,7 @@
         "ocrd_keraslm"
     ],
     "ocrd-kraken": [
-        "ocrd_kraken",
-        "test"
+        "ocrd_kraken"
     ],
     "ocrd-pc-segmentation": [
         "ocrd_pc_segmentation"
@@ -10176,30 +9170,15 @@
         "octis"
     ],
     "octopod": [
-        "octopod",
-        "tests"
+        "octopod"
     ],
     "odak": [
-        "odak",
-        "odak/catalog",
-        "odak/jones",
-        "odak/learn",
-        "odak/learn/tools",
-        "odak/learn/wave",
-        "odak/manager",
-        "odak/measurement",
-        "odak/oldschool",
-        "odak/raytracing",
-        "odak/tools",
-        "odak/visualize",
-        "odak/visualize/blender",
-        "odak/wave"
+        "odak"
     ],
     "odds": [
         "odds"
     ],
     "odin-ai": [
-        "examples",
         "odin"
     ],
     "odious": [
@@ -10234,7 +9213,6 @@
     "omolab-conf-analysis": [
         "clustering",
         "elements",
-        "main",
         "pca",
         "pymol",
         "xyz"
@@ -10255,14 +9233,12 @@
     ],
     "onnx-tf": [
         "onnx_tf",
-        "test",
         "third_party"
     ],
     "onnx2pytorch": [
         "onnx2pytorch"
     ],
     "onnxds": [
-        "onnx",
         "onnxds"
     ],
     "onnxmltools": [
@@ -10272,9 +9248,7 @@
     "ont-bonito": [
         "bonito"
     ],
-    "ont-seqdist-cuda111": [
-        "seqdist"
-    ],
+    "ont-seqdist-cuda111": [],
     "ontolearn": [
         "ontolearn",
         "owlapy",
@@ -10285,15 +9259,12 @@
         "op_text"
     ],
     "opacus": [
-        "examples",
         "opacus"
     ],
     "open-faces": [
         "openfaces"
     ],
-    "open-graphics": [
-        "graphics"
-    ],
+    "open-graphics": [],
     "open-speech": [
         "open_speech"
     ],
@@ -10304,8 +9275,7 @@
         "openbiolink"
     ],
     "openchat": [
-        "openchat",
-        "tests"
+        "openchat"
     ],
     "opencxr": [
         "opencxr"
@@ -10323,30 +9293,22 @@
         "openml_pytorch"
     ],
     "opennsfw-standalone": [
-        "opennsfw_standalone",
-        "tests"
+        "opennsfw_standalone"
     ],
     "opennsfw2": [
-        "opennsfw2",
-        "tests"
+        "opennsfw2"
     ],
     "openpifpaf": [
         "openpifpaf"
     ],
     "openrpa": [],
     "opensoundscape": [],
-    "openspacetrainenv": [
-        "src"
-    ],
+    "openspacetrainenv": [],
     "openspeech-core": [
         "openspeech"
     ],
-    "openspeech-py": [
-        "openspeech"
-    ],
-    "openspeechs": [
-        "openspeech"
-    ],
+    "openspeech-py": [],
+    "openspeechs": [],
     "opensubtitles-dataloader": [],
     "opensubtitles-dataset": [],
     "opentool": [
@@ -10356,31 +9318,24 @@
         "openue"
     ],
     "openunmix": [
-        "openunmix",
-        "tests"
+        "openunmix"
     ],
     "opt-einsum-fx": [
         "opt_einsum_fx"
     ],
-    "optimization-dashboard": [
-        "dashboard"
-    ],
+    "optimization-dashboard": [],
     "optimizer-ratings": [
         "optimizer-ratings"
     ],
     "optimum": [
         "optimum"
     ],
-    "optimum-graphcore": [
-        "optimum"
-    ],
+    "optimum-graphcore": [],
     "optimuspyspark": [
-        "optimus",
-        "tests"
+        "optimus"
     ],
     "optorch": [
-        "optorch",
-        "optorch/cpp"
+        "optorch"
     ],
     "opveclib": [
         "opveclib"
@@ -10395,15 +9350,12 @@
         "ORBIS_new"
     ],
     "orbit-ml": [
-        "orbit",
-        "tests"
+        "orbit"
     ],
     "orion-ml": [
         "orion"
     ],
-    "orion.algo.robo": [
-        "orion"
-    ],
+    "orion.algo.robo": [],
     "orthoseg": [
         "orthoseg"
     ],
@@ -10434,8 +9386,7 @@
         "oze_dataset"
     ],
     "pDeepXL": [
-        "pDeepXL",
-        "tests"
+        "pDeepXL"
     ],
     "pKAI": [
         "pKAI"
@@ -10443,27 +9394,9 @@
     "package-bai": [],
     "packagebai": [],
     "paddle-aistudio": [
-        "paddle-aistudio/01fit_a_line",
-        "paddle-aistudio/02recognize_digits",
-        "paddle-aistudio/03image_classification",
-        "paddle-aistudio/04word2vec",
-        "paddle-aistudio/05recommender_system",
-        "paddle-aistudio/06understand_sentiment",
-        "paddle-aistudio/07label_semantic_roles",
-        "paddle-aistudio/08machine_translation",
-        "paddle-aistudio/09gan"
+        "paddle-aistudio"
     ],
-    "paddle-aistudio-gpu": [
-        "paddle-aistudio/01fit_a_line",
-        "paddle-aistudio/02recognize_digits",
-        "paddle-aistudio/03image_classification",
-        "paddle-aistudio/04word2vec",
-        "paddle-aistudio/05recommender_system",
-        "paddle-aistudio/06understand_sentiment",
-        "paddle-aistudio/07label_semantic_roles",
-        "paddle-aistudio/08machine_translation",
-        "paddle-aistudio/09gan"
-    ],
+    "paddle-aistudio-gpu": [],
     "paddle-edl": [
         "paddle_edl"
     ],
@@ -10559,13 +9492,11 @@
     ],
     "paralaser": [],
     "parallelformers": [
-        "parallelformers",
-        "tests"
+        "parallelformers"
     ],
     "parlai": [
         "example_parlai_internal",
-        "parlai",
-        "projects"
+        "parlai"
     ],
     "parse-tools": [
         "parse_tools"
@@ -10575,8 +9506,7 @@
         "parsnet"
     ],
     "paso": [
-        "paso",
-        "tests"
+        "paso"
     ],
     "pastiche": [
         "pastiche"
@@ -10630,12 +9560,9 @@
         "pdfflow"
     ],
     "pdftotree": [
-        "pdftotree",
-        "tests"
+        "pdftotree"
     ],
-    "peak-finder": [
-        "src"
-    ],
+    "peak-finder": [],
     "pearl-pgm": [],
     "pearlib": [
         "pearlib"
@@ -10668,20 +9595,13 @@
     "perceiver-io-pytorch": [
         "perceiver_io"
     ],
-    "perceiver-model": [
-        "perceiver_pytorch"
-    ],
+    "perceiver-model": [],
     "perceiver-multi-modality-pytorch": [],
     "perceiver-pytorch": [
         "perceiver_pytorch"
     ],
     "perceiverio": [],
-    "perceptilabs": [
-        "perceptilabs",
-        "perceptilabs_runner",
-        "rygg",
-        "static_file_server"
-    ],
+    "perceptilabs": [],
     "perceptilabs-gpu": [
         "fileserver",
         "perceptilabs",
@@ -10706,11 +9626,7 @@
         "pernaf"
     ],
     "pero-ocr": [
-        "pero_ocr",
-        "pero_ocr/decoding",
-        "pero_ocr/document_ocr",
-        "pero_ocr/layout_engines",
-        "pero_ocr/ocr_engine"
+        "pero_ocr"
     ],
     "persephone": [
         "persephone"
@@ -10723,8 +9639,7 @@
         "perutils"
     ],
     "petrel-det": [
-        "petrel",
-        "tests"
+        "petrel"
     ],
     "pfhedge": [],
     "pgmpy": [
@@ -10732,8 +9647,7 @@
     ],
     "phages2050": [],
     "phasespace": [
-        "phasespace",
-        "tests"
+        "phasespace"
     ],
     "phenobert": [
         "phenobert"
@@ -10744,8 +9658,7 @@
         "phoenix_datasets"
     ],
     "photosynthesis-metrics": [
-        "photosynthesis_metrics",
-        "tests"
+        "photosynthesis_metrics"
     ],
     "phrase-tokenizer": [],
     "phsic-cli": [],
@@ -10754,8 +9667,7 @@
     ],
     "phynix-gym": [],
     "physiossl": [
-        "physiossl",
-        "test"
+        "physiossl"
     ],
     "physlearn": [
         "physlearn"
@@ -10782,8 +9694,7 @@
         "picsellia_yolov5"
     ],
     "pie-extended": [
-        "pie_extended",
-        "tests"
+        "pie_extended"
     ],
     "piepline": [
         "piepline"
@@ -10799,8 +9710,7 @@
         "_annotation_tools"
     ],
     "pietoolbelt": [
-        "pietoolbelt",
-        "tests"
+        "pietoolbelt"
     ],
     "piex": [
         "piex"
@@ -10812,9 +9722,7 @@
         "pipeline_diacritizer"
     ],
     "piq": [
-        "examples",
-        "piq",
-        "tests"
+        "piq"
     ],
     "piqa": [
         "piqa"
@@ -10826,16 +9734,13 @@
         "piston_v_taper"
     ],
     "pitchr": [
-        "pitchr",
-        "tests"
+        "pitchr"
     ],
     "pitchscapes": [
         "pitchscapes"
     ],
     "pivot-based-NMT": [],
-    "pixel-classifier-torch": [
-        "segmentation"
-    ],
+    "pixel-classifier-torch": [],
     "pixel-level-contrastive-learning": [
         "pixel_level_contrastive_learning"
     ],
@@ -10915,28 +9820,20 @@
     ],
     "polaris-ml": [
         "contrib",
-        "polaris",
-        "tests"
+        "polaris"
     ],
     "polyaxon-lib": [
-        "examples",
-        "polyaxon_lib",
-        "tests"
+        "polyaxon_lib"
     ],
     "polyfuzz": [
-        "polyfuzz",
-        "tests"
+        "polyfuzz"
     ],
     "polymuse": [
         "h5_models",
         "midis",
         "polymuse"
     ],
-    "polymuse-future": [
-        "h5_models",
-        "midis",
-        "polymuse"
-    ],
+    "polymuse-future": [],
     "polypoly": [
         "polypoly"
     ],
@@ -10982,15 +9879,11 @@
         "powerful_benchmarker"
     ],
     "ppcd": [],
-    "ppvideo": [
-        "ppvideo"
-    ],
+    "ppvideo": [],
     "prdnn": [
         "prdnn"
     ],
-    "pre-ai-python": [
-        "ai-python"
-    ],
+    "pre-ai-python": [],
     "pre-assistant": [
         "rasax"
     ],
@@ -11032,8 +9925,7 @@
     ],
     "pro-gan-pytorch": [],
     "probeye": [
-        "probeye",
-        "tests"
+        "probeye"
     ],
     "processdigit": [
         "processdigit"
@@ -11089,19 +9981,15 @@
         "protoattend"
     ],
     "protoflow": [
-        "protoflow",
-        "tests"
+        "protoflow"
     ],
     "protopia": [
         "protopia"
     ],
     "prototorch": [
-        "prototorch",
-        "tests"
-    ],
-    "prototorch-models": [
         "prototorch"
     ],
+    "prototorch-models": [],
     "prototorch-qu": [
         "prototorch_qu"
     ],
@@ -11162,11 +10050,9 @@
     ],
     "punctuator-ice": [],
     "punctuator-isl": [
-        "punctuator"
+        "punctuator-is"
     ],
-    "punctuator-lvl9-inga": [
-        "punctuator"
-    ],
+    "punctuator-lvl9-inga": [],
     "punppci": [
         "punppci"
     ],
@@ -11174,20 +10060,16 @@
         "pupyl"
     ],
     "pvactools": [
-        "lib",
-        "tools",
-        "utils"
+        "lib"
     ],
     "pvcastro-iberlef": [
         "pvcastro_iberlef"
     ],
     "pvqa": [
-        "pvqa",
-        "tests"
+        "pvqa"
     ],
     "py-agender": [
-        "pyagender",
-        "test"
+        "pyagender"
     ],
     "py-irt": [],
     "py-outrider": [
@@ -11203,12 +10085,9 @@
         "jupyter-notebooks"
     ],
     "pyDSlib": [
-        "pyDSlib",
-        "tests"
+        "pyDSlib"
     ],
-    "pyHDX": [
-        "pyhdx"
-    ],
+    "pyHDX": [],
     "pyICC": [],
     "pyOLJ": [
         "aimagelab"
@@ -11216,7 +10095,6 @@
     "pyOsirix": [],
     "pyTextMiner": [
         "ack_mining",
-        "examples",
         "glove-win_devc_x64",
         "pyTextMiner",
         "py_bert",
@@ -11229,8 +10107,7 @@
         "py_sentiment",
         "py_summarization",
         "py_topic_model",
-        "py_word2vec",
-        "tests"
+        "py_word2vec"
     ],
     "pyVHR": [
         "pyVHR"
@@ -11251,8 +10128,7 @@
         "pyapetnet"
     ],
     "pyblaze": [
-        "pyblaze",
-        "tests"
+        "pyblaze"
     ],
     "pybpod": [],
     "pybpod-gui-plugin": [
@@ -11317,8 +10193,7 @@
     "pydta": [],
     "pydta-test": [],
     "pyedpiper": [
-        "pyedpiper",
-        "tests"
+        "pyedpiper"
     ],
     "pyeem": [
         "pyeem"
@@ -11366,8 +10241,7 @@
     ],
     "pyhalcyon": [],
     "pyheartex": [
-        "htx",
-        "tests"
+        "htx"
     ],
     "pyhumour": [
         "pyhumour"
@@ -11382,9 +10256,7 @@
         "pyjamas"
     ],
     "pykale": [
-        "examples",
-        "kale",
-        "tests"
+        "kale"
     ],
     "pykeen": [
         "pykeen"
@@ -11416,13 +10288,9 @@
         "pylops_gpu"
     ],
     "pyloss": [],
-    "pyluna-pathology": [
-        "luna",
-        "tests"
-    ],
+    "pyluna-pathology": [],
     "pymanopt": [
-        "pymanopt",
-        "tests"
+        "pymanopt"
     ],
     "pymarlin": [
         "pymarlin"
@@ -11441,15 +10309,13 @@
         "pymetheus"
     ],
     "pymia": [
-        "pymia",
-        "test"
+        "pymia"
     ],
     "pymltoolkit": [
         "mltk"
     ],
     "pymltools": [
-        "pymltools",
-        "test"
+        "pymltools"
     ],
     "pyncer": [
         "pyncer"
@@ -11464,13 +10330,7 @@
         "uncch_core"
     ],
     "pynmsnn": [
-        "pyNM/cf_matrix",
-        "pyNM/nonspiking_binary_classifier",
-        "pyNM/nonspiking_multiclass_classifier",
-        "pyNM/nonspiking_regressor",
-        "pyNM/spiking_binary_classifier",
-        "pyNM/spiking_multiclass_classifier",
-        "pyNM/spiking_regressor"
+        "pyNM"
     ],
     "pynoob": [
         "pynoob"
@@ -11512,8 +10372,7 @@
         "pyprob"
     ],
     "pypuf": [
-        "pypuf",
-        "test"
+        "pypuf"
     ],
     "pyqna": [
         "pyqna"
@@ -11538,7 +10397,6 @@
         "pyrlprob"
     ],
     "pyrnn": [
-        "examples",
         "imgs",
         "pyrnn"
     ],
@@ -11555,12 +10413,10 @@
         "pyronn"
     ],
     "pyronn-layers": [
-        "_foo",
         "pyronn_layers"
     ],
     "pyroved": [
-        "pyroved",
-        "tests"
+        "pyroved"
     ],
     "pyrovision": [
         "pyrovision"
@@ -11569,12 +10425,10 @@
         "pyrtstools"
     ],
     "pysentimiento": [
-        "pysentimiento",
-        "tests"
+        "pysentimiento"
     ],
     "pyserini": [
-        "pyserini",
-        "tests"
+        "pyserini"
     ],
     "pyshell-reduce": [],
     "pysiml": [],
@@ -11588,8 +10442,7 @@
         "pysnn"
     ],
     "pysoftNLP": [
-        "pysoftNLP",
-        "tests"
+        "pysoftNLP"
     ],
     "pysoundtool": [
         "pysoundtool",
@@ -11602,8 +10455,7 @@
         "spacer"
     ],
     "pysr": [
-        "pysr",
-        "test"
+        "pysr"
     ],
     "pystematic-torch": [],
     "pystiche": [
@@ -11622,13 +10474,9 @@
         "pytest_pytorch"
     ],
     "pytext-nlp": [
-        "pytext",
-        "tests"
+        "pytext"
     ],
-    "pytext-nlp-test": [
-        "pytext",
-        "tests"
-    ],
+    "pytext-nlp-test": [],
     "pytez": [],
     "pytezz": [
         "pytezz"
@@ -11643,15 +10491,12 @@
     "python-doctr": [
         "doctr"
     ],
-    "python-mltk": [
-        "mltk"
-    ],
+    "python-mltk": [],
     "python-server": [],
     "pythoncrest": [
         "crest"
     ],
     "pytorch-accelerated": [
-        "examples",
         "pytorch_accelerated"
     ],
     "pytorch-adapt": [
@@ -11691,7 +10536,6 @@
         "dni"
     ],
     "pytorch-dp": [
-        "examples",
         "torchdp"
     ],
     "pytorch-es": [
@@ -11713,7 +10557,6 @@
         "pytorch_hyperlight"
     ],
     "pytorch-ident": [
-        "examples",
         "torchid"
     ],
     "pytorch-ignite": [
@@ -11736,13 +10579,9 @@
     "pytorch-light": [],
     "pytorch-lightning": [
         "pl_examples",
-        "pytorch_lightning",
-        "tests"
+        "pytorch_lightning"
     ],
-    "pytorch-lightning-bolts": [
-        "pl_bolts",
-        "tests"
-    ],
+    "pytorch-lightning-bolts": [],
     "pytorch-lightning-data": [],
     "pytorch-lightning-flash": [],
     "pytorch-lightning-spells": [
@@ -11781,12 +10620,9 @@
     "pytorch-msssim": [
         "pytorch_msssim"
     ],
-    "pytorch-nemo": [
-        "nemo"
-    ],
+    "pytorch-nemo": [],
     "pytorch-ner": [
-        "pytorch_ner",
-        "tests"
+        "pytorch_ner"
     ],
     "pytorch-nlp": [
         "torchnlp"
@@ -11828,12 +10664,9 @@
         "rex"
     ],
     "pytorch-segmentation-models-trainer": [
-        "pytorch_segmentation_models_trainer",
-        "tests"
+        "pytorch_segmentation_models_trainer"
     ],
-    "pytorch-spear": [
-        "spear"
-    ],
+    "pytorch-spear": [],
     "pytorch-spiking": [
         "pytorch_spiking"
     ],
@@ -11866,9 +10699,7 @@
     "pytorch-transformers": [
         "pytorch_transformers"
     ],
-    "pytorch-transformers-pvt-nightly": [
-        "pytorch_transformers"
-    ],
+    "pytorch-transformers-pvt-nightly": [],
     "pytorch-tree-lstm": [
         "treelstm"
     ],
@@ -11885,12 +10716,10 @@
         "pytorch_wavelet"
     ],
     "pytorch-widedeep": [
-        "pytorch_widedeep",
-        "tests"
+        "pytorch_widedeep"
     ],
     "pytorch-wrapper": [
-        "pytorch_wrapper",
-        "tests"
+        "pytorch_wrapper"
     ],
     "pytorch-yard": [
         "pytorch_yard"
@@ -11899,8 +10728,7 @@
         "pytorch2caffe"
     ],
     "pytorch2keras": [
-        "pytorch2keras",
-        "tests"
+        "pytorch2keras"
     ],
     "pytorch3d": [
         "pytorch3d"
@@ -11936,8 +10764,7 @@
     ],
     "pytorchyolo": [],
     "pytouch": [
-        "pytouch",
-        "train"
+        "pytouch"
     ],
     "pytrakem": [
         "pytrakem"
@@ -11993,16 +10820,10 @@
     ],
     "qf-diamond-norm": [],
     "qfast": [
-        "examples",
-        "qfast",
-        "tools"
-    ],
-    "qfast-sc": [
         "qfast"
     ],
-    "qfast-uq": [
-        "qfast"
-    ],
+    "qfast-sc": [],
+    "qfast-uq": [],
     "qfragment": [
         "qfragment"
     ],
@@ -12021,7 +10842,6 @@
     ],
     "qmctorch": [
         "qmctorch",
-        "tests",
         "tests_hvd"
     ],
     "qmdesc": [
@@ -12050,9 +10870,7 @@
         "quadratum"
     ],
     "quantumflow": [
-        "examples",
-        "quantumflow",
-        "tests"
+        "quantumflow"
     ],
     "quarks2-fractal": [],
     "qucumber": [
@@ -12109,22 +10927,18 @@
         "rasa_alice"
     ],
     "rasa-chinese": [
-        "rasa_chinese",
-        "tests"
+        "rasa_chinese"
     ],
     "rasa-chinese-plugin": [
         "featurizer"
     ],
     "rasa-cli-completion": [
-        "rasa_cli_completion",
-        "tests"
+        "rasa_cli_completion"
     ],
     "rasa-contrib": [
-        "rasa_contrib",
-        "tests"
+        "rasa_contrib"
     ],
     "rasa-core": [
-        "examples",
         "rasa_core"
     ],
     "rasa-denerator": [
@@ -12137,37 +10951,20 @@
         "rasa_ext_plugin"
     ],
     "rasa-extractors": [],
-    "rasa-hydra": [
-        "config",
-        "dialog_manager",
-        "examples",
-        "metrics",
-        "rasa",
-        "rasa_core",
-        "rasa_nlu",
-        "tests"
-    ],
+    "rasa-hydra": [],
     "rasa-nlu-gao": [
         "rasa_nlu_gao"
     ],
-    "rasafou": [
-        "examples",
-        "rasa",
-        "rasa_core",
-        "rasa_nlu",
-        "tests"
-    ],
+    "rasafou": [],
     "rasahub-rasa": [
         "rasahub_rasa"
     ],
     "rasam": [],
-    "rastervision": [],
-    "rastervision-pytorch-backend": [
+    "rastervision": [
         "rastervision"
     ],
-    "rastervision-pytorch-learner": [
-        "rastervision"
-    ],
+    "rastervision-pytorch-backend": [],
+    "rastervision-pytorch-learner": [],
     "rational-activations": [
         "rational"
     ],
@@ -12204,7 +11001,6 @@
         "ravestate_wildtalk"
     ],
     "ray-lightning": [
-        "examples",
         "ray_lightning"
     ],
     "raylab": [],
@@ -12236,12 +11032,10 @@
         "rctorchprivate"
     ],
     "rddl2tf": [
-        "rddl2tf",
-        "tests"
+        "rddl2tf"
     ],
     "rddlgym": [
-        "rddlgym",
-        "tests"
+        "rddlgym"
     ],
     "rdv": [
         "rdv"
@@ -12293,8 +11087,7 @@
     "recommender-systems": [],
     "recommender-utils": [],
     "recommenders": [
-        "recommenders",
-        "tests"
+        "recommenders"
     ],
     "reconner": [],
     "recsim": [
@@ -12321,8 +11114,7 @@
         "refinenet"
     ],
     "refitt": [
-        "refitt",
-        "tests"
+        "refitt"
     ],
     "reflective-listening": [
         "reflective_listening"
@@ -12345,9 +11137,7 @@
         "reinforcement"
     ],
     "reinforcement-learning-keras": [
-        "reinforcement_learning_keras",
-        "scripts",
-        "tests"
+        "reinforcement_learning_keras"
     ],
     "reinforcement-terminals": [
         "reinforcement_terminals"
@@ -12364,12 +11154,9 @@
         "relumip"
     ],
     "reluble": [
-        "models",
         "reluble"
     ],
-    "rembg-greenscreen": [
-        "rembg"
-    ],
+    "rembg-greenscreen": [],
     "remixer-pytorch": [
         "remixer_pytorch"
     ],
@@ -12419,9 +11206,7 @@
     "retina-face": [
         "retinaface"
     ],
-    "retinaface": [
-        "retinaface"
-    ],
+    "retinaface": [],
     "retinaface-pytorch": [
         "retinaface"
     ],
@@ -12429,9 +11214,7 @@
     "rfconv": [
         "rfconv"
     ],
-    "rflow-tfx": [
-        "tfx"
-    ],
+    "rflow-tfx": [],
     "rhelpers": [],
     "rhme": [
         "rhme"
@@ -12441,9 +11224,7 @@
     ],
     "richarddwang": [],
     "ride": [
-        "examples",
-        "ride",
-        "tests"
+        "ride"
     ],
     "riid": [
         "riid"
@@ -12453,8 +11234,7 @@
         "ripple_detector_CNN"
     ],
     "rising": [
-        "rising",
-        "tests"
+        "rising"
     ],
     "riskflow": [
         "riskflow"
@@ -12463,7 +11243,6 @@
         "rl_bot_model"
     ],
     "rl-games": [
-        "docs",
         "rl_games"
     ],
     "rl-package": [],
@@ -12475,7 +11254,6 @@
     ],
     "rl-warp-drive": [
         "example_envs",
-        "tests",
         "warp_drive"
     ],
     "rl4net": [
@@ -12505,9 +11283,7 @@
         "rmi"
     ],
     "rmn": [
-        "models",
-        "rmn",
-        "utils"
+        "rmn"
     ],
     "rnaglib": [
         "rnaglib"
@@ -12534,11 +11310,9 @@
         "robolearn"
     ],
     "robotathome": [
-        "robotathome",
-        "tests"
+        "robotathome"
     ],
     "roboy-parlai": [
-        "parlai",
         "roboy_parlai"
     ],
     "robust-statistics-simulator": [
@@ -12556,9 +11330,7 @@
     "rocketbase": [
         "rocketbase"
     ],
-    "rodan": [
-        "src"
-    ],
+    "rodan": [],
     "rosa-robot": [
         "rosa"
     ],
@@ -12583,10 +11355,7 @@
         "routing_transformer"
     ],
     "roxyai-inspect": [],
-    "rp-compression": [
-        "rp_compression",
-        "tests"
-    ],
+    "rp-compression": [],
     "rpa-ocr": [
         "data_experiment",
         "generate_verification",
@@ -12595,9 +11364,7 @@
     "rpi-deep-pantilt": [
         "rpi_deep_pantilt"
     ],
-    "rpi-torchvision": [
-        "torchvision"
-    ],
+    "rpi-torchvision": [],
     "rpunct": [
         "rpunct"
     ],
@@ -12612,8 +11379,7 @@
     "rt-pie": [],
     "rtdl": [],
     "rtg": [
-        "rtg",
-        "tests"
+        "rtg"
     ],
     "rts-package": [],
     "ru-accent-poet": [
@@ -12621,11 +11387,7 @@
     ],
     "ru-proverbs": [],
     "rudalle": [
-        "rudalle",
-        "rudalle/dalle",
-        "rudalle/realesrgan",
-        "rudalle/ruclip",
-        "rudalle/vae"
+        "rudalle"
     ],
     "rukip": [
         "rukip"
@@ -12656,7 +11418,6 @@
         "s3dxrd"
     ],
     "saai": [
-        "data",
         "fsm",
         "saai"
     ],
@@ -12747,16 +11508,13 @@
     ],
     "sc-utils": [],
     "sc2env": [
-        "sc2env",
-        "sc2env/environments",
-        "sc2env/maps"
+        "sc2env"
     ],
     "scArches": [
         "scarches"
     ],
     "scArchest": [
-        "scarchest",
-        "tests"
+        "scarchest"
     ],
     "scCODA": [
         "sccoda"
@@ -12767,21 +11525,15 @@
     "scETM": [
         "scETM"
     ],
-    "scFLash": [
-        "scFlash"
-    ],
+    "scFLash": [],
     "scFlash": [
         "scFlash"
     ],
-    "scGP": [
-        "bin"
-    ],
+    "scGP": [],
     "scScope": [
         "scscope"
     ],
-    "scScope-cpu": [
-        "scscope"
-    ],
+    "scScope-cpu": [],
     "scTAPE": [
         "TAPE"
     ],
@@ -12792,11 +11544,9 @@
     "scale": [
         "scale"
     ],
-    "scale-atac": [
-        "scale"
-    ],
+    "scale-atac": [],
     "scale-v2": [
-        "scale"
+        "scalex"
     ],
     "scalenet": [
         "scalenet"
@@ -12819,9 +11569,7 @@
     "scdiffeq": [
         "scdiffeq"
     ],
-    "scflash": [
-        "scFlash"
-    ],
+    "scflash": [],
     "scgen": [],
     "scglue": [],
     "schnapsen": [
@@ -12831,8 +11579,7 @@
         "schnetpack"
     ],
     "schrodinet": [
-        "schrodinet",
-        "tests"
+        "schrodinet"
     ],
     "sciPENN": [
         "sciPENN"
@@ -12840,16 +11587,13 @@
     "scikeras": [],
     "scikeras-staging": [],
     "scikit-blocks": [
-        "skblocks",
-        "tests"
+        "skblocks"
     ],
     "scikit-decide": [
-        "skdecide",
-        "skdecide/hub/"
+        "skdecide"
     ],
     "scikit-keras": [
-        "skkeras",
-        "tests"
+        "skkeras"
     ],
     "scikit-surgerytf": [
         "sksurgerytf"
@@ -12933,19 +11677,13 @@
     "seeker": [
         "seeker"
     ],
-    "seg-torch": [
-        "segmentation",
-        "util"
-    ],
+    "seg-torch": [],
     "segformer-pytorch": [
         "segformer_pytorch"
     ],
     "segmed": [],
     "segmentation-models-3D": [
-        "segmentation_models_3D",
-        "segmentation_models_3D/backbones",
-        "segmentation_models_3D/base",
-        "segmentation_models_3D/models"
+        "segmentation_models_3D"
     ],
     "segmentation-models-pytorch": [
         "segmentation_models_pytorch"
@@ -13011,8 +11749,7 @@
         "sent2vec"
     ],
     "sentencesimilarity": [
-        "sentencesimilarity",
-        "tests"
+        "sentencesimilarity"
     ],
     "senti-c": [
         "senti_c"
@@ -13048,9 +11785,7 @@
     "seqio": [
         "seqio"
     ],
-    "seqio-nightly": [
-        "seqio"
-    ],
+    "seqio-nightly": [],
     "seqiolib": [
         "seqiolib"
     ],
@@ -13064,9 +11799,7 @@
     "sfaira": [
         "sfaira"
     ],
-    "sfdc-merlion": [
-        "merlion"
-    ],
+    "sfdc-merlion": [],
     "sfu-ml-lib": [],
     "sgnlp": [
         "sgnlp"
@@ -13154,8 +11887,7 @@
         "simalign"
     ],
     "simclr": [
-        "simclr",
-        "utils"
+        "simclr"
     ],
     "simelixir": [
         "simelixir"
@@ -13214,9 +11946,7 @@
         "sinabs"
     ],
     "sinabs-cpp": [],
-    "sinabs-dynapcnn": [
-        "sinabs"
-    ],
+    "sinabs-dynapcnn": [],
     "singa-easy": [
         "singa_easy"
     ],
@@ -13240,8 +11970,7 @@
         "sisyphe"
     ],
     "sizif": [
-        "sizif",
-        "test"
+        "sizif"
     ],
     "sjaandi": [
         "rasterfairy",
@@ -13255,7 +11984,6 @@
     ],
     "skeltorch": [],
     "skil": [
-        "docs",
         "skil"
     ],
     "skillful-nowcasting": [
@@ -13297,9 +12025,7 @@
         "sldatasets"
     ],
     "sleap": [
-        "docs",
-        "sleap",
-        "tests"
+        "sleap"
     ],
     "slot-attention": [
         "slot_attention"
@@ -13312,10 +12038,8 @@
     "smachy": [],
     "smae": [],
     "smart-app-framework": [
-        "core",
         "scenarios",
-        "smart_kit",
-        "tests"
+        "smart_kit"
     ],
     "smart-app-framework-Denfreak": [],
     "smartcare": [
@@ -13323,7 +12047,6 @@
     ],
     "smartnoise-synth": [],
     "smashpy": [
-        "__init__",
         "_version",
         "smashpy"
     ],
@@ -13348,8 +12071,7 @@
         "smpr3d"
     ],
     "smurfs": [
-        "smurfs",
-        "tests"
+        "smurfs"
     ],
     "snare-ml": [
         "snare"
@@ -13361,21 +12083,17 @@
         "snlp"
     ],
     "snntoolbox": [
-        "examples",
-        "snntoolbox",
-        "tests"
+        "snntoolbox"
     ],
     "snntorch": [
         "snntorch"
     ],
     "snorkel": [
-        "snorkel",
-        "test"
+        "snorkel"
     ],
     "snorkel-metal": [
         "metal",
-        "synthetic",
-        "tests"
+        "synthetic"
     ],
     "snowfall-ml": [
         "snowfall"
@@ -13388,8 +12106,7 @@
     ],
     "snvoter-test": [],
     "soam": [
-        "soam",
-        "tests"
+        "soam"
     ],
     "soccer-summarizator": [
         "soccer_summarizator"
@@ -13402,15 +12119,13 @@
         "sockeye_serving"
     ],
     "soco-encoders": [
-        "onnx",
         "soco_encoders"
     ],
     "soco-mrc": [
         "soco_mrc"
     ],
     "solaris": [
-        "solaris",
-        "tests"
+        "solaris"
     ],
     "soltrannet": [
         "soltrannet"
@@ -13419,7 +12134,6 @@
         "somlib"
     ],
     "somnus": [
-        "cli",
         "somnus"
     ],
     "sonia": [
@@ -13475,8 +12189,7 @@
         "spacy_universal_sentence_encoder"
     ],
     "spacybert": [
-        "spacybert",
-        "tests"
+        "spacybert"
     ],
     "spacyface": [
         "spacyface"
@@ -13486,7 +12199,6 @@
         "spark_tensorflow_distributor"
     ],
     "sparkflow": [
-        "examples",
         "sparkflow"
     ],
     "sparselinear": [
@@ -13502,8 +12214,7 @@
         "sparv"
     ],
     "spatial-eggplant": [
-        "eggplant",
-        "test"
+        "eggplant"
     ],
     "speaker-verification": [
         "speaker_verification"
@@ -13538,8 +12249,7 @@
         "speednet"
     ],
     "spektral": [
-        "spektral",
-        "tests"
+        "spektral"
     ],
     "spflow": [
         "spn"
@@ -13582,8 +12292,7 @@
         "srm_helper"
     ],
     "sru": [
-        "sru",
-        "sru/csrc"
+        "sru"
     ],
     "ssnp": [
         "ssnp"
@@ -13614,8 +12323,7 @@
         "stam_pytorch"
     ],
     "stamp-processing": [
-        "stamp_processing",
-        "tests"
+        "stamp_processing"
     ],
     "stan2tfp": [
         "stan2tfp"
@@ -13624,8 +12332,7 @@
         "openie"
     ],
     "stanfordnlp": [
-        "stanfordnlp",
-        "tests"
+        "stanfordnlp"
     ],
     "stannetflow": [
         "stannetflow"
@@ -13653,8 +12360,7 @@
         "steganogan"
     ],
     "stellargraph": [
-        "stellargraph",
-        "tests"
+        "stellargraph"
     ],
     "stlearn": [
         "stlearn"
@@ -13664,15 +12370,10 @@
     ],
     "stockDL": [
         "calculations",
-        "data",
-        "main",
         "market",
-        "models",
         "plots",
-        "preprocessing",
         "results",
-        "stockDL",
-        "train"
+        "stockDL"
     ],
     "stocker": [
         "stocker"
@@ -13684,8 +12385,7 @@
         "stonkgs"
     ],
     "stop-sequencer": [
-        "stop_sequencer",
-        "tests"
+        "stop_sequencer"
     ],
     "storeweights": [
         "storeweights"
@@ -13735,13 +12435,10 @@
         "stsb3"
     ],
     "studioml": [
-        "studio",
-        "tests"
+        "studio"
     ],
     "stvae": [],
-    "style-transfer": [
-        "style_transfer"
-    ],
+    "style-transfer": [],
     "stylegan2-pytorch": [
         "stylegan2_pytorch"
     ],
@@ -13763,12 +12460,10 @@
         "sugartime"
     ],
     "suite2p": [
-        "benchmarks",
         "suite2p"
     ],
     "summ-eval": [
-        "summ_eval",
-        "tests"
+        "summ_eval"
     ],
     "summa-pkg": [],
     "summarizers": [
@@ -13805,8 +12500,7 @@
     ],
     "switch_activation": [],
     "swyft": [
-        "swyft",
-        "tests"
+        "swyft"
     ],
     "syedmodels": [],
     "syft": [
@@ -13818,15 +12512,12 @@
     "sympytorch": [
         "sympytorch"
     ],
-    "syn-nli": [
-        "src"
-    ],
+    "syn-nli": [],
     "syncnote": [
         "syncnote"
     ],
     "syncvtools": [
-        "syncvtools",
-        "tests"
+        "syncvtools"
     ],
     "synesthesia-uf": [
         "synesthesia"
@@ -13883,18 +12574,13 @@
     "taming-transformers": [
         "taming"
     ],
-    "taming-transformers-rom1504": [
-        "taming"
-    ],
+    "taming-transformers-rom1504": [],
     "tamnun": [
         "tamnun"
     ],
     "tangram-sc": [
-        "data",
-        "docs",
         "figures",
-        "tangram",
-        "tests"
+        "tangram"
     ],
     "tankwar": [],
     "taolunet": [
@@ -13907,8 +12593,7 @@
         "aglioolio"
     ],
     "targetran": [
-        "targetran",
-        "tests"
+        "targetran"
     ],
     "tars": [
         "tars"
@@ -13916,8 +12601,7 @@
     "tasnem-har": [],
     "tasnem-har-WaterCH": [],
     "tatau": [
-        "tatau",
-        "tests"
+        "tatau"
     ],
     "tati": [
         "TATi"
@@ -13956,8 +12640,7 @@
         "telluride_decoding"
     ],
     "tempeh": [
-        "tempeh",
-        "tests"
+        "tempeh"
     ],
     "tempocnn": [
         "tempocnn"
@@ -13975,9 +12658,7 @@
     "tensor2tensor": [
         "tensor2tensor"
     ],
-    "tensor2tensorManuel": [
-        "tensor2tensor"
-    ],
+    "tensor2tensorManuel": [],
     "tensorbank": [],
     "tensorbank-dev": [],
     "tensorboard-plugin-fairness-indicators": [
@@ -14020,7 +12701,6 @@
         "tensorfit"
     ],
     "tensorflow-addons": [
-        "_foo",
         "tensorflow_addons"
     ],
     "tensorflow-auto": [],
@@ -14047,50 +12727,35 @@
         "yggdrasil_decision_forests"
     ],
     "tensorflow-deploy-utils": [
-        "tensorflow_deploy_utils",
-        "test"
+        "tensorflow_deploy_utils"
     ],
-    "tensorflow-encrypted": [
-        "operations",
-        "tests",
-        "tf_encrypted"
-    ],
+    "tensorflow-encrypted": [],
     "tensorflow-enterprise-addons": [
         "tensorflow_enterprise_addons"
     ],
     "tensorflow-federated": [
         "tensorflow_federated"
     ],
-    "tensorflow-federated-nightly": [
-        "tensorflow_federated"
-    ],
+    "tensorflow-federated-nightly": [],
     "tensorflow-graphics": [
         "tensorflow_graphics"
     ],
-    "tensorflow-graphics-gpu": [
-        "tensorflow_graphics"
-    ],
+    "tensorflow-graphics-gpu": [],
     "tensorflow-hs-addon": [
         "tensorflow_hs_addon"
     ],
     "tensorflow-io": [
         "tensorflow_io"
     ],
-    "tensorflow-io-2.0-preview": [
-        "tensorflow_io"
-    ],
-    "tensorflow-io-nightly": [
-        "tensorflow_io"
-    ],
+    "tensorflow-io-2.0-preview": [],
+    "tensorflow-io-nightly": [],
     "tensorflow-kernels": [
         "kernels"
     ],
     "tensorflow-lattice": [
         "tensorflow_lattice"
     ],
-    "tensorflow-lattice-gpu": [
-        "tensorflow_lattice"
-    ],
+    "tensorflow-lattice-gpu": [],
     "tensorflow-manopt": [],
     "tensorflow-model-analysis": [
         "tensorflow_model_analysis"
@@ -14099,8 +12764,7 @@
         "tensorflow_model_remediation"
     ],
     "tensorflow-modules": [
-        "tensorflow_modules",
-        "tests"
+        "tensorflow_modules"
     ],
     "tensorflow-mri": [
         "tensorflow_mri"
@@ -14109,7 +12773,6 @@
         "tensorflow_nufft"
     ],
     "tensorflow-onmttok-ops": [
-        "_foo",
         "tensorflow_onmttok"
     ],
     "tensorflow-play": [
@@ -14128,34 +12791,24 @@
         "tensorflow_recommenders"
     ],
     "tensorflow-recommenders-addons": [
-        "_foo",
         "tensorflow_recommenders_addons"
     ],
-    "tensorflow-recommenders-addons-gpu": [
-        "_foo",
-        "tensorflow_recommenders_addons"
-    ],
+    "tensorflow-recommenders-addons-gpu": [],
     "tensorflow-scientific": [
         "tensorflow_scientific"
     ],
     "tensorflow-serving-api": [
         "tensorflow_serving"
     ],
-    "tensorflow-serving-api-gpu": [
-        "tensorflow_serving"
-    ],
-    "tensorflow-serving-api-python3": [
-        "tensorflow_serving"
-    ],
+    "tensorflow-serving-api-gpu": [],
+    "tensorflow-serving-api-python3": [],
     "tensorflow-serving-client": [
         "tensorflow_serving_client"
     ],
     "tensorflow-similarity": [
-        "tensorflow_similarity",
-        "tests"
+        "tensorflow_similarity"
     ],
     "tensorflow-tensorboard": [
-        "external",
         "tensorboard"
     ],
     "tensorflow-text": [
@@ -14208,8 +12861,6 @@
         "tensorneko"
     ],
     "tensornetwork": [
-        "examples",
-        "experiments",
         "tensornetwork"
     ],
     "tensorop": [
@@ -14243,9 +12894,7 @@
         "tesseract_table_preprocessor"
     ],
     "tesseract5obj": [],
-    "test-pytorch-gpu": [
-        "src"
-    ],
+    "test-pytorch-gpu": [],
     "testangle": [
         "happy"
     ],
@@ -14272,7 +12921,6 @@
     ],
     "textalytics-oss-adapters": [],
     "textanalytics": [
-        "tests",
         "text_analytics"
     ],
     "textanalyzer": [
@@ -14344,20 +12992,13 @@
         "tf_crf_layer"
     ],
     "tf-data-athena": [
-        "test",
         "tf_data_athena"
     ],
-    "tf-encrypt": [
-        "tests",
-        "tf_encrypted"
-    ],
+    "tf-encrypt": [],
     "tf-encrypted": [
-        "operations",
         "tf_encrypted"
     ],
-    "tf-encrypted-primitives": [
-        "tf_encrypted"
-    ],
+    "tf-encrypted-primitives": [],
     "tf-fast-api": [
         "tf_fast_api"
     ],
@@ -14375,7 +13016,6 @@
         "hourglass"
     ],
     "tf-keras-vis": [
-        "tests",
         "tf_keras_vis"
     ],
     "tf-lambda-resnet": [],
@@ -14389,17 +13029,13 @@
         "madgrad"
     ],
     "tf-mdp": [
-        "tests",
         "tfmdp"
     ],
     "tf-models-nightly": [
-        "official",
-        "orbit",
         "tensorflow_models"
     ],
     "tf-models-official": [
-        "official",
-        "orbit"
+        "official"
     ],
     "tf-noisy-image-dataset": [
         "tf_noisy_image_dataset"
@@ -14407,19 +13043,11 @@
     "tf-notification-callback": [
         "tf_notification_callback"
     ],
-    "tf-object-detection": [
-        "datasets",
-        "deployment",
-        "nets",
-        "object_detection",
-        "preprocessing"
-    ],
+    "tf-object-detection": [],
     "tf-pde": [
         "tfpde"
     ],
     "tf-plan": [
-        "scripts",
-        "tests",
         "tfplan"
     ],
     "tf-pose": [],
@@ -14468,7 +13096,6 @@
         "tf_train"
     ],
     "tf-watcher": [
-        "tests",
         "tfwatcher"
     ],
     "tf-x-transformers": [
@@ -14477,28 +13104,15 @@
     "tf-yarn": [
         "tf_yarn"
     ],
-    "tf-yolov4": [
-        "yolov4"
-    ],
+    "tf-yolov4": [],
     "tf2-keras-pandas": [
-        "examples",
-        "keras_pandas",
-        "tests"
+        "keras_pandas"
     ],
-    "tf2-tensorflow-object-detection-api": [
-        "datasets",
-        "deployment",
-        "nets",
-        "object_detection",
-        "preprocessing"
-    ],
+    "tf2-tensorflow-object-detection-api": [],
     "tf2-vgpu": [
-        "scripts",
-        "tests",
         "tf2_vgpu"
     ],
     "tf2crf": [
-        "tests",
         "tf2crf"
     ],
     "tf2show": [],
@@ -14509,20 +13123,14 @@
         "tfExperiment"
     ],
     "tf_lessons": [],
-    "tfa-nightly": [
-        "_foo",
-        "tensorflow_addons"
-    ],
+    "tfa-nightly": [],
     "tfaip": [
-        "examples",
         "tfaip"
     ],
     "tfaug": [
         "tfaug"
     ],
-    "tfbert": [
-        "bert"
-    ],
+    "tfbert": [],
     "tfbox": [
         "tfbox"
     ],
@@ -14532,9 +13140,7 @@
     "tfdlpack": [
         "tfdlpack"
     ],
-    "tfdlpack-gpu": [
-        "tfdlpack"
-    ],
+    "tfdlpack-gpu": [],
     "tfds-korean": [
         "tfds_korean"
     ],
@@ -14544,22 +13150,15 @@
     "tfdsio": [
         "tfdsio"
     ],
-    "tfencrypt": [
-        "tests",
-        "tf_encrypted"
-    ],
+    "tfencrypt": [],
     "tfextras": [
         "tfextras"
     ],
-    "tff-nightly": [
-        "tf_quant_finance"
-    ],
+    "tff-nightly": [],
     "tff-utils": [
         "tff_utils"
     ],
-    "tfg-nightly": [
-        "tensorflow_graphics"
-    ],
+    "tfg-nightly": [],
     "tfhelper": [
         "tfhelper"
     ],
@@ -14592,17 +13191,12 @@
         "tflibs"
     ],
     "tflite-model-maker": [
-        "tensorflow_examples",
         "tflite_model_maker"
     ],
     "tflite-model-maker-nightly": [
-        "tensorflow_examples",
-        "tensorflowjs",
-        "tflite_model_maker"
+        "tensorflowjs"
     ],
-    "tflog": [
-        "example"
-    ],
+    "tflog": [],
     "tflyrics": [
         "tflyrics"
     ],
@@ -14610,7 +13204,6 @@
         "tfmesos"
     ],
     "tfmpc": [
-        "tests",
         "tfmpc"
     ],
     "tfne": [
@@ -14618,12 +13211,9 @@
     ],
     "tfnlp": [],
     "tfnlu": [
-        "tests",
         "tfnlu"
     ],
-    "tfp-nightly": [
-        "tensorflow_probability"
-    ],
+    "tfp-nightly": [],
     "tfpyth": [
         "tfpyth"
     ],
@@ -14631,12 +13221,8 @@
     "tfquaternion": [
         "tfquaternion"
     ],
-    "tfra-nightly": [
-        "_foo",
-        "tensorflow_recommenders_addons"
-    ],
+    "tfra-nightly": [],
     "tfrddlsim": [
-        "tests",
         "tfrddlsim"
     ],
     "tfrecorder": [
@@ -14648,10 +13234,7 @@
     "tfserve": [
         "tfserve"
     ],
-    "tfsim-nightly": [
-        "tensorflow_similarity",
-        "tests"
-    ],
+    "tfsim-nightly": [],
     "tftables": [
         "tftables"
     ],
@@ -14693,11 +13276,9 @@
         "theta"
     ],
     "thexp": [
-        "tests",
         "thexp"
     ],
     "thingsvision": [
-        "tests",
         "thingsvision"
     ],
     "thop": [
@@ -14735,24 +13316,19 @@
     "tiggy": [
         "tiggy"
     ],
-    "tikt-performer-pytorch": [
-        "performer_pytorch"
-    ],
+    "tikt-performer-pytorch": [],
     "time-package": [],
     "time-package01": [],
     "time-series-dataset": [
         "time_series_dataset"
     ],
     "time-series-dataset-generator": [
-        "tests",
         "time_series_dataset_generator"
     ],
     "time-series-models": [
-        "tests",
         "time_series_models"
     ],
     "time-series-predictor": [
-        "tests",
         "time_series_predictor"
     ],
     "time-series-transformer": [
@@ -14836,9 +13412,7 @@
         "tmnt"
     ],
     "tmnt-WELLNER": [],
-    "tmnt-cu101": [
-        "tmnt"
-    ],
+    "tmnt-cu101": [],
     "tmomentum": [
         "tmomentum"
     ],
@@ -14848,9 +13422,7 @@
     ],
     "tnmf": [
         "demos",
-        "examples",
         "logos",
-        "scripts",
         "tnmf"
     ],
     "tntorch": [
@@ -14860,7 +13432,6 @@
         "toai"
     ],
     "tofa": [
-        "tests",
         "tofa"
     ],
     "token-shift-gpt": [
@@ -14882,7 +13453,6 @@
         "tonic"
     ],
     "tonks": [
-        "tests",
         "tonks"
     ],
     "toolbox-az": [
@@ -14899,7 +13469,6 @@
         "topaz"
     ],
     "topfarm": [
-        "examples",
         "topfarm"
     ],
     "topicmodels": [
@@ -14933,15 +13502,12 @@
         "encoding"
     ],
     "torch-enhance": [
-        "tests",
         "torch_enhance"
     ],
     "torch-es": [
-        "test",
         "torches"
     ],
     "torch-explain": [
-        "tests",
         "torch_explain"
     ],
     "torch-factorization-models": [],
@@ -14965,20 +13531,16 @@
     "torch-ipopt": [],
     "torch-kitti": [
         "integration_tests",
-        "tests",
         "torch_kitti"
     ],
     "torch-layers": [
-        "tests",
         "torch_layers"
     ],
     "torch-liberator": [
         "torch_liberator"
     ],
     "torch-lighter": [
-        "examples",
-        "lighter",
-        "tests"
+        "lighter"
     ],
     "torch-liter": [],
     "torch-lr-finder": [
@@ -15006,9 +13568,7 @@
     "torch-ort": [
         "torch_ort"
     ],
-    "torch-ort-poc": [
-        "torch_ort"
-    ],
+    "torch-ort-poc": [],
     "torch-pconv": [
         "torch_pconv"
     ],
@@ -15018,9 +13578,7 @@
     "torch-pitch-shift": [
         "torch_pitch_shift"
     ],
-    "torch-pixel-classifier": [
-        "segmentation"
-    ],
+    "torch-pixel-classifier": [],
     "torch-points3d": [],
     "torch-pruning": [
         "torch_pruning"
@@ -15031,11 +13589,8 @@
     "torch-reproducible-block": [
         "reproducible_block"
     ],
-    "torch-resize-images": [
-        "src"
-    ],
+    "torch-resize-images": [],
     "torch-rs": [
-        "tests",
         "torchrs"
     ],
     "torch-runner": [
@@ -15046,8 +13601,7 @@
     ],
     "torch-semiring-einsum": [],
     "torch-simplify": [
-        "simplify",
-        "training"
+        "simplify"
     ],
     "torch-snake": [
         "snake"
@@ -15065,14 +13619,12 @@
         "torch_struct"
     ],
     "torch-tagger": [
-        "tests",
         "torch_tagger"
     ],
     "torch-template": [
         "torch_template"
     ],
     "torch-text-classifier": [
-        "tests",
         "torch_text_classifier"
     ],
     "torch-time-stretch": [
@@ -15096,9 +13648,7 @@
     "torchKbert": [
         "torchKbert"
     ],
-    "torchPS": [
-        "torchps"
-    ],
+    "torchPS": [],
     "torchRDS": [
         "torchRDS"
     ],
@@ -15113,15 +13663,12 @@
         "torchaudio_augmentations"
     ],
     "torchbearer": [
-        "tests",
         "torchbearer"
     ],
     "torchbearer-variational": [
-        "tests",
         "variational"
     ],
     "torchbearer-visual": [
-        "tests",
         "visual"
     ],
     "torchbench": [
@@ -15130,19 +13677,8 @@
     "torchbiggraph": [
         "torchbiggraph"
     ],
-    "torchblocks": [
-        "callback",
-        "data",
-        "losses",
-        "metrics",
-        "models",
-        "optims",
-        "processor",
-        "trainer",
-        "utils"
-    ],
+    "torchblocks": [],
     "torchblocks-chen": [
-        "dataset",
         "outputs",
         "pretrained_models",
         "torchblocks"
@@ -15154,7 +13690,6 @@
         "torchcde"
     ],
     "torchcoder": [
-        "tests",
         "torchcoder"
     ],
     "torchcommon": [
@@ -15196,7 +13731,6 @@
         "torchensemble"
     ],
     "torchero": [
-        "tests",
         "torchero"
     ],
     "torcherry": [
@@ -15218,21 +13752,15 @@
         "torchflow"
     ],
     "torchfuel": [
-        "tests",
         "torchfuel"
     ],
     "torchfun": [
-        "testcase",
         "torchfun"
     ],
     "torchfunc": [
-        "tests",
         "torchfunc"
     ],
-    "torchfunc-nightly": [
-        "tests",
-        "torchfunc"
-    ],
+    "torchfunc-nightly": [],
     "torchfunction": [
         "torchfunction"
     ],
@@ -15243,7 +13771,6 @@
         "torchfusion"
     ],
     "torchgan": [
-        "tests",
         "torchgan"
     ],
     "torchgeo": [
@@ -15256,7 +13783,6 @@
         "torchhandle"
     ],
     "torchhelper": [
-        "examples",
         "torchhelper"
     ],
     "torchility": [
@@ -15264,8 +13790,7 @@
     ],
     "torchinceptionresnetv2": [
         "blocks",
-        "hparams",
-        "utils"
+        "hparams"
     ],
     "torchio": [
         "torchio"
@@ -15281,17 +13806,12 @@
         "torchkeras"
     ],
     "torchkge": [
-        "tests",
         "torchkge"
     ],
     "torchlayers": [
-        "tests",
         "torchlayers"
     ],
-    "torchlayers-nightly": [
-        "tests",
-        "torchlayers"
-    ],
+    "torchlayers-nightly": [],
     "torchlife": [
         "torchlife"
     ],
@@ -15334,9 +13854,7 @@
         "integrations",
         "torchmetrics"
     ],
-    "torchmodel": [
-        "model_zoo"
-    ],
+    "torchmodel": [],
     "torchmore": [
         "torchmore"
     ],
@@ -15344,11 +13862,8 @@
     "torchnca": [
         "torchnca"
     ],
-    "torchnlp": [
-        "torchnlp"
-    ],
+    "torchnlp": [],
     "torchnmf": [
-        "tests",
         "torchnmf"
     ],
     "torchopenl3": [
@@ -15376,7 +13891,6 @@
         "torchprism"
     ],
     "torchprof": [
-        "tests",
         "torchprof"
     ],
     "torchprofile": [
@@ -15393,7 +13907,6 @@
         "torchquad"
     ],
     "torchquantum": [
-        "test",
         "torchquantum"
     ],
     "torchrec": [],
@@ -15426,7 +13939,6 @@
         "torchsr"
     ],
     "torchstain": [
-        "tests",
         "torchstain"
     ],
     "torchstat": [
@@ -15448,7 +13960,6 @@
         "torchsynth"
     ],
     "torchtable": [
-        "tests",
         "torchtable"
     ],
     "torchtest": [
@@ -15468,13 +13979,9 @@
         "torchtrainer"
     ],
     "torchtraining": [
-        "tests",
         "torchtraining"
     ],
-    "torchtraining-nightly": [
-        "tests",
-        "torchtraining"
-    ],
+    "torchtraining-nightly": [],
     "torchtraps": [
         "torchtraps"
     ],
@@ -15485,9 +13992,7 @@
     "torchtyping": [
         "torchtyping"
     ],
-    "torchure": [
-        "torchfun"
-    ],
+    "torchure": [],
     "torchutils": [
         "torchutils"
     ],
@@ -15499,14 +14004,12 @@
         "torchvision_detection"
     ],
     "torchvision4ad": [
-        "torchvision4ad",
-        "torchvision4ad/datasets"
+        "torchvision4ad"
     ],
     "torchvtk": [
         "torchvtk"
     ],
     "torchwisdom": [
-        "test",
         "torchwisdom"
     ],
     "torchwrapper": [
@@ -15550,9 +14053,7 @@
         "tpu_index"
     ],
     "tpu-star": [
-        "tpu_star",
-        "tpu_star/datasets",
-        "tpu_star/experiment"
+        "tpu_star"
     ],
     "tpubar": [
         "tpubar"
@@ -15603,9 +14104,7 @@
     "trankit": [
         "trankit"
     ],
-    "trankit-beta": [
-        "trankit"
-    ],
+    "trankit-beta": [],
     "trans-utils": [
         "tutils"
     ],
@@ -15619,7 +14118,6 @@
         "transfer"
     ],
     "transferflow": [
-        "models",
         "transferflow"
     ],
     "transfertab": [],
@@ -15652,7 +14150,6 @@
         "transformers_finetuning"
     ],
     "transformers-keras": [
-        "tests",
         "transformers_keras"
     ],
     "transformers-keras-dataloader": [],
@@ -15672,11 +14169,9 @@
         "transly"
     ],
     "transquest": [
-        "examples",
         "transquest"
     ],
     "transvae": [
-        "scripts",
         "transvae"
     ],
     "trapper": [
@@ -15714,27 +14209,19 @@
         "tripod"
     ],
     "triton": [
-        "triton",
-        "triton/_C",
-        "triton/language",
-        "triton/ops",
-        "triton/ops/blocksparse",
-        "triton/tools"
+        "triton"
     ],
     "triton-nightly": [],
     "triton-transformer": [
         "triton_transformer"
     ],
     "trixi": [
-        "test",
         "trixi"
     ],
     "trl": [
         "trl"
     ],
-    "troj": [
-        "trojai"
-    ],
+    "troj": [],
     "trojai": [
         "trojai"
     ],
@@ -15772,7 +14259,6 @@
         "tsipy"
     ],
     "tsnn": [
-        "tests",
         "tsnn"
     ],
     "tsts": [
@@ -15797,9 +14283,7 @@
     "tunga": [
         "tunga"
     ],
-    "tuning": [
-        "examples"
-    ],
+    "tuning": [],
     "turicreate": [
         "turicreate"
     ],
@@ -15816,7 +14300,6 @@
         "tutti_aisthetics_slim"
     ],
     "tuttusa-datasets": [
-        "tests",
         "tuttusa_datasets"
     ],
     "tvl": [
@@ -15825,16 +14308,12 @@
     "tvl-backends-opencv": [
         "tvl_backends"
     ],
-    "tvl-backends-pyav": [
-        "tvl_backends"
-    ],
+    "tvl-backends-pyav": [],
     "tvmodels": [
         "tvmodels"
     ],
     "tw-tradingview": [],
-    "tweet-se-competition": [
-        "src"
-    ],
+    "tweet-se-competition": [],
     "tweetynet": [
         "gardner",
         "tweetynet"
@@ -15863,9 +14342,7 @@
     "tymon": [
         "tymon"
     ],
-    "u8darts": [
-        "darts"
-    ],
+    "u8darts": [],
     "uberlimb": [],
     "uc-model-creator": [
         "uc_model_creator"
@@ -15884,11 +14361,7 @@
     "uformer-pytorch": [
         "uformer_pytorch"
     ],
-    "ukuxhumana": [
-        "fairseq",
-        "morphologicaldecomposer",
-        "ukuxhumana"
-    ],
+    "ukuxhumana": [],
     "ukw-ml-tools": [
         "ukw_ml_tools"
     ],
@@ -15929,7 +14402,6 @@
         "unet_stylegan2"
     ],
     "unfoldNd": [
-        "test",
         "unfoldNd"
     ],
     "unidic-combo": [
@@ -15943,7 +14415,6 @@
     ],
     "unityagents": [
         "communicator_objects",
-        "tests",
         "unityagents",
         "unitytrainers"
     ],
@@ -15954,12 +14425,9 @@
     "unmass": [
         "unmass"
     ],
-    "unofficial-allennlp-nightly": [
-        "allennlp"
-    ],
+    "unofficial-allennlp-nightly": [],
     "unofficial-udify": [],
     "unpackai": [
-        "test",
         "unpackai"
     ],
     "uo-parser-beta": [
@@ -15967,11 +14435,9 @@
     ],
     "upside-down-rl": [],
     "upswingutil": [
-        "test",
         "upswingutil"
     ],
     "uq360": [
-        "tests",
         "uq360"
     ],
     "ur-lstm-torch": [
@@ -16068,16 +14534,13 @@
         "versign"
     ],
     "vesper": [
-        "scripts",
         "vesper"
     ],
     "vestige-clean": [],
     "vestige-cleaner": [
         "vestige"
     ],
-    "vfacenet": [
-        "src"
-    ],
+    "vfacenet": [],
     "vgg-pytorch": [
         "vgg_pytorch"
     ],
@@ -16128,15 +14591,13 @@
         "virtualscanner"
     ],
     "virtualreality": [
-        "tests",
         "virtualreality"
     ],
     "vis4d": [
         "vis4d"
     ],
     "visdetect": [
-        "visdetect",
-        "visdetect/helpers"
+        "visdetect"
     ],
     "vision-transformer-pytorch": [
         "vision_transformer_pytorch"
@@ -16146,11 +14607,6 @@
         "service"
     ],
     "vissl": [
-        "configs",
-        "extra_scripts",
-        "hydra_plugins",
-        "tests",
-        "tools",
         "vissl"
     ],
     "vist": [
@@ -16175,7 +14631,6 @@
         "visualdata"
     ],
     "visunn": [
-        "models",
         "visunn"
     ],
     "vit-keras": [],
@@ -16186,7 +14641,6 @@
         "vitamin_b"
     ],
     "vizseq": [
-        "tests",
         "vizseq"
     ],
     "vk-facenet": [
@@ -16196,15 +14650,7 @@
         "vlpi"
     ],
     "vltk": [
-        "tests",
-        "vltk",
-        "vltk/abc",
-        "vltk/adapters/",
-        "vltk/dataset",
-        "vltk/modeling",
-        "vltk/modeling/configs",
-        "vltk/processing",
-        "vltk/utils"
+        "vltk"
     ],
     "vma-nlu": [
         "vma_nlu"
@@ -16262,9 +14708,7 @@
     "warp-loss": [
         "warp_loss"
     ],
-    "waseda-tfx": [
-        "tfx"
-    ],
+    "waseda-tfx": [],
     "waterch-tasker": [
         "waterch"
     ],
@@ -16281,42 +14725,22 @@
         "wavencoder"
     ],
     "waveprocess": [],
-    "waveser": [
-        "waveuse"
-    ],
+    "waveser": [],
     "waveuse": [
         "waveuse"
     ],
     "waymo-open-dataset": [
         "waymo_open_dataset"
     ],
-    "waymo-open-dataset-2-0-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-1-15-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-0-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-1-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-2-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-3-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-4-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-5-0": [
-        "waymo_open_dataset"
-    ],
-    "waymo-open-dataset-tf-2-6-0": [
-        "waymo_open_dataset"
-    ],
+    "waymo-open-dataset-2-0-0": [],
+    "waymo-open-dataset-tf-1-15-0": [],
+    "waymo-open-dataset-tf-2-0-0": [],
+    "waymo-open-dataset-tf-2-1-0": [],
+    "waymo-open-dataset-tf-2-2-0": [],
+    "waymo-open-dataset-tf-2-3-0": [],
+    "waymo-open-dataset-tf-2-4-0": [],
+    "waymo-open-dataset-tf-2-5-0": [],
+    "waymo-open-dataset-tf-2-6-0": [],
     "wbia-cnn": [
         "lasagne",
         "wbia_cnn"
@@ -16342,9 +14766,7 @@
     "wf-process-ble-data": [
         "process_ble_data"
     ],
-    "wf-pytorch-yolo-v4": [
-        "yolov4"
-    ],
+    "wf-pytorch-yolo-v4": [],
     "wf-smcmodel": [
         "smcmodel"
     ],
@@ -16371,7 +14793,6 @@
     ],
     "whos-there": [],
     "wiki-passage-retriever": [
-        "tests",
         "wiki_passage_retriever"
     ],
     "wikifaces": [
@@ -16402,9 +14823,7 @@
     "witwidget": [
         "witwidget"
     ],
-    "witwidget-gpu": [
-        "witwidget"
-    ],
+    "witwidget-gpu": [],
     "wj-analysis": [],
     "wjwgym": [
         "wjwgym"
@@ -16483,7 +14902,6 @@
         "xidi_ai"
     ],
     "xitorch": [
-        "benchmarks",
         "xitorch"
     ],
     "xl-bert": [],
@@ -16531,12 +14949,9 @@
         "y5gg"
     ],
     "yaaf": [
-        "examples",
-        "tests",
         "yaaf"
     ],
     "yann": [
-        "tests",
         "yann"
     ],
     "yarll": [
@@ -16554,15 +14969,12 @@
     "yfml": [
         "yfml"
     ],
-    "yifeif-tensorflow-graphics": [
-        "tensorflow_graphics"
-    ],
+    "yifeif-tensorflow-graphics": [],
     "yikai-package": [],
     "yikit": [
         "yikit"
     ],
     "yo-ds": [
-        "tests",
         "yo_core",
         "yo_extensions",
         "yo_ml"
@@ -16593,21 +15005,13 @@
     ],
     "yolov5-detect": [],
     "yolov5-eval": [],
-    "yolov5-evaluator": [
-        "models",
-        "utils",
-        "yolov5"
-    ],
+    "yolov5-evaluator": [],
     "yolov5-face-tensorrt": [
         "yolov5_face_tensorrt"
     ],
-    "yolov5-icevision": [
-        "yolov5"
-    ],
+    "yolov5-icevision": [],
     "yolov5evaluator": [],
     "yolov5processor": [
-        "models",
-        "utils",
         "yolov5processor"
     ],
     "yolov5robocik": [],
@@ -16619,8 +15023,6 @@
         "yonlu"
     ],
     "youchoose": [
-        "docs",
-        "tests",
         "youchoose"
     ],
     "youtube-discusion-tree-api2": [],
@@ -16649,9 +15051,7 @@
     "zakuro-ai": [
         "zakuro"
     ],
-    "zangorth-helpers": [
-        "helpers"
-    ],
+    "zangorth-helpers": [],
     "zangorth-ramsey": [
         "ramsey"
     ],
@@ -16666,16 +15066,13 @@
         "zennit"
     ],
     "zensols.deeplearn": [
-        "zensols/dataframe",
-        "zensols/dataset",
-        "zensols/deeplearn"
+        "zensols"
     ],
     "zensols.deepnlp": [
-        "zensols/deepnlp"
+        "zensols"
     ],
     "zensols.dltools": [
-        "resources/resources",
-        "zensols/dltools"
+        "zensols"
     ],
     "zero-play": [
         "zero_play"
@@ -16684,7 +15081,6 @@
         "zero_shot_re"
     ],
     "zfit": [
-        "tests",
         "zfit"
     ],
     "zfit-physics": [

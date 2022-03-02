@@ -37,6 +37,8 @@
         "preprocessing",
         "ui",
         "run",
+        "misc",
+        "service",
         "scripts",
         "graphics",
         "object_detection",
@@ -45,9 +47,15 @@
         "service",
         "example",
         "model_utils",
+        "airflow",
         "examples",
         "trainer",
+        "env",
         "algorithms",
+        "out",
+        "chat",
+        "composer",
+        "clean",
         "dashboard",
         "callback",
         "pdf",
@@ -56,102 +64,86 @@
         "hparams",
         "transfer",
         "ddpg",
+        "evaluation",
+        "actions",
+        "params",
+        "Constants",
+        "webapp",
+        "visualize",
+        "inference",
+        "lasagne",
+        "tokenizer",
+        "resnet",
+        "plugin",
+        "generators",
+        "ai",
+        "transforms",
+        "blocks",
+        "_version",
+        "results",
         "cv",
         "env",
         "losses",
         "metrics",
         "dnn",
         "rbm",
-        "about"
-    ],
-    "ryakugo-pkg": [
-        "tensorflow"
-    ],
-    "rpi-torchvision": [
-        "torchvision"
-    ],
-    "pl-face-recognition": [
-        "face_recognition"
-    ],
-    "torchbearer-visual": [
-        "visual"
-    ],
-    "transforms-for-ndarray": [
-        "transforms"
-    ],
-    "layer-sdk": [
-        "layer"
-    ],
-    "unofficial-allennlp-nightly": [
-        "allennlp"
-    ],
-    "etc-ml": [
-        "etc"
-    ],
-    "torch-snake": [
-        "snake"
-    ],
-    "helloworldrm": [
-        "helloworld"
-    ],
-    "tfbert": [
-        "bert"
-    ],
-    "cf-nlp": [
-        "nlp"
-    ],
-    "omolab-conf-analysis": [
-        "elements"
-    ],
-    "RLDQN": [
-        "dqn"
-    ],
-    "ml-lib": [
-        "ml"
-    ],
-    "convolution-kernels": [
-        "kernel"
-    ],
-    "tensorflowservingclient": [
-        "tensorflow_serving"
-    ],
-    "adapt-diagnostics": [
-        "adapt"
-    ],
-    "bootstrap.pytorch": [
-        "bootstrap"
-    ],
-    "murel.bootstrap.pytorch": [
-        "bootstrap"
-    ],
-    "attention": [
-        "attention"
-    ],
-    "tf-models-official": [
-        "official"
-    ],
-    "analytics-mesh": [
-        "mesh"
-    ],
-    "pixel-classifier-torch": [
-        "segmentation"
-    ],
-    "torch-pixel-classifier": [
-        "segmentation"
-    ],
-    "flair-82": [
-        "flair"
-    ],
-    "flairstreamlined": [
-        "flair"
-    ],
-    "gym-simplifiedtetris": [
-        "agents"
-    ],
-    "face-detector": [
-        "face_detector"
-    ],
-    "information": [
-        "information"
+        "libraries",
+        "plots",
+        "encoding",
+        "assets",
+        "experiment",
+        "about",
+        "tensorflow",
+        "face_recognition",
+        "visual",
+        "layer",
+        "etc",
+        "snake",
+        "helloworld",
+        "nlp",
+        "bert",
+        "elements",
+        "dqn",
+        "ml",
+        "kernel",
+        "attention",
+        "official",
+        "third_party",
+        "benchmark",
+        "analyze",
+        "facenet",
+        "unet",
+        "information",
+        "mesh",
+        "flow",
+        "selection",
+        "roi_data_layer",
+        "performance",
+        "sentiment",
+        "common_functions",
+        "kernels",
+        "activations",
+        "back",
+        "spectral",
+        "front",
+        "densenet",
+        "tg",
+        "fileio",
+        "augment",
+        "forecast",
+        "playground",
+        "internet",
+        "delta",
+        "laser",
+        "lm",
+        "fcn",
+        "norm",
+        "torchnlp",
+        "dp",
+        "built",
+        "rotations",
+        "tcn",
+        "dataprep",
+        "ram"
     ]
 }

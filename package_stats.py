@@ -90,6 +90,11 @@ def append_deps(pkg_layers):
             if x in gh_dependents.keys():
                 return len(set(gh_dependents[x]["Repositories"]) - set(gh_dependents[x]["Packages"]))
             return 0
+        
+        def map_gh_repo3(x):
+            if x in gh_dependents.keys():
+                return len(set(gh_dependents[x]["Repositories"]).union(set(gh_dependents[x]["Packages"])))
+            return 0
 
         def map_woc_repo(x):
             if x in woc_dependents.keys():
@@ -110,14 +115,23 @@ def append_deps(pkg_layers):
             if x in woc_dependents.keys():
                 return len(set(gh_dependents[x]["Repositories"]).union(set(woc_dependents[x])) - set(gh_dependents[x]["Packages"]))
             return 0
-        pkg_layers['gh_down_repos'] = pkg_layers['package'].map(map_gh_repo)
-        pkg_layers['gh_down_repos2'] = pkg_layers['package'].map(map_gh_repo2)
-        pkg_layers['woc_down_repos'] = pkg_layers['package'].map(map_woc_repo)
-        pkg_layers['woc_down_repos2'] = pkg_layers['package'].map(
-            map_woc_repo2)
-        pkg_layers['comb_down_repos'] = pkg_layers['package'].map(map_all_repo)
-        pkg_layers['comb_down_repos2'] = pkg_layers['package'].map(
-            map_all_repo2)
+        
+        def map_all_repo3(x):
+            if x in woc_dependents.keys():
+                return len(set(gh_dependents[x]["Repositories"]).union(set(woc_dependents[x])).union(set(gh_dependents[x]["Packages"])))
+            return 0
+
+        # pkg_layers['gh_down_repos'] = pkg_layers['package'].map(map_gh_repo)
+        # pkg_layers['gh_down_repos2'] = pkg_layers['package'].map(map_gh_repo2)
+        # pkg_layers['woc_down_repos'] = pkg_layers['package'].map(map_woc_repo)
+        # pkg_layers['woc_down_repos2'] = pkg_layers['package'].map(
+        #     map_woc_repo2)
+        # pkg_layers['comb_down_repos'] = pkg_layers['package'].map(map_all_repo)
+        # pkg_layers['comb_down_repos2'] = pkg_layers['package'].map(
+        #     map_all_repo2)
+        pkg_layers['gh_downstream'] = pkg_layers['package'].map(map_gh_repo3)
+        pkg_layers['woc_downstream'] = pkg_layers['package'].map(map_woc_repo)
+        pkg_layers['comb_downstream'] = pkg_layers['package'].map(map_all_repo3)
         pkg_layers = pkg_layers.fillna(0)
     return pkg_layers
 

@@ -144,6 +144,9 @@
         "rotations",
         "tcn",
         "dataprep",
-        "ram"
+        "ram",
+        "tmp",
+        "donkeycar",
+        "simplify"
     ]
 }

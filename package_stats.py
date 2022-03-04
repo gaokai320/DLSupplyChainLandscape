@@ -6,7 +6,7 @@ from pymongo import MongoClient
 pypi_db = MongoClient(host='127.0.0.1', port=27017)['pypi']
 dl_packages = pypi_db['dl_packages']
 distribution_metadata = pypi_db['distribution_metadata']
-
+import_names = json.load(open("data/curated_pkg_import_names.json"))
 
 def dependent_count(dependency: str, framework: str) -> int:
     pipeline = [
@@ -140,8 +140,10 @@ if __name__ == "__main__":
     frameworks = ['tensorflow', 'pytorch',
                   'mxnet', 'paddlepaddle', 'mindspore']
     pkg_layers = unversioned_sc(frameworks)
+    pkg_layers['import_name'] = pkg_layers['package'].map(import_names)
     pkg_layers = append_deps(pkg_layers)
     layer1 = pkg_layers[pkg_layers.layer == 1]['package']
     pkg_layers = pkg_layers[~(pkg_layers.package.isin(layer1))]
+    pkg_layers = pkg_layers[['package', 'import_name', 'layer', 'framework', 'down_pkgs', 'gh_downstream', 'woc_downstream', 'comb_downstream']]
     pkg_layers.to_csv("data/package_statistics.csv", index=False)
     print(pkg_layers)

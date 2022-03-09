@@ -36,14 +36,7 @@ The Landscape of Deep Learning Supply Chain
     ```shell
     python package_stats.py
     ```
-3. Get GitHub dependents for each package
-    ```shell
-    # Get the repository url
-    python pkg_repo_url.py
-    # Crawl and parse the dependency network page
-    python github_dependents.py
-    ```
-4. Get WoC dependents for each package
+3. Get WoC dependents for each package
     ```shell
     # Get import names for each package
     python top_level_packages.py
@@ -51,7 +44,13 @@ The Landscape of Deep Learning Supply Chain
     python build_woc_dbs.py
     python clean_import_names.py
     ```
-
+4. Get GitHub dependents for each package
+    ```shell
+    # Get the repository url
+    python pkg_repo_url.py
+    # Crawl and parse the dependency network page
+    python github_dependents.py
+    ```
 5. Append downstream statistics
     ```shell
     python package_stats.py

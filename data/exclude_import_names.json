@@ -147,6 +147,8 @@
         "ram",
         "tmp",
         "donkeycar",
-        "simplify"
+        "simplify",
+        "haystack",
+        "fuse"
     ]
 }

@@ -1,5 +1,8 @@
+from tabnanny import check
+import numpy as np
 import pandas as pd
 import logging
+from tqdm import tqdm
 from pymongo import MongoClient
 from packaging.version import Version
 
@@ -105,5 +108,27 @@ def insert_db():
     coll.insert_many(res.to_dict("records"))
 
 
+def check_version(v):
+    try:
+        v = Version(v)
+        return v.is_prerelease or v.is_devrelease or v.is_postrelease
+    except:
+        return True
+
+
+def remove_prereleases():
+    coll = pypi_db['dl_packages']
+    print(f"Original: {coll.count_documents({})} documents")
+    cnt = 0
+    for doc in tqdm(coll.find({})):
+        version, dependency_version = doc['version'], doc['dependency_version']
+        if check_version(version) or check_version(dependency_version):
+            cnt += 1
+            coll.delete_one(doc)
+    print(f"Delete: {cnt} documents")
+    print(f"Final: {coll.count_documents({})} documents")
+
+
 if __name__ == "__main__":
     insert_db()
+    remove_prereleases()

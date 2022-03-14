@@ -149,6 +149,7 @@
         "donkeycar",
         "simplify",
         "haystack",
-        "fuse"
+        "fuse",
+        "fuse_examples"
     ]
 }

@@ -140,6 +140,7 @@ if __name__ == "__main__":
     frameworks = ['tensorflow', 'pytorch',
                   'mxnet', 'paddlepaddle', 'mindspore']
     pkg_layers = unversioned_sc(frameworks)
+    pkg_layers = pkg_layers[~(pkg_layers['package'].isin(['tensorflow', 'tensorflow-gpu']))]
     pkg_layers['import_name'] = pkg_layers['package'].map(import_names)
     pkg_layers = append_deps(pkg_layers)
     layer1 = pkg_layers[pkg_layers.layer == 1]['package']

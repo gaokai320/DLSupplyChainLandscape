@@ -111,7 +111,7 @@ def insert_db():
 def check_version(v):
     try:
         v = Version(v)
-        return v.is_prerelease or v.is_devrelease or v.is_postrelease
+        return v.is_prerelease or v.is_devrelease
     except:
         return True
 
